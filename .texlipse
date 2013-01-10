@@ -2,13 +2,13 @@
 #Thu Dec 13 16:21:45 EET 2012
 markTmpDer=true
 builderNum=2
-outputDir=
+outputDir=tex
 makeIndSty=
-bibrefDir=
+bibrefDir=tex/
 outputFormat=pdf
 tempDir=tmp
 mainTexFile=article.tex
 outputFile=article.pdf
 langSpell=en
 markDer=true
-srcDir=
+srcDir=tex
