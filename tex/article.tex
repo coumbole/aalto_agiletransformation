@@ -15,6 +15,7 @@
 \usepackage{hyphenat}
 \usepackage{supertabular,array}
 \usepackage{lipsum}
+\usepackage{booktabs}
 
 % Strikethrough
 \usepackage[normalem]{ulem}
@@ -36,7 +37,7 @@
 
 \mainmatter
 
-\title{Large scale agile transformations: A systematic literature review}
+\title{Large scale agile transformations: A literature review}
 
 \titlerunning{Large scale agile transformations}
 
@@ -101,11 +102,10 @@ as measuring the performance of organizations before and after the
 transformation.
 
 This paper is organized as follows. The next section gives an overview of large
-scale agile development. Section \ref{sec:method} presents the systematic
-literature review method used for conducting the research. The findings of the
-review are discussed in section \ref{sec:results}, and section
-\ref{sec:conclusions} discusses the findings and gives proposals for future
-research.
+scale agile development. Section \ref{sec:method} presents the literature review
+method used for conducting the research. The findings of the review are
+discussed in section \ref{sec:results}, and section \ref{sec:conclusions}
+discusses the findings and gives proposals for future research.
 
 
 % ---------------------------------------------------------------------
@@ -130,16 +130,56 @@ research.
 
 
 % ---------------------------------------------------------------------
-\subsection{Research method}
+\section{Research method}
 \label{sec:method}
 
-Research questions:
+The literature review was conducted as an application of Kitchenham's
+method for systematic literature review (SLR) \cite{Kitchenham2007}. The method
+was applied to be performed by only one researcher, and to serve as a
+preliminary work evaluating the feasibility of a more in-depth review. The
+required effort was limited by selecting only the following subset of SLR steps:
+identification of primary sources, data extraction and synthesis. Steps left out
+were the development of a systematic review protocol, strict study quality
+assessment, and reviews in the study selection process.
 
-What are the motivations for starting an organizational transformation?
+The searches for primary sources was conducted in two steps. First a preliminary
+search was made to sample the existing literature. Then a systematic search was
+done based on the preliminary search. The following databases were included in
+the searches: IEEExplore\footnote{http://ieeexplore.ieee.org/},
+ACM\footnote{http://dl.acm.org/}, Scopus\footnote{http://www.scopus.com/},
+ProQuest\footnote{http://search.proquest.com/}.
+Additionally the archive of International XP
+Conference\footnote{http://link.springer.com/} was searched.
 
-What kind of agile transformations have been reported?
+The search phrases used in the preliminary search were \textit{agile
+transformation} and \textit{large scale agile}. For the systematic search three
+facets and appropriate keywords were chosen, as presented in Table
+\ref{table:searchterms}. To search the databases a query phrase was constructed
+by joining the keywords of each facet by \texttt{OR} operators and the facets by
+\texttt{AND} operators.
 
-What were challenges and success factors in the transformation process?
+\begin{table}[h]
+    \centering
+    \begin{tabular}{ll}
+        \toprule
+        Facet                  & Keywords   \\ \midrule
+        Agile methods          & agile, scrum, lean, xp \\ 
+        Organizational change  & transformation, transition, change, migration \\
+        Large organization     & enterprise, organization, (large \texttt{AND} scale) \\
+        \bottomrule
+    \end{tabular}
+    \caption{Facets and related search terms used}
+    \label{table:searchterms}
+\end{table}
+
+
+% Research questions:
+%
+% What are the motivations for starting an organizational transformation?
+%
+% What kind of agile transformations have been reported?
+%
+% What were challenges and success factors in the transformation process?
 
 \subsection{Inclusion criteria}
 
