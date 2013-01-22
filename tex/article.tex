@@ -13,9 +13,12 @@
 \usepackage{url}
 \usepackage{listings}
 \usepackage{hyphenat}
+
 \usepackage{supertabular,array}
 \usepackage{lipsum}
 \usepackage{booktabs}
+\usepackage{graphicx}
+
 
 % Strikethrough
 \usepackage[normalem]{ulem}
@@ -122,16 +125,24 @@ discusses the findings and gives proposals for future research.
 
 \subsection{Agile software development}
 
-\lipsum[1]
+xxxxx
 
 \subsection{Introducing agile methods to an organization}
 
-\lipsum[1]
-
+xxxxx
 
 % ---------------------------------------------------------------------
 \section{Research method}
 \label{sec:method}
+
+% Research questions:
+%
+% What are the motivations for starting an organizational transformation?
+%
+% What kind of agile transformations have been reported?
+%
+% What were challenges and success factors in the transformation process?
+
 
 The literature review was conducted as an application of Kitchenham's
 method for systematic literature review (SLR) \cite{Kitchenham2007}. The method
@@ -141,6 +152,8 @@ required effort was limited by selecting only the following subset of SLR steps:
 identification of primary sources, data extraction and synthesis. Steps left out
 were the development of a systematic review protocol, strict study quality
 assessment, and reviews in the study selection process.
+
+\subsection{Data sources and search strategy}
 
 The searches for primary sources was conducted in two steps. First a preliminary
 search was made to sample the existing literature. Then a systematic search was
@@ -158,9 +171,21 @@ facets and appropriate keywords were chosen, as presented in Table
 by joining the keywords of each facet by \texttt{OR} operators and the facets by
 \texttt{AND} operators.
 
+As the preliminary search omitted some of the keywords in Table
+\ref{table:searchterms} it yielded a small number of additional matches. The
+reason for variance in matches was that many articles had creative titles or the
+abstracts and keywords were not informative enough. Because of this, the search
+with more restrictive keywords was unable to capture all possible matches.
+We are however confident that the search covered the majority of material
+relating to agile transformations in large organizations. If a wider search
+should be performed, our recommendation is to only regard the facets
+\textit{agile methods} and \textit{organizational change}. This would lead to
+significantly more matches in the first stage of selecting studies, but the
+additional effort is necessary due to the limitations of a keyword search.
+
 \begin{table}[h]
     \centering
-    \begin{tabular}{ll}
+    \begin{tabular}{ p{4cm} l }
         \toprule
         Facet                  & Keywords   \\ \midrule
         Agile methods          & agile, scrum, lean, xp \\ 
@@ -172,32 +197,82 @@ by joining the keywords of each facet by \texttt{OR} operators and the facets by
     \label{table:searchterms}
 \end{table}
 
+The selection process of the primary studies is summarized in Figure
+\ref{fig:selection_process}. The database search yielded 1603 matches from which
+100 sources were chosen by the title. 17 unmatched sources from the preliminary
+search were also included. Finally, 31 sources were selected based on the
+abstract to be included for data extraction. One source was not available, which
+reduced the final number of primary studies to 30.
 
-% Research questions:
-%
-% What are the motivations for starting an organizational transformation?
-%
-% What kind of agile transformations have been reported?
-%
-% What were challenges and success factors in the transformation process?
+\begin{figure}[htb]
+  \begin{center}
+    \includegraphics[width=0.5\textwidth]{researchprocess}
+    \caption{Process of selecting primary studies}
+    \label{fig:selection_process}
+  \end{center}
+\end{figure}
 
 \subsection{Inclusion criteria}
 
-\lipsum[1]
+The 30 primary sources were selected by four criteria: study type, size of
+organization, use of agile methods in software development, and viewpoint on
+transformation. Firstly, only case studies and experience reports on agile
+software development were included in this study. Papers discussing agile
+methods or organizational transformation on as a general topic were left out.
+Secondly, the size of the organization described in the included primary studies
+was to be large enough to show the challenges of large scale agile development
+\cite{Lindvall2004}. Further, only studies discussing agile software development
+were included, leaving out for instance studies on agile management. Finally, to
+be included each study had to provide a viewpoint on the organizational
+transformation.
 
-\subsection{Data sources and search strategy}
+\subsection{Data extraction}
 
-\lipsum[1]
+The data extraction was performed using the data extraction form presented in
+Table \ref{table:dataform}. -- Joku pointti lisää
 
-\subsection{Final selection}
+\begin{table}
+    \begin{tabular}{ p{0.36\textwidth}@{ \hskip 0.2cm } l }
+        \toprule
+        Transformation mentioned in \newline text (Y/N) &
+        Large scale mentioned in text (Y/N) \\
+        Is empirical case study (Y/N) &
+        Is industry experience report (Y/N) \\
+        Has listing of practices (Y/N) &
+        Used research method (Y/N) \\
+        Relevance to this review (1-5) & \\
+        Objective of research (or publication) &
+        Research method \\
+        Author bias &
+        Validity threats \\
+        Organization size &
+        Time of transformation \\
+        Initial state of organization &
+        Why was the change initiated \\
+        How was the change conducted &
+        What is agility? / Which agile paractices are used? \\
+        Findings / lessons learned &
+        Good practices validated or suggested by study \\
+        Reported challenges &
+        Satisfaction after transformation \\
+        Effect on organization &
+        Measurements as results (quantitative or other) \\
+        Other notes &
+        Notable references \\
+        \bottomrule
+    \end{tabular}
+    \caption{The fields of the data extraction form. Fields with a (Y/N) label
+    were answered as yes or no. The field with a (1-5) label was answered by a
+    grade from 1 to 5. All other fields were answered by free form text.}
+    \label{table:dataform}
+\end{table}
 
--- Figure of selection process
 
-\lipsum[1]
-
-\subsection{Data extraction and synthesis}
-
-\lipsum[1]
+%\subsection{Data sources and search strategy}
+%
+%\subsection{Final selection}
+%
+%\subsection{Data extraction and synthesis}
 
 
 % ---------------------------------------------------------------------
