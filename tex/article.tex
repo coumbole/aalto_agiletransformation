@@ -30,6 +30,11 @@
 \hyphenation{op-tical net-works semi-conduc-tor}
 
 
+\usepackage{multibib}
+\newcites{gen}{References}
+\usepackage{bibentry}
+
+
 % ---------------------------------------------------------------------
 % -------------- DOCUMENT ---------------------------------------------
 % ---------------------------------------------------------------------
@@ -76,19 +81,19 @@ There will be two blank lines before and after the Abstract.
 
 As the competition in software industry is growing companies are constantly
 looking to improve their effectiveness. Agile methods are claimed to increase
-productivity and quality \cite{Livermore2008}, which makes them attractive for
+productivity and quality \citegen{Livermore2008}, which makes them attractive for
 companies pursuing better performance. However, large organizations may have
-problems introducing agile methods \cite{Dyba2009}. As agile methods are
+problems introducing agile methods \citegen{Dyba2009}. As agile methods are
 initially designed for small teams their application has proven to be
-problematic in a larger scale \cite{Boehm2005}.
+problematic in a larger scale \citegen{Boehm2005}.
 
 It is typical for large companies to function according to traditional software
 engineering models [Cite?!] (also why?). These models strive for consistent quality and performance
 by rigorous planning and definition of process. This kind of approach is however
 badly suited for software development, as projects typically encounter
-situations that are too hard or impossible to foretell \cite{Schwaber2002}.
+situations that are too hard or impossible to foretell \citegen{Schwaber2002}.
 The main problems in plan-driven development are the high cost of changes and
-late feedback on quality \cite{Petersen2010}. Long release cycles, cost of
+late feedback on quality \citegen{Petersen2010}. Long release cycles, cost of
 resopnding to change and distance from customers undermine the  competitiveness
 of companies. Agile methods are believed to bring remedy to these problems.
 
@@ -116,34 +121,34 @@ discusses the findings and gives proposals for future research.
 \label{sec:background}
 
 Introducing agile methods in large organizations is more difficult than it is in
-small organizations \cite{Dyba2008}. The difficulty is partly related to size
+small organizations \citegen{Dyba2008}. The difficulty is partly related to size
 bringing higher organizational inertia which slows down organizational change
-\cite{Livermore2008}. Agile methods are not founded on the use of individual
+\citegen{Livermore2008}. Agile methods are not founded on the use of individual
 tools or practices, but rather on a holistic change in the way of thinking.
 Adopting agile requires often change of the entire organizational culture
-\cite{Misra2010}.
+\citegen{Misra2010}.
 
 One significant difference between small and large adoptions is that large
 organizations have more dependencies between projects and teams. This increases
-the need for formal documentation and thus reduces agility \cite{Lindvall2004}.
+the need for formal documentation and thus reduces agility \citegen{Lindvall2004}.
 In addition to inter-team coordination large organizations require development
 teams to interact with other organizational units, which are often non-agile of
 their nature. For instance, HR may demand individuals to have strictly specified
-roles in projects \cite{Boehm2005}, or a change control board may inhibit use of
-continuous integration or refactoring \cite{Lindvall2004}. All units affected by
+roles in projects \citegen{Boehm2005}, or a change control board may inhibit use of
+continuous integration or refactoring \citegen{Lindvall2004}. All units affected by
 the agile transformation need to be informed and heard, and the agile process
-must be adjusted according to their needs \cite{Lindvall2004, Cohn2003,
+must be adjusted according to their needs \citegen{Lindvall2004, Cohn2003,
 Boehm2005}.
 
 Agile methods will also affect management and business related functions. A key
 challenge is that management must move away from life cycle models and towards
-iterative and feature centric models \cite{Nerur2005}. The focus must be shifted
-from a large scale scope to shorter term project planning \cite{Misra2010}, as
+iterative and feature centric models \citegen{Nerur2005}. The focus must be shifted
+from a large scale scope to shorter term project planning \citegen{Misra2010}, as
 agile methods emphasize that meaningful planning can only be done for the near
-future \cite{Cohn2003}. However, the lack of planning can be a concern as
+future \citegen{Cohn2003}. However, the lack of planning can be a concern as
 business and customer relationships often build on long term roadmapping.
 Enabling operation with shorter term planning requires educating stakeholders
-and reviewing contracting practices \cite{Boehm2005}.
+and reviewing contracting practices \citegen{Boehm2005}.
 
 
 % ---------------------------------------------------------------------
@@ -160,7 +165,7 @@ and reviewing contracting practices \cite{Boehm2005}.
 
 
 The literature review was conducted as an application of Kitchenham's
-method for systematic literature review (SLR) \cite{Kitchenham2007}. The method
+method for systematic literature review (SLR) \citegen{Kitchenham2007}. The method
 was applied to be performed by only one researcher, and to serve as a
 preliminary work evaluating the feasibility of a more in-depth review. The
 required effort was limited by selecting only the following subset of SLR steps:
@@ -199,8 +204,7 @@ significantly more matches in the first stage of selecting studies, but the
 additional effort is necessary due to the limitations of a keyword search.
 
 \begin{table}[h]
-    \centering
-    \begin{tabular}{ p{4cm} l }
+    \begin{tabular}{ l@{ \hskip 0.4cm } l }
         \toprule
         Facet                  & Keywords   \\ \midrule
         Agile methods          & agile, scrum, lean, xp \\ 
@@ -236,51 +240,61 @@ software development were included in this study. Papers discussing agile
 methods or organizational transformation on as a general topic were left out.
 Secondly, the size of the organization described in the included primary studies
 was to be large enough to show the challenges of large scale agile development
-\cite{Lindvall2004}. Further, only studies discussing agile software development
+\citegen{Lindvall2004}. Further, only studies discussing agile software development
 were included, leaving out for instance studies on agile management. Finally, to
 be included each study had to provide a viewpoint on the organizational
 transformation.
 
 \subsection{Data extraction}
 
-The data extraction was performed using the data extraction form presented in
-Table \ref{table:dataform}. -- Joku pointti lisää
+The content of the resutls was guided by the data extraction form. The form
+included some quantitative fields including \textit{start time of
+transformation} and \textit{organization size}, but most of the data was
+collected in open ended fields. The reason for starting a transformation was
+captured in fileds \textit{initial state of organization} and \textit{reasons
+for change}. The description of the transformation process was captured in one
+field. Recommendations for transformation processes were captured in fields
+\textit{reported good practices}, \textit{reported challenges}, and
+\textit{lessons learned}. Additional fields that were used but not sufficiently
+answered by the primary studies were \textit{satisfaction after transformation},
+\textit{effect on onrganization} and \textit{reported measurements before/after
+transformation}.
 
-\begin{table}
-    \begin{tabular}{ p{0.36\textwidth}@{ \hskip 0.2cm } l }
-        \toprule
-        Transformation mentioned in \newline text (Y/N) &
-        Large scale mentioned in text (Y/N) \\
-        Is empirical case study (Y/N) &
-        Is industry experience report (Y/N) \\
-        Has listing of practices (Y/N) &
-        Used research method (Y/N) \\
-        Relevance to this review (1-5) & \\
-        Objective of research (or publication) &
-        Research method \\
-        Author bias &
-        Validity threats \\
-        Organization size &
-        Time of transformation \\
-        Initial state of organization &
-        Why was the change initiated \\
-        How was the change conducted &
-        What is agility? / Which agile paractices are used? \\
-        Findings / lessons learned &
-        Good practices validated or suggested by study \\
-        Reported challenges &
-        Satisfaction after transformation \\
-        Effect on organization &
-        Measurements as results (quantitative or other) \\
-        Other notes &
-        Notable references \\
-        \bottomrule
-    \end{tabular}
-    \caption{The fields of the data extraction form. Fields with a (Y/N) label
-    were answered as yes or no. The field with a (1-5) label was answered by a
-    grade from 1 to 5. All other fields were answered by free form text.}
-    \label{table:dataform}
-\end{table}
+% \begin{table}
+%     \begin{tabular}{ p{0.36\textwidth}@{ \hskip 0.2cm } l }
+%         \toprule
+%         Transformation mentioned in \newline text (Y/N) &
+%         Large scale mentioned in text (Y/N) \\
+%         Is empirical case study (Y/N) &
+%         Is industry experience report (Y/N) \\
+%         Has listing of practices (Y/N) &
+%         Used research method (Y/N) \\
+%         Relevance to this review (1-5) & \\
+%         Objective of research (or publication) &
+%         Research method \\
+%         Author bias &
+%         Validity threats \\
+%         Organization size &
+%         Time of transformation \\
+%         Initial state of organization &
+%         Why was the change initiated \\
+%         How was the change conducted &
+%         What is agility? / Which agile paractices are used? \\
+%         Findings / lessons learned &
+%         Good practices validated or suggested by study \\
+%         Reported challenges &
+%         Satisfaction after transformation \\
+%         Effect on organization &
+%         Measurements as results (quantitative or other) \\
+%         Other notes &
+%         Notable references \\
+%         \bottomrule
+%     \end{tabular}
+%     \caption{The fields of the data extraction form. Fields with a (Y/N) label
+%     were answered as yes or no. The field with a (1-5) label was answered by a
+%     grade from 1 to 5. All other fields were answered by free form text.}
+%     \label{table:dataform}
+% \end{table}
 
 
 %\subsection{Data sources and search strategy}
@@ -294,7 +308,14 @@ Table \ref{table:dataform}. -- Joku pointti lisää
 \section{Results}
 \label{sec:results}
 
-More plain text.
+Of the 30 included primary studies 23 were experience reports and 7 were case
+studies. From a validity viewpoint it is important to acknowledge that most of
+the studies were written by employees in the studied organizations.
+
+All of the included studies had been published within a decade. On average the
+studies were published theree years after the transformation was reported to
+have begun. Figure \ref{fig:publications} gives a timeline view of the
+publications.
 
 \begin{figure}[htb]
   \begin{center}
@@ -304,17 +325,100 @@ More plain text.
   \end{center}
 \end{figure}
 
-\subsection{Overview of studies}
-
-\lipsum[1]
 
 \subsection{Overview of agile methods used}
 
-\lipsum[1]
+\begin{table}[h]
+    \begin{tabular}{ l@{ \hskip 0.4cm } l }
+        \toprule
+        Agile method    & Reported in number of studies   \\ \midrule
+        Scrum           & 18 \\ 
+        XP              & 7 \\
+        Lean            & 5 \\
+        Tailoring and combining methods & 9  (indirect mentionings not counted) \\
+        \bottomrule
+    \end{tabular}
+    \caption{Reported use of agile methods}
+    \label{table:practices}
+\end{table}
+
 
 \subsection{Motivations for transformation}
 
-\lipsum[1]
+\begin{table}[h]
+    \begin{tabular}{ l@{ \hskip 0.4cm } l }
+        \toprule
+        Reason                                    & In studies   \\ \midrule
+        Need to improve performance               &  \\ 
+        Need to eliminate known process problems  &  \\
+        Need to improve time to market            &  \\
+        \bottomrule
+    \end{tabular}
+    \caption{Reported resasons for initiating a transformation}
+    \label{table:motivations}
+\end{table}
+
+
+\subsection{Typical characteristics of a transformation}
+
+Text only. text. text.
+
+
+\subsection{Reported challenges}
+
+\begin{table}[h]
+    \begin{tabular}{ p{0.36\textwidth} p{0.62\textwidth} }
+        \toprule
+        Class of challenge  & Examples   \\ \midrule
+        
+        \raggedright Aligning organization for change  &
+             Lack of management support \newline
+             Change resistance \newline
+             Reverting to old model under pressure \\ 
+        
+        \raggedright\rule{0pt}{0.4cm}Misunderstanding the agile model  &
+             Misinterpretation of roles and responsibilities \newline
+             Misunderstanding management role in agile \\
+        
+        \raggedright\rule{0pt}{0.4cm}Applicability of agile in the organization  &
+            Conflicts with business (long term planning) \newline
+            Conflicts with other departments (HR) \\
+        
+        \raggedright\rule{0pt}{0.4cm}Lack of resources  &
+            Lack or training, insufficient resources for coaching \\
+        \bottomrule
+    \end{tabular}
+    \caption{Typical challenges encountered in studies}
+    \label{table:challenge}
+\end{table}
+
+
+\subsection{Success factors}
+
+\begin{table}[h]
+    \begin{tabular}{ p{0.36\textwidth} p{0.62\textwidth} }
+        \toprule
+        Class of success factors  & Examples   \\ \midrule
+        
+        \raggedright Organization alignment and leadership  &
+             Management support \newline
+             Communicating vision for new process \newline
+             Demand all organizational units to participate \\ 
+        
+        \raggedright\rule{0pt}{0.4cm}Coaching and community  &
+             Create community to make the new practices stick \\
+        
+        \raggedright\rule{0pt}{0.4cm}Tailoring and conformity  &
+            Invest in tailoring to create the most suitable model \newline
+            Conformity clarifies use of the new model \\
+        
+        \raggedright\rule{0pt}{0.4cm}Investing in change  &
+            Training, consulting, physical spaces, tools \\
+        \bottomrule
+    \end{tabular}
+    \caption{Success factors reported in studies}
+    \label{table:success}
+\end{table}
 
 
 % ---------------------------------------------------------------------
@@ -353,8 +457,46 @@ vissiin sitte olla joku konkreettinen ehdotus?)
 % ---------------------------------------------------------------------
 
 \bibliographystyle{plain}
+\bibliographystylegen{plain}
 
-\bibliography{sources}
+\bibliographygen{sources}
+
+\nobibliography{sources_s}
+
+\subsection*{Primary studies}
+
+\begin{supertabular}{ l p{11.3cm} }
+    {[}S1{]} & \bibentry{S1} \\ 
+    {[}S2{]} & \bibentry{S2} \\ 
+    {[}S3{]} & \bibentry{S3} \\ 
+    {[}S4{]} & \bibentry{S4} \\ 
+    {[}S5{]} & \bibentry{S5} \\ 
+    {[}S6{]} & \bibentry{S6} \\ 
+    {[}S7{]} & \bibentry{S7} \\ 
+    {[}S8{]} & \bibentry{S8} \\ 
+    {[}S9{]} & \bibentry{S9} \\ 
+    {[}S10{]} & \bibentry{S10} \\ 
+    {[}S11{]} & \bibentry{S11} \\ 
+    {[}S12{]} & \bibentry{S12} \\ 
+    {[}S13{]} & \bibentry{S13} \\ 
+    {[}S14{]} & \bibentry{S14} \\ 
+    {[}S15{]} & \bibentry{S15} \\ 
+    {[}S16{]} & \bibentry{S16} \\ 
+    {[}S17{]} & \bibentry{S17} \\ 
+    {[}S18{]} & \bibentry{S18} \\ 
+    {[}S19{]} & \bibentry{S19} \\ 
+    {[}S20{]} & \bibentry{S20} \\ 
+    {[}S21{]} & \bibentry{S21} \\ 
+    {[}S22{]} & \bibentry{S22} \\ 
+    {[}S23{]} & \bibentry{S23} \\ 
+    {[}S24{]} & \bibentry{S24} \\ 
+    {[}S25{]} & \bibentry{S25} \\ 
+    {[}S26{]} & \bibentry{S26} \\ 
+    {[}S27{]} & \bibentry{S27} \\ 
+    {[}S28{]} & \bibentry{S28} \\ 
+    {[}S29{]} & \bibentry{S29} \\ 
+    {[}S30{]} & \bibentry{S30} \\ 
+\end{supertabular}
 
 
 \end{document}
