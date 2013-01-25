@@ -67,6 +67,8 @@
 % ---------------------------------------------------------------------
 
 \begin{abstract}        % give a summary of your paper
+Abstract: miksi on tärkeätä tutkia tätä?
+-- Mitkä on pääasialliset löydökset?
 The abstract should summarize the contents of the paper
 using at least 70 and at most 150 words. It will be set in 9-point
 font size and be inset 1.0 cm from the right and left margins.
@@ -99,7 +101,7 @@ of companies. Agile methods are believed to bring remedy to these problems.
 
 The goal of this research is to explore how and why large organizations adopt
 agile methods. Studies on large scale agile transformations have been published,
-but no extensive and summarizing research is available on the subject. In this
+but no extensive or summarizing research is available on the subject. In this
 research we will give an overview of reported case studies on adopting agile
 methods in large organizations. We will further discuss the motivations for
 adopting agile methods, the characteristics of agile transformations, and
@@ -111,9 +113,9 @@ transformation.
 
 This paper is organized as follows. The next section gives an overview of large
 scale agile development. Section \ref{sec:method} presents the literature review
-method used for conducting the research. The findings of the review are
+method used for conducting this research. The findings of the review are
 discussed in section \ref{sec:results}, and section \ref{sec:conclusion}
-gives proposals for future research.
+presents limitations and proposals for future research.
 
 
 % ---------------------------------------------------------------------
@@ -222,15 +224,17 @@ The selection process of the primary studies is summarized in Figure
 \ref{fig:selection_process}. The database search yielded 1603 matches which were
 filtered down to 31 selected primary studies. One study was not available, which
 reduced the final number of primary studies to 30.
-The 30 primary sources were selected by three criteria: study type, size of
-organization, and use of agile methods in software development. Firstly, only
-case studies and experience reports on agile software development were included
-in this study. Papers discussing agile methods or organizational transformation
-on as a general topic were left out. Secondly, the size of the organization
-described in the included primary studies was to be large enough to show the
-challenges of large scale agile development \citegen{Lindvall2004}. Further,
-only studies discussing agile software development were included, leaving out
-for instance studies on agile management.
+The 30 primary sources were selected by four criteria: study type, size of
+organization, use of agile methods in software development, and a transformation
+viewpoint. Firstly, only case studies and experience reports on agile software
+development were included in this study. Papers discussing agile methods or
+organizational transformation on as a general topic were left out. Secondly, the
+size of the organization described in the included primary studies was to be
+large enough to show the challenges of large scale agile development
+\citegen{Lindvall2004}. Further, only studies discussing agile software
+development were included, leaving out for instance studies on agile management.
+Finally, the included studies had to provide a viewpoint on the adoption of
+agile methods.
 
 \begin{figure}[t]
   \begin{center}
@@ -252,49 +256,6 @@ Recommendations for transformation processes were captured in fields
 Additional fields that were used but not sufficiently answered by the primary
 studies were \textit{satisfaction after transformation} and \textit{reported
 measurements before/after transformation}.
-
-% \begin{table}
-%     \begin{tabular}{ p{0.36\textwidth}@{ \hskip 0.2cm } l }
-%         \toprule
-%         Transformation mentioned in \newline text (Y/N) &
-%         Large scale mentioned in text (Y/N) \\
-%         Is empirical case study (Y/N) &
-%         Is industry experience report (Y/N) \\
-%         Has listing of practices (Y/N) &
-%         Used research method (Y/N) \\
-%         Relevance to this review (1-5) & \\
-%         Objective of research (or publication) &
-%         Research method \\
-%         Author bias &
-%         Validity threats \\
-%         Organization size &
-%         Time of transformation \\
-%         Initial state of organization &
-%         Why was the change initiated \\
-%         How was the change conducted &
-%         What is agility? / Which agile paractices are used? \\
-%         Findings / lessons learned &
-%         Good practices validated or suggested by study \\
-%         Reported challenges &
-%         Satisfaction after transformation \\
-%         Effect on organization &
-%         Measurements as results (quantitative or other) \\
-%         Other notes &
-%         Notable references \\
-%         \bottomrule
-%     \end{tabular}
-%     \caption{The fields of the data extraction form. Fields with a (Y/N) label
-%     were answered as yes or no. The field with a (1-5) label was answered by a
-%     grade from 1 to 5. All other fields were answered by free form text.}
-%     \label{table:dataform}
-% \end{table}
-
-
-%\subsection{Data sources and search strategy}
-%
-%\subsection{Final selection}
-%
-%\subsection{Data extraction and synthesis}
 
 
 % ---------------------------------------------------------------------
@@ -318,12 +279,13 @@ studies were published theree years after the transformation was reported to
 have begun. Figure \ref{fig:publications} gives a timeline view of the
 publications.
 
-
 The most commonly reported methods are listed in Table \ref{table:methods}, of
 which Scrum was the most popular single method. An important observation is that
 tailoring of methods was very common. The use of tailoring can be considered
 relating particularly to large scale, as the core of agile methods give very
-little advice on interfacing with various units present in a large organization.
+little advice on interfacing with other units present in a large organization.
+The agile team must interface with units such as other development teams,
+management, and marketing.
 
 \begin{table}[t]
     \begin{tabular}{ l@{ \hskip 0.4cm } l }
@@ -384,9 +346,8 @@ facilitate the change.
 A particular challenge for adopting agile was misunderstanding how agile should
 be applied. Some symptoms of this were talking agile but still working the old
 way, and managers making commitments without hearing development teams.
-As expected, many studies reported that development teams had problems
-interfacing with other organizational functions, such as management and
-marketing.
+As expected, many studies reported that teams had problems interfacing with
+other organizational units, such as management and marketing.
 
 It is difficult to make a new way of wroking stick in a large organization.
 Use of agile can be rooted into the organization by creating an agile community.
@@ -415,7 +376,7 @@ finding their agile ways.
         \raggedright\rule{0pt}{0.4cm}Effect of agile outside of development  &
             Conflicts with business (e.g. planning) [S6, S11, S21] \newline
             Making non-development functions agile (testing, maintenance, etc.) [S2, S4, S13]\newline
-            Conflicts with other functions (marketing, HR, etc.) \newline[S6, S10, S11, S13] \\
+            Conflicts with other units (marketing, HR, etc.) \newline[S6, S10, S11, S13] \\
         
         \raggedright\rule{0pt}{0.4cm}Lack of resources  &
             Lack of training, insufficient resources for coaching \newline
@@ -447,57 +408,35 @@ finding their agile ways.
 
 
 % ---------------------------------------------------------------------
-\section{Future research}
+\section{Limitations and future research}
 \label{sec:conclusion}
 
-Our results show that a body of research on large scale agile transformations
-has emerged. We aim to continue research on this topic by conducting a
-systematic literature review. Beyond descriptive reports on agile
-transformations we found very little studies with quantitative comparison of
-organizations before and after the transformations.
+The papers included in this study were mostly experience reports with no
+research method. Some papers were of low quality, but they were included as our
+aim was to give a view of the topic that is broader and inclined towards practice.
 
-* -- The papers are mostly experience reports with no research method.
-
-* -- Some papers were of low quality, but they were included in order to give a
-view of the topic that is broader and inclined towards practice.
-
--- Effect of organizational change is hard (or maybe impossible?) to measure
-(kuulemma Marjo ja Kristian tietävät asiasta).
+Differing from our initial beliefs, this research shows that a body of studies
+on large scale agile transformations has emerged. We aim to continue our
+research on this topic by conducting a systematic literature review. Beyond
+descriptive reports on agile transformations we found very little studies with
+quantitative comparison of organizations' performance before and after the
+transformations.
 
 
-
-\subsection{TODO}
-
-eg. --> e.g.
+% \subsection{TODO}
 
 
-Abstract: miksi on tärkeätä tutkia tätä?
--- Mitkä on pääasialliset löydökset?
+% Vielä:
+% Missä sanotaan mikä on "large"
+% Success factor: Stepwise adoption (piloting)
 
 
-Missä sanotaan mikä on "large"
-
-
-Search kuva on selitetty myös tekstissä.
-
-
-Inclusion: viewpoint on the organizational transformation [from plan-driven, tms.]
-
-
-Used methods: interfacing with various units present in a large organization
---> Developmentin koordinointi
-
-
-"Coaching and community" --> selitä myös coaching
-
-
-Success factor: Stepwise adoption (piloting)
-
-
-Conclusions:
-
---> Päätä siihen että "kiinnostavaa materiaalia löytyy" vaikka ei eka oletettu
---> Olemme päättäneet toteuttaa laajemman ja systemaattisen tutkimuksen aiheesta
+% Pitäs olla done:
+% Search kuva on selitetty myös tekstissä.
+% Inclusion: viewpoint on the organizational transformation [from plan-driven, tms.]
+% Used methods: interfacing with various units present in a large organization
+%    --> Developmentin koordinointi
+% "Coaching and community" --> selitä myös coaching
 
 
 % ---------------------------------------------------------------------
