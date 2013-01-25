@@ -88,7 +88,7 @@ initially designed for small teams their application has proven to be
 problematic in a larger scale \citegen{Boehm2005}.
 
 It is typical for large companies to function according to plan-driven software
-engineering models [Cite?!] (also why?). These models strive for consistent quality and performance
+engineering models. These models strive for consistent quality and performance
 by rigorous planning and definition of process. This kind of approach is however
 badly suited for software development, as projects typically encounter
 situations that are too hard or impossible to foretell \citegen{Schwaber2002}.
@@ -124,31 +124,31 @@ Introducing agile methods in large organizations is more difficult than it is in
 small organizations \citegen{Dyba2008}. The difficulty is partly related to size
 bringing higher organizational inertia which slows down organizational change
 \citegen{Livermore2008}. Agile methods are not founded on the use of individual
-tools or practices, but rather on a holistic change in the way of thinking.
+tools or practices, but rather on a holistic way of thinking.
 Adopting agile requires often change of the entire organizational culture
 \citegen{Misra2010}.
 
 One significant difference between small and large adoptions is that large
 organizations have more dependencies between projects and teams. This increases
 the need for formal documentation and thus reduces agility \citegen{Lindvall2004}.
-In addition to inter-team coordination large organizations require development
-teams to interact with other organizational units, which are often non-agile of
-their nature. For instance, HR may demand individuals to have strictly specified
-roles in projects \citegen{Boehm2005}, or a change control board may inhibit use of
-continuous integration or refactoring \citegen{Lindvall2004}. All units affected by
-the agile transformation need to be informed and heard, and the agile process
+In addition to inter-team coordination development teams are required to
+interact with other organizational units, which are often non-agile of their
+nature. For instance, HR may demand individuals to have strictly specified roles
+in projects \citegen{Boehm2005}, or a change control board may inhibit use of
+continuous integration or refactoring \citegen{Lindvall2004}. All units affected
+by the agile transformation need to be informed and heard, and the agile process
 must be adjusted according to their needs \citegen{Lindvall2004, Cohn2003,
 Boehm2005}.
 
 Agile methods will also affect management and business related functions. A key
 challenge is that management must move away from life cycle models and towards
-iterative and feature centric models \citegen{Nerur2005}. The focus must be shifted
-from a large scale scope to shorter term project planning \citegen{Misra2010}, as
-agile methods emphasize that meaningful planning can only be done for the near
-future \citegen{Cohn2003}. However, the lack of planning can be a concern as
-business and customer relationships often build on long term roadmapping.
-Enabling operation with shorter term planning requires educating stakeholders
-and reviewing contracting practices \citegen{Boehm2005}.
+iterative and feature centric models \citegen{Nerur2005}. The focus must be
+shifted from a large scale scope to shorter term project planning
+\citegen{Misra2010}, as agile methods emphasize that planning is only meaningful
+for the near future \citegen{Cohn2003}. However, the lack of planning can be a
+concern as business and customer relationships often build on long term
+roadmapping. Enabling operation with shorter term planning requires educating
+stakeholders and reviewing contracting practices \citegen{Boehm2005}.
 
 
 % ---------------------------------------------------------------------
@@ -167,8 +167,8 @@ and reviewing contracting practices \citegen{Boehm2005}.
 The literature review was conducted as an application of Kitchenham's
 method for systematic literature review (SLR) \citegen{Kitchenham2007}. The method
 was applied to be performed by only one researcher, and to serve as a
-preliminary work evaluating the feasibility of a more in-depth review. The
-required effort was limited by selecting only the following subset of SLR steps:
+preliminary work evaluating the feasibility of a more in-depth review.
+Effort was limited by selecting only the following subset of SLR steps:
 identification of primary sources, data extraction and synthesis. Steps left out
 were the development of a systematic review protocol, strict study quality
 assessment, and reviews in the study selection process.
@@ -191,19 +191,7 @@ facets and appropriate keywords were chosen, as presented in Table
 by joining the keywords of each facet by \texttt{OR} operators and the facets by
 \texttt{AND} operators.
 
-As the preliminary search omitted some of the keywords in Table
-\ref{table:searchterms} it yielded a small number of additional matches. The
-reason for variance in matches was that many articles had creative titles or the
-abstracts and keywords were not informative enough. Because of this, the search
-with more restrictive keywords was unable to capture all possible matches.
-We are however confident that the search covered the majority of material
-relating to agile transformations in large organizations. If a wider search
-should be performed, our recommendation is to only regard the facets
-\textit{agile methods} and \textit{organizational change}. This would lead to
-significantly more matches in the first stage of selecting studies, but the
-additional effort is necessary due to the limitations of a keyword search.
-
-\begin{table}[h]
+\begin{table}
     \begin{tabular}{ l@{ \hskip 0.4cm } l }
         \toprule
         Facet                  & Keywords   \\ \midrule
@@ -216,49 +204,54 @@ additional effort is necessary due to the limitations of a keyword search.
     \label{table:searchterms}
 \end{table}
 
-The selection process of the primary studies is summarized in Figure
-\ref{fig:selection_process}. The database search yielded 1603 matches from which
-100 sources were chosen by the title. 17 unmatched sources from the preliminary
-search were also included. Finally, 31 sources were selected based on the
-abstract to be included for data extraction. One source was not available, which
-reduced the final number of primary studies to 30.
+As the preliminary search omitted some of the keywords in Table
+\ref{table:searchterms} it yielded a small number of additional matches. The
+reason for variance in matches was that many articles had creative titles or the
+abstracts and keywords were not informative enough. Because of this, the search
+with more restrictive keywords was unable to capture all possible matches.
+We are however confident that the search covered the majority of material
+relating to agile transformations in large organizations. If a wider search
+should be performed, our recommendation is to only regard the facets
+\textit{agile methods} and \textit{organizational change}. This would lead to
+significantly more matches in the first stage of selecting studies, but the
+additional effort is necessary due to the limitations of a keyword search.
 
-\begin{figure}[htb]
+%\subsection{Inclusion criteria}
+
+The selection process of the primary studies is summarized in Figure
+\ref{fig:selection_process}. The database search yielded 1603 matches which were
+filtered down to 31 selected primary studies. One study was not available, which
+reduced the final number of primary studies to 30.
+The 30 primary sources were selected by three criteria: study type, size of
+organization, and use of agile methods in software development. Firstly, only
+case studies and experience reports on agile software development were included
+in this study. Papers discussing agile methods or organizational transformation
+on as a general topic were left out. Secondly, the size of the organization
+described in the included primary studies was to be large enough to show the
+challenges of large scale agile development \citegen{Lindvall2004}. Further,
+only studies discussing agile software development were included, leaving out
+for instance studies on agile management.
+
+\begin{figure}[t]
   \begin{center}
-    \includegraphics[width=0.5\textwidth]{researchprocess}
+    \includegraphics[width=0.45\textwidth]{researchprocess}
     \caption{Process of selecting primary studies}
     \label{fig:selection_process}
   \end{center}
 \end{figure}
 
-%\subsection{Inclusion criteria}
-
-The 30 primary sources were selected by four criteria: study type, size of
-organization, use of agile methods in software development, and viewpoint on
-transformation. Firstly, only case studies and experience reports on agile
-software development were included in this study. Papers discussing agile
-methods or organizational transformation on as a general topic were left out.
-Secondly, the size of the organization described in the included primary studies
-was to be large enough to show the challenges of large scale agile development
-\citegen{Lindvall2004}. Further, only studies discussing agile software development
-were included, leaving out for instance studies on agile management. Finally, to
-be included each study had to provide a viewpoint on the organizational
-transformation.
-
 %\subsection{Data extraction}
 
-The content of the resutls was guided by the data extraction form. The form
-included some quantitative fields including \textit{start time of
-transformation} and \textit{organization size}, but most of the data was
-collected in open ended fields. The reason for starting a transformation was
-captured in fileds \textit{initial state of organization} and \textit{reasons
-for change}. The description of the transformation process was captured in one
-field. Recommendations for transformation processes were captured in fields
+Analysis of the primary studies was guided by using a data extraction form with
+open ended fileds. The reason for starting a transformation was captured in
+fileds \textit{initial state of organization} and \textit{reasons for change}.
+The description of the transformation process was captured in one field.
+Recommendations for transformation processes were captured in fields
 \textit{reported good practices}, \textit{reported challenges}, and
-\textit{lessons learned}. Additional fields that were used but not sufficiently
-answered by the primary studies were \textit{satisfaction after transformation},
-\textit{effect on onrganization} and \textit{reported measurements before/after
-transformation}.
+\textit{lessons learned}.
+Additional fields that were used but not sufficiently answered by the primary
+studies were \textit{satisfaction after transformation} and \textit{reported
+measurements before/after transformation}.
 
 % \begin{table}
 %     \begin{tabular}{ p{0.36\textwidth}@{ \hskip 0.2cm } l }
@@ -312,7 +305,7 @@ Of the 30 included primary studies 23 were experience reports and 7 were case
 studies. From a validity viewpoint it is important to acknowledge that most of
 the studies were written by employees in the studied organizations.
 
-\begin{figure}[h]
+\begin{figure}
   \begin{center}
     \includegraphics[width=1\textwidth]{publicationschart.pdf}
     \caption{Time of publications and transformations}
@@ -332,7 +325,7 @@ tailoring of methods was very common. The use of tailoring can be considered
 relating particularly to large scale, as the core of agile methods give very
 little advice on interfacing with various units present in a large organization.
 
-\begin{table}[h]
+\begin{table}
     \begin{tabular}{ l@{ \hskip 0.4cm } l }
         \toprule
         Agile method    & Reported in number of studies   \\ \midrule
@@ -350,10 +343,10 @@ little advice on interfacing with various units present in a large organization.
 The reasons to initiate a change fell into three categories, as summarized in
 Table \ref{table:motivations}. The primary reasons for change was a strategical
 need to improve the performance of the organization. Especially shortening the
-time to market was seen as XXX. In many cases the change was started when
-management acknowledged problems in the current way of working.
+time to market was desired. In many cases the change was started when management
+acknowledged problems in the current way of working.
 
-\begin{table}[h]
+\begin{table}
     \begin{tabular}{ l@{ \hskip 0.4cm } l }
         \toprule
         Reason                                    & In studies   \\ \midrule
@@ -530,7 +523,7 @@ Conclusions:
 
 
 \begin{supertabular}{ l p{11.3cm} }
-    {[}S1{]} & \bibentry{S1} \\ \shrinkheight{-1.9cm}
+    {[}S1{]} & \bibentry{S1} \\ \shrinkheight{-2.1cm}
     {[}S2{]} & \bibentry{S2} \\ 
     {[}S3{]} & \bibentry{S3} \\ 
     {[}S4{]} & \bibentry{S4} \\ 
