@@ -1,0 +1,70 @@
+
+
+
+Facet           Terms
+-----------------------------------------
+Agile           agile, scrum, "extreme programming", waterfall, "plan-driven", RUP
+Transformation  transformation, transition, migration, journey, adopt, deploy, introduce, "roll-out", rollout, implement, apply
+AND (software OR (conference="agile, xp, icgse, icse"))
+NOT title-abs="manufacturing", conference="agile manufacturing"
+
+
+Dropped
+--------------------------
+Organization    enterprise, organization, (large AND scale), (grand AND scale)
+NOT algorithm
+
+
+
+
+IEEExplore
+----------
+
+    720 results
+
+(agile OR scrum OR "extreme programming" OR waterfall OR "plan-driven" OR RUP) AND
+(transform* OR transiti* OR migrati* OR journey OR adopt* OR deploy OR introduc* OR "roll-out" OR rollout)
+AND
+((software AND NOT ("Document Title":manufacturing OR "Abstract":manufacturing)) OR
+ ("Publication Title":agile OR "Publication Title":xp OR "Publication Title":icgse OR "Publication Title":icse))
+AND NOT "Publication Title":"agile manufacturing"
+
+
+ACM
+---
+
+    154 results
+
+(Title:((agile OR scrum OR "extreme programming" OR waterfall OR "plan-driven" OR RUP) AND
+        (transform* OR transiti* OR migrati* OR journey OR adopt* OR deploy OR introduc* OR "roll-out" OR rollout))
+ OR
+ Abstract:((agile OR scrum OR "extreme programming" OR waterfall OR "plan-driven" OR RUP) AND
+           (transform* OR transiti* OR migrati* OR journey OR adopt* OR deploy OR introduc* OR "roll-out" OR rollout)))
+AND ((Title:software or Abstract:software) OR
+     PublicationTitle:(agile OR xp OR icgse OR icse))
+
+
+Scopus
+------
+
+    http://www.scopus.com/home.url
+    1412 results
+
+TITLE-ABS-KEY(
+    (agile OR scrum OR "extreme programming" OR waterfall OR "plan-driven" OR rup) AND
+    (transform* OR transiti* OR migrati* OR journey OR adopt* OR deploy OR introduc* OR "roll-out" OR rollout)) AND
+((software AND NOT TITLE-ABS-KEY(manufacturing)) OR CONF(agile OR xp OR icgse OR icse))
+
+
+
+Web of Knowledge (Thomson Reuters)
+----------------------------------
+
+    http://apps.webofknowledge.com
+    747 results
+
+TS=((agile OR scrum OR "extreme programming" OR waterfall OR "plan-driven" OR RUP) AND
+    (transform* OR transiti* OR migrati* OR journey OR adopt* OR deploy OR introduc* OR "roll-out" OR rollout)) AND
+(TS=(software NOT manufacturing) OR CF=(agile OR xp OR icgse OR icse))
+
+
