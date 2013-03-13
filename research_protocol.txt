@@ -4,13 +4,14 @@
 Facet           Terms
 -----------------------------------------
 Agile           agile, scrum, "extreme programming", waterfall, "plan-driven", RUP
-Transformation  transformation, transition, migration, journey, adopt, deploy, introduce, "roll-out", rollout, implement, apply
+Transformation  transformation, transition, migration, journey, adopt, deploy, introduce, "roll-out", rollout
 AND (software OR (conference="agile, xp, icgse, icse"))
 NOT title-abs="manufacturing", conference="agile manufacturing"
 
 
 Dropped
 --------------------------
+Transformation  implement, apply
 Organization    enterprise, organization, (large AND scale), (grand AND scale)
 NOT algorithm
 
