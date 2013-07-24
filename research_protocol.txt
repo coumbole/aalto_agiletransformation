@@ -22,6 +22,7 @@ IEEExplore
 ----------
 
     720 results
+    745 results (24.07.2013)
 
 (agile OR scrum OR "extreme programming" OR waterfall OR "plan-driven" OR RUP) AND
 (transform* OR transiti* OR migrati* OR journey OR adopt* OR deploy OR introduc* OR "roll-out" OR rollout)
@@ -35,6 +36,7 @@ ACM
 ---
 
     154 results
+    168 results (24.07.2013)
 
 (Title:((agile OR scrum OR "extreme programming" OR waterfall OR "plan-driven" OR RUP) AND
         (transform* OR transiti* OR migrati* OR journey OR adopt* OR deploy OR introduc* OR "roll-out" OR rollout))
@@ -50,6 +52,7 @@ Scopus
 
     http://www.scopus.com/home.url
     1412 results
+    1596 results (24.07.2013)
 
 TITLE-ABS-KEY(
     (agile OR scrum OR "extreme programming" OR waterfall OR "plan-driven" OR rup) AND
@@ -63,6 +66,7 @@ Web of Knowledge (Thomson Reuters)
 
     http://apps.webofknowledge.com
     747 results
+    786 results (24.07.2013)
 
 TS=((agile OR scrum OR "extreme programming" OR waterfall OR "plan-driven" OR RUP) AND
     (transform* OR transiti* OR migrati* OR journey OR adopt* OR deploy OR introduc* OR "roll-out" OR rollout)) AND
