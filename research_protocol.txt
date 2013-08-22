@@ -1,5 +1,22 @@
 
 
+Research questions
+--------------------------------
+
+RQ1 Why are transformations initiated?
+    * In Atlas: "R" - Reason to change
+
+RQ2 How do transformations proceed usually; do transformations exhibit patterns?
+    * In Atlas: "T" - Describing transformation process
+
+RQ3 What are typical successes and challenges in an large scale agile
+    transformation process?
+    * In Atlas: "S" - Success factors, successes
+    * In Atlas: "C" - Challenges reported
+
+
+
+
 
 Facet           Terms
 -----------------------------------------
