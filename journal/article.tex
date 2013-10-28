@@ -129,9 +129,78 @@ The research was conducted as an application of Kitchenham's
 of primary studies was done as a keyword based database search and manual
 filtering of included studies. The filtering process was executed independently
 by two researchers (Dikert, Paasivaara), and the process was audited by a third
-external researcher (Lassenius). We deviated from Kitchenham's guideline in the
-parts of study assessment and data extraction. These deviations are explained
-below.
+external researcher (Lassenius).
+
+We deviated from Kitchenham's guideline in the parts of study assessment and
+data extraction. These deviations are explained below.
+--> This is maybe not true! The study assessment can also be done qualitatively.
+
+Based on the research questions and intended focus of the research, we defined
+an inclusion criteria with three facets: agile software engineering, focus on
+transformation, and large organizations. The first facet covers primary studies
+focusing on software engineering organizations applying or striving to apply
+agile methods. Examples on topics excluded by the first facet are agile
+manufacturing, and applying Scrum practices in management boards. The second
+facet states that included studies must provide insights relevant to
+organizational transformation, and specifically to the research questions.
+The third facet underlines the particular contribution we aim to provide with
+this research, namely the exclusive focus on large organizations.
+
+--> Definition of large scale
+
+--> Case studies ??
+
+A database keyword search was chosen as the search strategy. Based on the
+research questions three facets for keywords were chosen: agile software
+development, organizational transformation, and large scale. Preliminary
+searches showed however that picking keywords with good precision was very
+difficult. As a result we excluded the third facet (large scale). Instead of
+engineering the search terms, which proved to result in excluding some
+relevant articles, we chose an approach of manually filtering the search
+results. Still having a substantial part of the matches in the non-relevant  
+areas such as agile manufacturing, we decided to limit searches to either be
+included in major software publications or include the term ``software''. The
+resulting facets and keywords are listed in Table \ref{table:searchterms}. The
+databases included in the search are listed in Table \ref{table:databases}. All
+databases supported searches using boolean search commands constructed from the
+facets and keywords. The search yielded NNNN unique matches.
+
+\begin{table}
+    \begin{tabular}{ p{0.22\textwidth} p{0.76\textwidth} }
+        \toprule
+        Facet                  & Keywords   \\
+        \midrule
+        Agile methods\newline (before \& after) &
+            agile, scrum, "extreme programming",\newline
+            waterfall, "plan-driven", RUP \\
+        Organizational transformation &
+            transform*, transiti*, migrat*, journey, adopt*, deploy, introduc*,
+            "roll-out", rollout \\
+        Limit to software\newline related atricles &
+            (software OR (conference="agile, xp, icgse, icse"))\newline
+            NOT title+abs="manufacturing", conference="agile manufacturing"
+        \\
+        \bottomrule
+    \end{tabular}
+    \caption{Facets and related search terms used}
+    \label{table:searchterms}
+\end{table}
+
+\begin{table}
+    \begin{tabular}{ p{0.24\textwidth} l l }
+        \toprule
+        Database      & URL                     & N of matches   \\
+        \midrule
+        IEEExplore    & http://ieeexplore.ieee.org      & 745 \\ 
+        ACM           & http://dl.acm.org               & 168 \\
+        Scopus        & http://www.scopus.com/home.url  & 1596 \\
+        Web of Knowledge\newline(Thomson Reuters) &
+        http://apps.webofknowledge.com & 786 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Databases included in search}
+    \label{table:databases}
+\end{table}
 
 
 The reason for deviating stydy assessment
@@ -161,6 +230,16 @@ and challenges) the iterative coding approach was used. The iterative coding
 approach...
 --> Possibility to find many different viewpoinits for the research questions
 --> Lots of items, which would have lead to much diversity in data extraction form 
+
+
+The primary research for this literature review consists almost exclusively of
+industry experience reports. This may be seen as a factor lessening the
+evidence.
+--> Why did we do this anyway?
+--> Case studies with research method studying organizational transformations in
+    software industry are very scarce.
+--> Large organizational changes are hard to measure experimentally (controlled
+    experiments?). Also due to this any student research was excluded.
 
 % ---------------------------------------------------------------------
 \section{Results}
