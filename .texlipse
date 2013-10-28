@@ -1,14 +1,14 @@
 #TeXlipse project settings
-#Thu Dec 13 16:21:45 EET 2012
+#Mon Oct 28 02:05:17 EET 2013
 markTmpDer=true
 builderNum=2
-outputDir=tex
+outputDir=journal/
 makeIndSty=
-bibrefDir=tex/
+bibrefDir=
 outputFormat=pdf
 tempDir=tmp
 mainTexFile=article.tex
 outputFile=article.pdf
 langSpell=en
 markDer=true
-srcDir=tex
+srcDir=journal/
