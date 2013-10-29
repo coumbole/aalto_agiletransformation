@@ -3,7 +3,7 @@
 % ---------------------------------------------------------------------
 
 %\documentclass[12pt,a4paper,english,oneside]{article}
-\documentclass[lnbip]{svmultln}
+\documentclass[preprint,authoryear,12pt]{elsarticle}
 
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
@@ -11,7 +11,7 @@
 \usepackage{calc}
 \usepackage{natbib}
 \usepackage{url}
-\usepackage{listings}
+%\usepackage{listings}
 \usepackage{hyphenat}
 
 \usepackage{supertabular,array}
@@ -39,32 +39,49 @@
 % -------------- DOCUMENT ---------------------------------------------
 % ---------------------------------------------------------------------
 
+\journal{Information and Software Technology}
+
 \begin{document}
 
+% Extra definitions?
 \selectlanguage{english}
 
-\mainmatter
+\begin{frontmatter}
 
+%% use the tnoteref command within \title for footnotes;
+%% use the tnotetext command for the associated footnote;
+%% use the fnref command within \author or \address for footnotes;
+%% use the fntext command for the associated footnote;
+%% use the corref command within \author for corresponding author footnotes;
+%% use the cortext command for the associated footnote;
+%% use the ead command for the email address,
+%% and the form \ead[url] for the home page:
+%%
+%% \title{Title\tnoteref{label1}}
+%% \tnotetext[label1]{}
+%% \author{Name\corref{cor1}\fnref{label2}}
+%% \ead{email address}
+%% \ead[url]{home page}
+%% \fntext[label2]{}
+%% \cortext[cor1]{}
+%% \address{Address\fnref{label3}}
+%% \fntext[label3]{}
+
+%% use optional labels to link authors explicitly to addresses:
+%% \author[label1,label2]{<author name>}
+%% \address[label1]{<address>}
+%% \address[label2]{<address>}
 
 \title{Adopting agile in the large: motivations, success factors and challenges}
 
-\titlerunning{Adopting agile in the large}
+\author{Kim Dikert, Maria Paasivaara, Casper Lassenius}
 
-\author{Kim Dikert \and Maria Paasivaara \and Casper Lassenius}
-\authorrunning{Kim Dikert et al.}   % abbreviated author list (for running head)
+\address{Aalto University, School of Science, Department of Computer Science and Engineering}
 
-% list of authors for the TOC (use if author list has to be modified)
-\tocauthor{Kim Dikert, Maria Paasivaara, Casper Lassenius}
-
-\institute{Aalto University, School of Science,
-Department of Computer Science and Engineering
-\\ \email{kim-karol.dikert@aalto.fi}, \email{maria.paasivaara@aalto.fi}, \email{casper.lassenius@aalto.fi} }
-
-\maketitle
-
+\ead{kim-karol.dikert@aalto.fi, maria.paasivaara@aalto.fi, casper.lassenius@aalto.fi}
 
 % ---------------------------------------------------------------------
-% -------------- ABSTRACT AND TEXT ------------------------------------
+% ------------------------- ABSTRACT ----------------------------------
 % ---------------------------------------------------------------------
 
 \begin{abstract}
@@ -81,11 +98,25 @@ Creating an agile community in the organization will help the change to stick.
 Typical problems are misunderstanding of the agile model, and difficulties
 coordinating multiple agile teams.
 
-\keywords {agile, transformation, large scale, adopting agile}
 \end{abstract}
+
+\begin{keyword}
+%% keywords here, in the form: keyword \sep keyword
+%% MSC codes here, in the form: \MSC code \sep code
+%% or \MSC[2008] code \sep code (2000 is the default)
+
+agile \sep transformation \sep large scale \sep adopting agile
+
+\end{keyword}
+
+\end{frontmatter}
 
 
 % ---------------------------------------------------------------------
+% --------------------------- TEXT ------------------------------------
+% ---------------------------------------------------------------------
+
+
 \section{Introduction}
 
 --> Introductory paragraph
@@ -157,6 +188,13 @@ Not included topics:
 Tämän perusteella pitää siis kertoa itse prosessista: --> Kirjoita auki tämä
 kriteeri paremmin.
 
+
+Jos koko on epäselvä:
+--> Tutkijat päättävät keskustelun ja kvalitatiivisen harkinnan perusteella
+--> Tähän tarvitaan esimerkit, milloin on otettu mukaan, milloin on karsittu
+    pois
+
+
 % -----------------------
 
 
@@ -212,7 +250,7 @@ facets and keywords. The search yielded NNNN unique matches.
 \end{table}
 
 \begin{table}
-    \begin{tabular}{ p{0.24\textwidth} l l }
+    \begin{tabular}{ p{0.28\textwidth} l l }
         \toprule
         Database      & URL                     & N of matches   \\
         \midrule
@@ -288,7 +326,8 @@ evidence.
 %\small
 \fontsize{9pt}{10pt}\selectfont
 
-\bibliographystyle{plain}
+\bibliographystyle{elsarticle-harv}
+%\bibliographystyle{plain}
 \bibliographystylegen{plain}
 
 \bibliographygen{sources}
