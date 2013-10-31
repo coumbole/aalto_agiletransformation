@@ -2,4 +2,5 @@ article.pdf
 *.synctex.gz
 *.bbl
 *.blg
+*.spl
 tmp
