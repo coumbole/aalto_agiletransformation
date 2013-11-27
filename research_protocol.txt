@@ -90,3 +90,14 @@ TS=((agile OR scrum OR "extreme programming" OR waterfall OR "plan-driven" OR RU
 (TS=(software NOT manufacturing) OR CF=(agile OR xp OR icgse OR icse))
 
 
+
+
+Coding test
+------------
+
+Seffernick	2007	5	124	44
+Goos        2008	4	90	37
+Lewis   	2007	3	82	30
+Mencke  	2008	2	43	27
+Greening    2013	1	29	12
+
