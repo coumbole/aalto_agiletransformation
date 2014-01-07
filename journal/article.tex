@@ -166,7 +166,13 @@ pp. 64 - 69, 2002.
 \section{Research method}
 \label{sec:method}
 
+The goal of the research was to aggregate evidence on how large organizations
+transform into an agile way of working. The research was conducted as a
+systematic litterature review, based on empirical studies.
+
 \subsection{Research questions}
+
+The following research questions were set to guide the research process.
 
 \begin{itemize}
 
@@ -182,21 +188,65 @@ RQ3: What are typical successes and challenges in an large scale agile
 
 \end{itemize}
 
+
+\subsection{Definition of large scale}
+
+A key question in the study was the definition of \emph{large scale}. Large
+scale requires additional coordination and makes communication difficult
+compared to software development in small teams.
+
+--> Needs to have complexity in software design?? --> What is complexity in software?
+    Is ``complexity'' an issue in agile?
+    What will bring complexity into software? Not costs or the length of the
+    schedule. --> Having many people will bring the complexity in terms of the
+    SDM to use.
+--> Some people see cost as a definition for large scale, some see code base
+    size [Petersen], some see project duration [Bjarnson?]. These are all
+    related, but do not relate to any specific problem. You can spend X amount
+    of money, but it does not in itself make any difference if the money is
+    spent in an agile way.
+--> Formal definitions (EU, etc.) look at project costs or company turnover.
+    These definitions do not take a standpoint on complexity of the product, so
+    they do not matter in the context of SDMs.
+
+--> Ref: the XP conference
+--> [Cockburn 2003] Agile is best suitable for teams around 50 people or fewer.
+--> Boehm, B. and Turner, R., Balancing Agility and Discipline: A Guide for the
+    Perplexed: Addison-Wesley, 2003. --> There might be a 50 person boundary?
+    --> See Boehm also for list of 
+
+--> The company must already be with N teams or N people, not growing up to the
+    required numbers. Small companies in growth are therefore excluded. 
+
+
 \subsection{Research process}
 
 The research was conducted as an application of Kitchenham's
 \cite{Kitchenham2007} guidelines for systematic literature review. The selection
 of primary studies was done as a keyword based database search and manual
 filtering of included studies. The filtering process was executed independently
-by two researchers (Dikert, Paasivaara), and the process was audited by a third
+by two researchers (Dikert, Paasivaara). The selected primary studies were coded
+for data extraction and analysis. The entire process was audited by a third
 external researcher (Lassenius).
 
-We deviated from Kitchenham's guideline in the parts of study assessment and
-data extraction. These deviations are explained below.
---> This is maybe not true! The study assessment can also be done qualitatively.
+We deviated from Kitchenham's guideline on the part of data extraction. Instead
+of using data extraction forms we analyzed the primary studies by coding.
 
+\subsubsection{Inclusion criteria}
 
-\subsection{Inclusion criteria}
+Based on the research questions and intended focus of the research, we defined
+three facets to guide any inclusion/exclusion decisions: agile software
+engineering, focus on transformation, and large organizations. The first facet covers primary studies
+focusing on software engineering organizations applying or striving to apply
+agile methods. Examples on topics excluded by the first facet are agile
+manufacturing, and applying Scrum practices in management boards. The second
+facet states that included studies must provide insights relevant to
+organizational transformation, and specifically to the research questions.
+The third facet underlines the particular contribution we aim to provide with
+this research, namely the exclusive focus on large organizations.
+
+% -----------------------
+
 - pitää olla systemaattinen
 - pitää olla toistettava
 ==> Perustuu enimmäkseen siihen että on 2 tutkijaa toistamassa
@@ -245,43 +295,8 @@ Jos koko on epäselvä:
     However, in general, we do not include discussions purely on scaling up,
     especially if no organizational change is considered.
 
-% -----------------------
 
-
-Based on the research questions and intended focus of the research, we defined
-three facets to guide any inclusion/exclusion decisions: agile software
-engineering, focus on transformation, and large organizations. The first facet covers primary studies
-focusing on software engineering organizations applying or striving to apply
-agile methods. Examples on topics excluded by the first facet are agile
-manufacturing, and applying Scrum practices in management boards. The second
-facet states that included studies must provide insights relevant to
-organizational transformation, and specifically to the research questions.
-The third facet underlines the particular contribution we aim to provide with
-this research, namely the exclusive focus on large organizations.
-
-A key question in the study was the definition of \emph{large scale}.
---> Needs to have complexity in software design?? --> What is complexity in software?
-    Is ``complexity'' an issue in agile?
-    What will bring complexity into software? Not costs or the length of the
-    schedule. --> Having many people will bring the complexity in terms of the
-    SDM to use.
---> Some people see cost as a definition for large scale, some see code base
-    size [Petersen], some see project duration [Bjarnson?]. These are all
-    related, but do not relate to any specific problem. You can spend X amount
-    of money, but it does not in itself make any difference if the money is
-    spent in an agile way.
---> Formal definitions (EU, etc.) look at project costs or company turnover.
-    These definitions do not take a standpoint on complexity of the product, so
-    they do not matter in the context of SDMs.
-
---> Ref: the XP conference
---> [Cockburn 2003] Agile is best suitable for teams around 50 people or fewer.
---> Boehm, B. and Turner, R., Balancing Agility and Discipline: A Guide for the
-    Perplexed: Addison-Wesley, 2003. --> There might be a 50 person boundary?
-    --> See Boehm also for list of 
-
---> The company must already be with N teams or N people, not growing up to the
-    required numbers. Small companies in growth are therefore excluded. 
+\subsubsection{Study selection}
 
 A database keyword search was chosen as the search strategy. Based on the
 research questions three facets for keywords were chosen: agile software
@@ -375,8 +390,9 @@ evidence.
     experiments?). Also due to this any student research was excluded.
 
 
-\subsection{Coding and synthesis}
+\subsubsection{Coding of primary documents}
 
+The primary documents were coded using the Atlas TI qualitative data analysis software.
 An integrated deductive and inductive approach was chosen for coding the primary
 studies \cite{Cruzes2011a}. The coding was also designed to have a contextual
 part and a findings part as suggested by Cruzes and Dybå \cite{Cruzes2011a}. A
@@ -495,10 +511,10 @@ Multisite / GSD & Mentioning of a multisite organization. \\
    quotation, if one is available. This should broaded the understanding of the
    challenges when looking at the quotations only.
 
-The total accumulated codes and quotes of the integrated deductive and inductive
-coding process are presented in Table \ref{table:codecount}. The total number of
-quotations is less than the sum of quotations in the categories because a single
-quotation may have multiple codes.
+The total accumulated codes and quotations of the integrated deductive and
+inductive coding process are presented in Table \ref{table:codecount}. The total
+number of quotations is less than the sum of quotations in the categories
+because a single quotation may have multiple codes.
 
 \begin{table}[h]
     \begin{tabular}{ l r r }
@@ -521,42 +537,45 @@ quotation may have multiple codes.
 \end{table}
 
 
-Inter-rater statistics
+% Inter-rater statistics
+%
+%                     Maria
+%            excl   ???   incl    TOT
+%      excl  1578    18    15    1611
+% Kimi ???     84    17     8     109
+%      incl    51    42    62     155
+%      TOT   1713    77    85    1875
+%
+% ???'s =  169
+% in/ex = 1706
+%
+% Pr(Kimi, in) = in / (tot)  =  155 / 1857 = 0.0619
+% Pr(Kimi, ex) = ex / (tot)  = 1611 / 1857 = 0.8675
+% Pr(Maria, in) = in / (tot) =   85 / 1857 = 0.0458
+% Pr(Maria, ex) = ex / (tot) = 1713 / 1857 = 0.9225
+%
+% Pr(e) = Pr(Kimi, in) * Pr(Maria, in) + Pr(Kimi, ex) * Pr(Maria, ex) = 0.8031
+%
+% Pr(a) = (ex-ex + in-in) / tot = 0.8831
+%
+% k = 0.4063
 
-                    Maria
-           excl   ???   incl    TOT
-     excl  1578    18    15    1611
-Kimi ???     84    17     8     109
-     incl    51    42    62     155
-     TOT   1713    77    85    1875
 
-???'s =  169
-in/ex = 1706
+\subsubsection{Validation of coding}
 
-Pr(Kimi, in) = in / (tot)  =  155 / 1857 = 0.0619
-Pr(Kimi, ex) = ex / (tot)  = 1611 / 1857 = 0.8675
-Pr(Maria, in) = in / (tot) =   85 / 1857 = 0.0458
-Pr(Maria, ex) = ex / (tot) = 1713 / 1857 = 0.9225
-
-Pr(e) = Pr(Kimi, in) * Pr(Maria, in) + Pr(Kimi, ex) * Pr(Maria, ex) = 0.8031
-
-Pr(a) = (ex-ex + in-in) / tot = 0.8831
-
-k = 0.4063
-
-
-\subsection{Validation of coding}
-
-Before proceeding with the synthesis we conducted an experiment with the goal to
-reveal the objectiveness of the coding by examining the amount of difference the
-codings of two independent researchers may have. In the experiment Dikert and
-Paasivaara coded independently a sample of five primary documents. The sample
-was hand picked to present a representative subset of the source material. The
-coding was done relying only on the above guidelines, and the researchers were
-careful not to discuss the choice of codes or interpretations relating to codes
-before the experiment was completed. Finally the independent codings of the two
-researchers were analyzed with two metrics: by the number of matching themes
-found, and by the amount of overlap in quotations similar codes have.
+Coding was done by only one researcher due to resource constraints and volume of
+source material. As recommended by Kitchenham \cite{Kitchenham2007} we conducted
+an experiment with the goal to assess the consistency of coding that two
+independent researchers may achieve.
+In the experiment Dikert and Paasivaara coded independently a sample of five
+primary documents. The sample was hand picked as a representative subset of the
+source material. The coding was done relying solely on the guidelines presented
+in the previous chapter, and the researchers were careful not to discuss the
+choice of codes or interpretations relating to codes before the experiment was
+completed. Finally the independent codings of the two researchers were analyzed
+with two metrics: by the number of matching themes found, and by the amount of
+overlap in quotations similar codes have.
+% See Kitcenham, chapter 6.4
 
 The metric of matching themes measures how well the independent researchers are
 able to induct similar codes from the source material. As codes are inducted it
