@@ -168,7 +168,7 @@ pp. 64 - 69, 2002.
 
 The goal of the research was to aggregate evidence on how large organizations
 transform into an agile way of working. The research was conducted as a
-systematic litterature review, based on empirical studies.
+systematic litterature review based on empirical studies.
 
 \subsection{Research questions}
 
@@ -180,16 +180,17 @@ The following research questions were set to guide the research process.
 RQ1: Why are transformations initiated?
 
 \item
-RQ2: How do transformations proceed usually; do transformations exhibit patterns?
+RQ2: How do transformations usually proceed; do transformations exhibit patterns?
 
 \item
-RQ3: What are typical successes and challenges in an large scale agile
+RQ3: What are typical successes and challenges in a large scale agile
     transformation process?
 
 \end{itemize}
 
 
 \subsection{Definition of large scale}
+\label{sec:largescale}
 
 A key question in the study was the definition of \emph{large scale}. Large
 scale requires additional coordination and makes communication difficult
@@ -230,32 +231,70 @@ for data extraction and analysis. The entire process was audited by a third
 external researcher (Lassenius).
 
 We deviated from Kitchenham's guideline on the part of data extraction. Instead
-of using data extraction forms we analyzed the primary studies by coding.
+of using data extraction forms we analyzed the primary studies by coding. This
+deviation was made in order to minimize how possible preconceptions would affect
+the data extraction step, and to use a specialized software tool that allowed us
+to record evidence in as much detail as possible.
+% --> Possibility to find many different viewpoinits for the research questions
+% --> Lots of items, which would have lead to much diversity in data extraction form 
 
 \subsubsection{Inclusion criteria}
+\label{sec:inclusioncriteria}
 
 Based on the research questions and intended focus of the research, we defined
 three facets to guide any inclusion/exclusion decisions: agile software
-engineering, focus on transformation, and large organizations. The first facet covers primary studies
-focusing on software engineering organizations applying or striving to apply
-agile methods. Examples on topics excluded by the first facet are agile
-manufacturing, and applying Scrum practices in management boards. The second
-facet states that included studies must provide insights relevant to
-organizational transformation, and specifically to the research questions.
-The third facet underlines the particular contribution we aim to provide with
-this research, namely the exclusive focus on large organizations.
+engineering, focus on transformation, and large scale. The first facet
+covers primary studies focusing on software engineering organizations applying
+or striving to apply agile methods. The second facet states that included
+studies must provide insights relevant to organizational transformation, and
+specifically to the research questions. The third facet underlines the
+particular contribution we aim to provide with this research, namely the
+exclusive focus on large organizations. These three facets were used for
+inclusion and exclusion in each study selection step, including search string
+design, filtering by abstracts, and full text filtering.
+
+Examples on topics excluded by the first facet are agile manufacturing, and
+applying Scrum practices in management boards. In addition, we required that the
+transformation was aimed to introduce agile methods into the studied
+organization.
+
+The facet of \emph{organizational transformation} was interpreted so that the
+primary study presents insights on the process of transformation. Excluded
+topics were: discussing a large agile effort but not presenting the how the
+organization had evolved [ref?], pilot cases that clearly span one limited
+project [Scott 2008?], and case studies that provide minimal information on the
+transformation process [ref?].
+--> Transformation and ``scaling up'' are very closely related. In some cases
+    they can not really be separated. For instance, if transformation begins
+    with a pilot and spreads gradually through the organization, it is very
+    likely that the process is seen as a ``scaling up'' journey.
+    However, in general, we do not include discussions purely on scaling up,
+    especially if no organizational change is considered.
+
+The facet of \emph{large scale} was interpreted as presented in section
+\ref{sec:largescale}.
+--> Case of one agile team in an enterprise: This is unrelated if the single
+    team has no effect on the rest of the enterprise. There is no
+    ``organizational transformation'' if there is just one team soloing.  
+
+In addition to the criteria listed above we excluded studies that were not
+empirical. We excluded textbooks, studies presenting theories, and other studies
+that did not include any case organization. We also excluded student experiments
+as it is implausible to simulate the dynamics of a large organization in an
+experiment.
 
 % -----------------------
 
-- pitää olla systemaattinen
-- pitää olla toistettava
-==> Perustuu enimmäkseen siihen että on 2 tutkijaa toistamassa
+% - pitää olla systemaattinen
+% - pitää olla toistettava
+% ==> Perustuu enimmäkseen siihen että on 2 tutkijaa toistamassa
+% 
+% Jos koko on epäselvä:
+% --> Tutkijat päättävät keskustelun ja kvalitatiivisen harkinnan perusteella
+% --> Tähän tarvitaan esimerkit, milloin on otettu mukaan, milloin on karsittu
+%     pois
 
-
-There must be more discussion on transformation than a couple of sentences.
---> Esimerkkejä
---> Tasot 1--5 ??
-
+-- snip --
 Listing of not included topics. Discussion on these topics are considered not
 providing insight to the research questions. Our goal is to address the research
 questions, and specifically focus on analyzing the transformation process.
@@ -268,50 +307,61 @@ Tämän perusteella pitää siis kertoa itse prosessista: --> Kirjoita auki täm
 kriteeri paremmin.
 
 
-Jos koko on epäselvä:
---> Tutkijat päättävät keskustelun ja kvalitatiivisen harkinnan perusteella
---> Tähän tarvitaan esimerkit, milloin on otettu mukaan, milloin on karsittu
-    pois
 
+\subsubsection{Preliminary searches}
 
---> Case ``only piloting'': Piloting cases that clearly span only one limited
-    project are excluded. Especially if there is no discussion of the continuity
-    of agile. See Scott 2008.
+Before proceeding with the keyword search a series of preliminary searches were
+performed. Initial searches were made using keywords that were as general as
+possible, including ``agile transformation'' and ``large scale agile''.
+Additionally, a keyword search was done in the selected databases (listed in
+table \ref{table:databases}) using the following search string:
 
+\begin{verbatim}
+((agil* OR scrum OR xp OR lean) AND
+(transform* OR transit* OR change OR migrat*) AND
+((large AND (scale OR organization))) OR enterprise)
+\end{verbatim}
 
---> Cases must be empirical, i.e. present a real case. (Otherwise we would need
-    to include textbooks also...)
-
-
---> Case of one agile team in an enterprise: This is unrelated if the single
-    team has no effect on the rest of the enterprise. There is no
-    ``organizational transformation'' if there is just one team soloing.  
-
-
---> Transformation and ``scaling up'' are very closely related. In some cases
-    they can not really be separated. For instance, if transformation begins
-    with a pilot and spreads gradually through the organization, it is very
-    likely that the process is seen as a ``scaling up'' journey.
-    However, in general, we do not include discussions purely on scaling up,
-    especially if no organizational change is considered.
-
+From these searches we compiled a list of 117 possibly relevant papers that
+should be matched by the keyword searches. The keyword search came to include 75
+of the preliminarily selected papers. The missed 32 preliminary papers were
+separately examined for inclusion, resulting in including 3 additional papers as
+primary studies.
 
 \subsubsection{Study selection}
 
-A database keyword search was chosen as the search strategy. Based on the
-research questions three facets for keywords were chosen: agile software
-development, organizational transformation, and large scale. Preliminary
-searches showed however that picking keywords with good precision was very
-difficult. As a result we excluded the third facet (large scale). Instead of
-engineering the search terms, which proved to result in excluding some
-relevant articles, we chose an approach of manually filtering the search
-results. Still having a substantial part of the matches in the non-relevant  
-areas such as agile manufacturing, we decided to limit searches to either be
-included in major software publications or include the term ``software''. The
-resulting facets and keywords are listed in Table \ref{table:searchterms}. The
+A keyword search in online databases was chosen as the search strategy. The
 databases included in the search are listed in Table \ref{table:databases}. All
-databases supported searches using boolean search commands constructed from the
-facets and keywords. The search yielded NNNN unique matches.
+databases supported use of complex boolean logic in searches which allowed us
+flexibility when constructing the search strings.
+
+\begin{table}
+    \begin{tabular}{ p{0.28\textwidth} l l }
+        \toprule
+        Database         & URL                         & N of matches   \\
+        \midrule
+        IEEExplore       & http://ieeexplore.ieee.org      & 745 \\ 
+        ACM              & http://dl.acm.org               & 168 \\
+        Scopus           & http://www.scopus.com/home.url  & 1596 \\
+        Web of Knowledge & http://apps.webofknowledge.com  & 786 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Databases included in search, and number of matched articles}
+    \label{table:databases}
+\end{table}
+
+We constructed a search string based on the facets \emph{agile software
+deveolpment} and \emph{organizational transformation}, as presented in section
+\ref{sec:inclusioncriteria}. Preliminary searches had showed that picking
+keywords with good precision was difficult. As a result we excluded the facet
+\emph{large scale} from the keyword search, and relied on manual filtering.
+Having a substantial part of the matches in non-relevant areas such as agile
+manufacturing, we considered only articles including the term ``software'' or
+articles published in relevant conferences. Instead of further engineering the
+search terms, which proved to result in excluding some relevant articles, we
+chose to manually filter the remaining search results. The resulting facets and
+keywords are listed in Table \ref{table:searchterms}. The search yielded 1874
+unique matches.
 
 \begin{table}
     \begin{tabular}{ p{0.22\textwidth} p{0.76\textwidth} }
@@ -319,14 +369,14 @@ facets and keywords. The search yielded NNNN unique matches.
         Facet                  & Keywords   \\
         \midrule
         Agile methods\newline (before \& after) &
-            agile, scrum, "extreme programming",\newline
-            waterfall, "plan-driven", RUP \\
+            \texttt{agile, scrum, "extreme programming",
+            waterfall, "plan-driven", RUP}\\
         Organizational transformation &
-            transform*, transiti*, migrat*, journey, adopt*, deploy, introduc*,
-            "roll-out", rollout \\
-        Limit to software\newline related atricles &
-            (software OR (conference="agile, xp, icgse, icse"))\newline
-            NOT title+abs="manufacturing", conference="agile manufacturing"
+            \texttt{transform*, transiti*, migrat*, journey, adopt*, deploy, introduc*,
+            "roll-out", rollout}\\
+        Only software\newline related atricles &
+            \texttt{(software OR (conference="agile, xp, icgse, icse"))
+            AND NOT (title+abs="manufacturing" OR conference="agile manufacturing")}
         \\
         \bottomrule
     \end{tabular}
@@ -334,22 +384,17 @@ facets and keywords. The search yielded NNNN unique matches.
     \label{table:searchterms}
 \end{table}
 
-\begin{table}
-    \begin{tabular}{ p{0.28\textwidth} l l }
-        \toprule
-        Database      & URL                     & N of matches   \\
-        \midrule
-        IEEExplore    & http://ieeexplore.ieee.org      & 745 \\ 
-        ACM           & http://dl.acm.org               & 168 \\
-        Scopus        & http://www.scopus.com/home.url  & 1596 \\
-        Web of Knowledge\newline(Thomson Reuters) &
-        http://apps.webofknowledge.com & 786 \\
-        \bottomrule
-    \end{tabular}
-    \caption{Databases included in search}
-    \label{table:databases}
-\end{table}
 
+\subsubsection{Study quality assessment}
+
+The primary research for this literature review consists almost exclusively of
+industry experience reports. This may be seen as a factor lessening the
+evidence.
+--> Why did we do this anyway?
+--> Case studies with research method studying organizational transformations in
+    software industry are very scarce.
+--> Large organizational changes are hard to measure experimentally (controlled
+    experiments?). Also due to this any student research was excluded.
 
 The reason for deviating stydy assessment
 --> Original research consisted almost solely of experience reports
@@ -366,28 +411,6 @@ The fact that the study is based on a quantitative basis
     we also considered topics raised by only a marginal number of reports.
 --> It may still be interesting to make some quantitative observations such as
     a particular problem being reported in the majority of reports.
-
-
-Data extraction was implemented partially using data extraction forms, but also
-by a iterative coding approach. (The reason was? ...). Questions for which the
-answer was easy to trace (for example, organization size, time of
-transformation, and RQ1 why are transformations initiated) were answered by
-filling in a data extraction form. For the more complex research questions (RQ2
-how does transformation usually proceed, RQ3 which are typical success factors
-and challenges) the iterative coding approach was used. The iterative coding
-approach...
---> Possibility to find many different viewpoinits for the research questions
---> Lots of items, which would have lead to much diversity in data extraction form 
-
-
-The primary research for this literature review consists almost exclusively of
-industry experience reports. This may be seen as a factor lessening the
-evidence.
---> Why did we do this anyway?
---> Case studies with research method studying organizational transformations in
-    software industry are very scarce.
---> Large organizational changes are hard to measure experimentally (controlled
-    experiments?). Also due to this any student research was excluded.
 
 
 \subsubsection{Coding of primary documents}
@@ -627,6 +650,22 @@ researchers select the same text passage as a quotation, and that researchers
 agree with the meaning of the quotation. Further interpretation of the
 quotations and codes will still remain a subjective matter.
 
+
+\subsection{Limitations of research method}
+
+-- A keyword search can not identify the facet of \emph{large scale}, and also
+   \emph{transformation} is difficult to capture with keywords. Because of this
+   we assume that it is likely that a some studies have been missed by the
+   keyword search. As an improvement we would suggest combining the entire
+   archive of \emph{Agile Conference} and \emph{Agile Processes in Software
+   Engineering and Extreme Programming} to the results of the keyword search.
+   These two conferences provided more than two thirds of the pimary sources.
+
+-- Few of the primary studies presented a research method. Most of the studies
+   were experience reports where the author was a member of the organization
+   discussed. Because of this we must assume that the primary studies are
+   biased. Due to this risk of bias we chose not to make statistical
+   interpretations of the results.
 
 
 % ---------------------------------------------------------------------
