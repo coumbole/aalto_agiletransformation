@@ -269,7 +269,7 @@ transformation process [ref?].
     with a pilot and spreads gradually through the organization, it is very
     likely that the process is seen as a ``scaling up'' journey.
     However, in general, we do not include discussions purely on scaling up,
-    especially if no organizational change is considered.
+    especially if no organizational change is considered. [Maranzato 2012, Lyon 2008]
 
 The facet of \emph{large scale} was interpreted as presented in section
 \ref{sec:largescale}.
@@ -330,6 +330,14 @@ primary studies.
 
 \subsubsection{Study selection}
 
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=1\textwidth]{graphics/research_process.pdf}
+    \caption{Study selection process}
+    \label{fig:selectionprocess}
+  \end{center}
+\end{figure}
+
 A keyword search in online databases was chosen as the search strategy. The
 databases included in the search are listed in Table \ref{table:databases}. All
 databases supported use of complex boolean logic in searches which allowed us
@@ -360,8 +368,7 @@ manufacturing, we considered only articles including the term ``software'' or
 articles published in relevant conferences. Instead of further engineering the
 search terms, which proved to result in excluding some relevant articles, we
 chose to manually filter the remaining search results. The resulting facets and
-keywords are listed in Table \ref{table:searchterms}. The search yielded 1874
-unique matches.
+keywords are listed in Table \ref{table:searchterms}.
 
 \begin{table}
     \begin{tabular}{ p{0.22\textwidth} p{0.76\textwidth} }
@@ -383,6 +390,50 @@ unique matches.
     \caption{Facets and related search terms used}
     \label{table:searchterms}
 \end{table}
+
+The database keyword search matched 1874 unique papers. The abstracts of these
+papers were categorized independently by both Dikert and Paasivaara into three
+categories: include, excude, and uncertain. The result was combined by marking
+abstracts both researchers agreed on for inclusion or exclusion respecitvely.
+The inclusion of disagreed or uncertain abstracts was resolved through
+discussion. At this stage papers were excluded only if both reserachers deemed
+it clearly irrelevant, including any uncertain cases for full text filtering. As
+a result 170 papers were selected for full text filtering.
+
+% Inter-rater statistics
+%
+%                     Maria
+%            excl   ???   incl    TOT
+%      excl  1578    18    15    1611
+% Kimi ???     84    17     8     109
+%      incl    51    42    62     155
+%      TOT   1713    77    85    1875
+%
+% ???'s =  169
+% in/ex = 1706
+%
+% Pr(Kimi, in) = in / (tot)  =  155 / 1857 = 0.0619
+% Pr(Kimi, ex) = ex / (tot)  = 1611 / 1857 = 0.8675
+% Pr(Maria, in) = in / (tot) =   85 / 1857 = 0.0458
+% Pr(Maria, ex) = ex / (tot) = 1713 / 1857 = 0.9225
+%
+% Pr(e) = Pr(Kimi, in) * Pr(Maria, in) + Pr(Kimi, ex) * Pr(Maria, ex) = 0.8031
+%
+% Pr(a) = (ex-ex + in-in) / tot = 0.8831
+%
+% k = 0.4063
+
+Full text filtering was performed by evaluating each article against the three
+facets of the inclusion criteria. Filtering was done in two steps. In the first
+step Dikert extracted data relevant to the three facets of the inclusion
+criteria. Based on the extracted data 76 papers could be immediately deemed as
+included or excluded. The remaining 94 papers were evaluated against the
+inclusion criteria by both Dikert and Paasivaara, and a decision was made after
+discussing each paper separately. In difficult cases Lassenius was consulted to
+reach a decision. As a result 45 papers were selected for full text analysis. In
+addition 2 papers were included from the references of the evaluated papers, and
+3 papers were included from the results of the preliminary search. Finally, 50
+papers were selected as primary studies.
 
 
 \subsubsection{Study quality assessment}
@@ -558,30 +609,6 @@ because a single quotation may have multiple codes.
     \caption{Number of codes and quotations per code family}
     \label{table:codecount}
 \end{table}
-
-
-% Inter-rater statistics
-%
-%                     Maria
-%            excl   ???   incl    TOT
-%      excl  1578    18    15    1611
-% Kimi ???     84    17     8     109
-%      incl    51    42    62     155
-%      TOT   1713    77    85    1875
-%
-% ???'s =  169
-% in/ex = 1706
-%
-% Pr(Kimi, in) = in / (tot)  =  155 / 1857 = 0.0619
-% Pr(Kimi, ex) = ex / (tot)  = 1611 / 1857 = 0.8675
-% Pr(Maria, in) = in / (tot) =   85 / 1857 = 0.0458
-% Pr(Maria, ex) = ex / (tot) = 1713 / 1857 = 0.9225
-%
-% Pr(e) = Pr(Kimi, in) * Pr(Maria, in) + Pr(Kimi, ex) * Pr(Maria, ex) = 0.8031
-%
-% Pr(a) = (ex-ex + in-in) / tot = 0.8831
-%
-% k = 0.4063
 
 
 \subsubsection{Validation of coding}
