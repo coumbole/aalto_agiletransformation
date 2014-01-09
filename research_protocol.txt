@@ -101,3 +101,12 @@ Lewis   	2007	3	82	30
 Mencke  	2008	2	43	27
 Greening    2013	1	29	12
 
+
+
+Coding corrections
+------------------
+Things to include in a second round of coding:
+
+--> Väitetyt hyödyt mukaan.
+--> Contextual codes
+
