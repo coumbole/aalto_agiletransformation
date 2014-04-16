@@ -470,7 +470,9 @@ criterial were included. Studies presenting the same organization were treated
 as one unit so that we could gain as much insight from each organization as
 possible. There were also a few papers that presented multiple case studies, and
 in those cases we treated each studied organization individually. As a result 42
-unique organizations were identified in the primary studies.
+unique organizations were identified in the primary studies. We use the word
+\textit{case} to refer to the individual case organizations, and the word
+\textit{study} to refer to the primary studies.
 
 % -----------------------
 
@@ -798,6 +800,38 @@ typically published two years after the start of the transformation.
   \end{center}
 \end{figure}
 
+The business areas of the case organizations are presented in table
+\ref{table:businessareas}. Different business areas were represented somewhat
+evenly. Online services was the largest group, including companies
+providing software as a service solutions for businesses, online media players
+for consumers, online services for consumers, and communication software for
+businesses. The second largest group was telecommunications, including companies
+such as British Telecom, Cisco, Ericsson, and Nokia Siemens Networks. The third
+largest group was enterprise management solution providers with products for
+business process management, project protfolio management, and facility
+management.
+
+\begin{table}
+    \begin{tabular}{ l r r r }
+        \toprule
+        Business area    &  Case organizations   \\
+        \midrule
+		Online services for consumers and business  &  9  \\
+		Telecommunications                          &  7  \\
+		Enterprise management                       &  5  \\
+		Banking and financial services              &  4  \\
+		Healthcare                                  &  3  \\
+		IT services                                 &  2  \\
+		Government                                  &  1  \\
+		Information security                        &  1  \\
+		Not specified                               & 10  \\
+        \bottomrule
+    \end{tabular}
+    \caption{Business areas of case organizations in primary studies}
+    \label{table:businessareas}
+\end{table}
+
+
 \subsection{Agile methods used}
 
 \begin{table}
@@ -805,25 +839,25 @@ typically published two years after the start of the transformation.
         \toprule
         Method    &  Reported in studies   \\
         \midrule
-        Scrum            &  28 \\
-        XP               &  5  \\
-        Scrum with XP    &  6  \\
-        Scrum with Lean  &  7  \\
+        Scrum            &  25 \\
+        XP               &  4  \\
+        Scrum with XP    &  5  \\
+        Scrum with Lean  &  6  \\
         Other            &  4  \\
-        Not specified    &  4  \\
+        Not specified    &  1  \\
         \bottomrule
     \end{tabular}
     \caption{Agile methods reported in the transformed organization}
-    \label{table:agile_methods}
+    \label{table:agilemethods}
 \end{table}
 
 The agile methods reported being used in the transformed organizations are
-summarized in table \ref{table:agile_methods}. The most prevalent method was
+summarized in table \ref{table:agilemethods}. The most prevalent method was
 Scrum, which was the sole agile method mentioned in 28 studies. The second most
 mentioned agile method was Extreme Programming (XP). Lean software development
 was mentioned in some studies, although combined to Scrum in all cases. Other
 agile methods mentioned were Unified Process, ADM, and Rapid Application
-Development.
+Development. In one case the agile method was not named.
 
 It was quite common that organizations sought to combine agile methods.
 Especially Scrum, XP, and Lean software development were used together. In
@@ -852,6 +886,56 @@ x              Problems meeting business needs
 
 x  Demand for speed (TTM)
 
+
+\subsection{Transformation process}
+
+\subsubsection{The initial state of the organization}
+
+We investigated the initial state of the case organizations before the
+transformation. The typical initial process model was described as waterfall, as
+stated in 25 cases. In several cases the authors characterized the initial state
+of the organization as ``\quote{traditional}''. CMMI was presented as a driver
+for the original process in 4 cases. Other process models the studies named were
+RUP [P19], Prince2 [P51], and Macroscope [P14]. In 9 cases the initial state was
+not described.
+
+The old model was described in most cases briefly and in a neutral sentiment.
+Waterfall development in general was referred to as ``\quote{traditional,
+plan-based methods}'' [P25], ``\quote{traditional phase-based approach}'' [P36],
+or ``\quote{old fashioned process driven waterfall}'' [P23]. Korhonen [P25]
+referred to the model presented by Royce \cite{Royce1970} when describing the
+initial state.
+
+In some cases specifics of the old model was criticized. The characteristics of
+the old process models were described as having ``\quote{many gates and
+sign-offs required by upper levels of management}'' [P9], ``\quote{lot of
+bureaucracy in project management and a strict hierarchy of requirements
+communication}'' [P39], and ``\quote{project managers typically used a
+command-and-control philosophy}'' [P44].
+
+In a few cases the initial process model was less rigid, and closer to the agile
+model that was to be introduced. Examples of such loose process models were
+described: ``\quote{The choice of development methodology is one of any number
+of degrees of freedom granted to teams at Amazon. Development teams are expected
+to solve their problems in the best way possible}'' [P3], ``\quote{the R&D group
+leveraged a loose, waterfall-based process with an entrepreneurial culture}''
+[P16]. Some organizations had even signs of agile development on team level
+although the surrounding organization operated in a waterfall fashion. This was
+described as ``\quote{Agile and Scrum were increasingly popular and emerging at
+a grass-roots level, at a corporate level Yahoo! still embraced a more
+traditional product development process}'' [P10], and ``\quote{some teams had
+applied scrum on the team level, despite the surrounding organization that was
+working with a waterfall software engineering model}'' [P26].
+
+In a few cases the organization initailly lacked strict process. For instance
+Long described the initial state in the following way: ``\quote{Project scope
+was in constant flux. Well-meaning market and product owners routinely inserted
+new requirements during product development.}'' [P30].
+
+Some authors described the developement being originally organized in silos. For
+instance Ranganath describes that ``\quote{Teams operated in silos.
+Collaboration, shared purpose and ownership for outcomes were hard to find}''
+[P40].
 
 % ---------------------------------------------------------------------
 \section{Discussion}
