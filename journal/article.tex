@@ -1495,6 +1495,420 @@ standards to follow [P8, P43].
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
+"C: Coordinating/integrating work of many teams"
+
+
+* Nightly builds with work products from all teams --> Integration problems
+[P5]
+The nightly build process served as the point in time when the work from five or
+more Scrum teams all came together into a single installable image.  This
+integration effort occurred with the production of every installable image. 
+Integration across so many teams every night was the primary cause of the build
+problems we faced.
+
+
+* Coordination challenge --> Team goal or product goal?
+* Team centric focus created strong boundaries --> Bad for coordination
+[P7]
+A challenge we faced in team coordination was understanding whether to optimize
+the team goal or the product goal. Some teams focused too much on their own
+goals and created strong boundaries, impeding coordination.
+
+
+* How to manage dependencies between teams? --> No further mentionings
+[P9]
+Unresolved at the end of the pilot, however, was the issue of how to manage
+external dependencies with other teams.
+
+* ?
+[P10]
+CROSS-FUNCTIONAL DEPENDENCIES: However well we did within the team, we also
+frequently ran into dependencies on other groups often in other locations –
+groups such as UED (User Experience and Design), operations, legal and the
+Yahoo! security team (affectionately called the Paranoids) – which were
+identified as blocking issues but almost never neatly resolved within our sprint
+boundaries.
+
+
+* Well into the transformation there was trouble with dependencies between teams
+* Management burden to manage dependencies --> Creates problem with roadmapping
+* Hard to create roadmap between teams --> Teams see only their own priorities
+* Reduce dependencies --> Help roadmapping
+[P10]
+Now  teams were  comprised of tight-knit groups that – while collocated wherever
+possible – were  responsible to deliver  value regardless of location,
+technology or historical allegiance.
+However, within six months or so, and despite a pattern  of  success and
+improvement, it became very clear that the new forking between horizontal
+and vertical  teams  placed an enormous burden on the product and program
+management teams to manage dependencies in a way that supported  the  broader
+organizational roadmap.  Teams were structured to execute independently,  but
+the broader product roadmap called for features that  implied  specific platform
+improvements. Establishing a  reliable roadmap therefore required massive (and 
+often unreliable) coordination between teams that were more often  than not
+head-down in their own (sub-sprint) priorities.
+Theoretically,  the product owners (assisted by the Music PMO) would ensure that
+capabilities required by the  roadmap would appear on their own team’s backlog
+at an appropriate level of priority.  In practice, it was very difficult to
+identify  and track such dependencies, especially when the  feature  set  (and
+associated set of dependencies) was constantly in flux.
+Phase 2 of the transition (continuing today –  see Figure 4) therefore  attempts
+to further reduce such dependencies and improve how they are managed over time
+to improve release and roadmap planning.
+
+
+* Team centricity --> Power --> However, they operate with independent priorities --> No respect for larger context (release)
+* Release Framework was created
+[P13]
+Shortly after the initial rollout to 30+ product teams it was clear that we had
+unleashed the power of our individual teams through their new found
+self-organization and focus on short sprints.  However, since we aggregate the
+work of many sprints into a single release it was also becoming clear that our
+scrum teams were operating independently without respect for the context of the
+larger release.  Herding 30+ teams working in the same codeline to a predictable
+time-boxed release date is very challenging in any traditional development model
+let alone an agile development model where we value self-organization over
+centralized control.
+Our answer to this problem was a lightweight Release Framework and the
+introduction of a Release Manager for the overall product release.
+
+
+* Ease coordination by maintaining code quality as top priority, above new features
+[P13]
+We needed to ensure that the process or framework we put into place would
+promote visibility and optimization of the whole release, or of the suite of
+product functionality that we deliver to our customers and our partners.
+With such a large organization working on the same codeline, it was imperative
+that our global priorities were consistent and clear to all scrum teams in order
+to maintain quality of the release throughout the development cycle.  The
+priorities were as follows:
+1. Maintain existing functionality and quality of the overall codeline on a
+daily basis.  All automation regression tests must pass at a 99\% passing
+threshold on every checkin.
+2. Building new functionality is secondary to codeline stability.
+While each scrum team had to invest time to maintain the quality of the codeline
+on a daily basis, they also experienced benefits from it as well.
+
+
+* Individual component teams gained success --> Coordination challenges across teams
+* Managers have difficult to get complete picture of the progress of the release --> Features crossing team boundaries
+* Help: Tool support to visualize dependencies for people
+[P17]
+As individual component teams began to experience success, the challenge changed
+to coordinating across teams. Although iterations were humming along at the team
+level it was initially difficult for managers to get a complete picture of how
+the release was progressing. They were unable to tell when particular features
+were complete as their requirements crossed team boundaries.
+Using Rally’s application for managing the development lifecycle, BMC is now
+able to guide the overall release objectives with themes and high-level
+features.
+
+
+* Initial adopting good
+* Problems with inter-team coordination --> Architecture fragile, code dialects, distrust between teams
+* (Multisite, teams on different sites)
+* Help: Retrospectives across teams --> Created global teams --> Shared backlog
+[P24]
+To embrace and implement Scrum across the different teams and organizations, we
+focused on doing regular retrospectives on both team and company level.
+The first couple of company retrospectives were quite hectic and required some
+extra facilitation techniques to be constructive. But we did identify some of
+the main problems when crossing the team boundaries and working together with
+other departments.
+No matter how much communication we tried to establish between the teams, we
+were still far away from shared team focus on the complete product. As a result
+we could see the architecture becoming more fragile, multiple code dialects and
+distrust between teams were also starting to grow.
+By doing regular retrospectives with all the different teams and across the
+company we identified the main problems and decided it was time to create the
+global Scrum teams. We wanted to improve communication and trust by working on
+shared commitments between the different teams.
+
+We still needed to improve the focus on the complete product and not on "bad
+code” from other teams. The main barrier for building quality into the product
+was the distrust between the teams who worked on the same product. Therefore the
+two R\&D teams in Denmark and Bangladesh were merged into one global team.
+Instead of two distributed teams, working with different sprint backlogs, we
+established one team with one sprint backlog. The problem of building quality
+into the complete product was now a shared team problem, not a management
+problem.
+
+
+* Scrum on team level --> Software interfaces not properly synchronized
+* Problems with larger features
+* Scrum on team level good --> True benefit requires entire program to be flexible for changes
+[P26]
+Using scrum only on the team level had led to additional problems. Software
+interfaces were not properly synchronized with other development teams.
+Larger features were causing synchronization problems due to dependencies in
+code. Synchronization to the main waterfall program was considered problematic.
+Deploying scrum on the team level had brought flexibility in the team, but the
+ability to embrace the change was not truly benefiting the whole program as it
+was lacking capabilities to systematically embed the changes in all teams and
+levels.
+
+
+* Problems with cross team integration, lack of unified build environment
+[P27]
+1. Our department had a lack of program-wide build scripts, build environment,
+   data alignment and testing strategy.
+2. Cross team integration build took too long.
+
+
+* Different customers compete --> Customer centricity does not view the system as a whole
+[P29]
+each customer base views the system only via their process flow.
+We have multiple competing customers crossing multiple co-dependent
+applications, including dependencies on applications outside of our
+organization; multiple funding sources; and a mixture of Waterfall and Scrum
+projects.
+For our software teams to be able to execute efficiently, we will need to push
+the complexity and prioritization upstream, scaling teams to meet demand while
+maintaining clean, simple prioritized Product Backlogs for each product.
+
+
+* First cross team dependencies were reduced --> Problems with too much dependencies
+* Traditional dependency management limited flexibility, which was demanded --> Inflexibility, work intensive, adversarial relationships
+[P34]
+From the onset, we sought to reduce cross-team dependencies as much as possible,
+allowing each of the Scrum teams to “run” at their fastest pace.  However, as
+the number of concurrent work streams increased, so did the number of
+dependencies.  In particular, we found that adopting a SOA ran counter to our
+efforts.
+We quickly faced the prospect of implementing and integrating with a sizeable
+set of centralized services that would be consumed by multiple project teams.
+Within a few months, we had accumulated a significant number of integration
+points, preventing us from delivering fully production-ready software until they
+were resolved.
+Accepting the fact that these dependencies would be part of the project, we
+sought to create a lightweight and efficient process for resolving dependencies
+and integration points.  We recognized that traditional approaches to dependency
+management tend to place significant constraints on the sequence of work,
+reducing the teams’ ability to independently prioritize their backlogs. 
+Furthermore, highly contractual, document-centric approaches to defining
+integration points are work-intensive, prone to error and can create adversarial
+relationships between teams.  We wanted to establish an approach based on direct
+communication and collaboration.
+Our initial integration efforts involving five of the module teams of the Core
+Application were reasonably successful. After some initial scrambling, the teams
+self-organized and established a set of procedures for managing inter-module
+integration.
+
+
+* Worked decently with 5 teams and SoS --> Problems with global deployment
+[P34]
+However, our efforts to facilitate cross-team collaboration within the Core
+Application benefited heavily from the fact that the five module teams were all
+closely co-located, within the same organizational structure and employed an
+active “Scrum of Scrums” model to ensure communication and coordination between
+the teams.  As we pushed this approach out further across the program and the
+globe, we began to experience significant challenges.
+
+
+* Problem: Agile teams were thinking inside the team room walls
+* Success: Thinking of the teams that will integrate to your work
+* Failure: Thinking only inside the team walls
+[P34]
+We found that we had varying degrees of success in managing heavily-used
+services.  In those cases where we were successful, it was invariably due to a
+small group of people from both the consuming and providing teams taking
+ownership of the services and proactively seeking out future integration points
+and potential challenges.  Conversely, in those situations where such ownership
+did not exist and people remained within their team walls, we invariably
+experienced integration challenges: services consistently failing to meet the
+consumer’s requirements and integration points that were poorly tested and
+failed in system testing.
+
+
+* Global effort problems --> Communication regressed to contractual --> Narrow communication channels were used: documents, e-mail
+* Success: Individuals that saw effort in wide-channel communication, Individuals that thought outside team room walls
+[P34]
+As more and more integration occurred across the globe, we witnessed a tendency
+to revert back to contractual forms of communication. As always, distributing
+the development team significantly increases the challenge to directly
+communicate and collaborate.  The natural tendency to rely on e-mail due to
+differences in time zones frequently led to communication breakdowns and
+unnecessary blockages – forming barriers to feedback. In some instances,
+individuals broke through these barriers using instant messaging products, web
+cams and adjusted working hours to facilitate as much direct communication as
+possible.  At the same time other teams regressed, relying on documentation and
+establishing an almost adversarial relationship with their integration partners.
+
+
+* Large program problems --> Green builds hard to maintain
+* Tools insufficient for large
+[P34]
+Given the size and distribution of our development team and the fact that the
+program produced a single, integrated enterprise application, the complexity of
+the build process and the level of effort to maintain it was significant.   As
+the program grew in size, we recognized that the tool set with which we began
+the project was no longer sufficient.  We began experiencing nearly continuous
+broken builds due to conflation and timing issues on the build server.  At this
+point, we began a lengthy initiative to replace the toolsets and revamp the
+entire build process using AntHillPro and Subversion.  As a result, we created a
+build process that effectively managed our myriad of dependencies and supported
+a total build of the application in a reasonable time.
+
+
+* Problems: Integration and dependency management
+* Goal: Foster communication and collaboration instead of rigid processes
+* Problems: Team avoiding external distractions, balance between team membership and project membership --> CI and green builds did not work
+* Problems: Technical leads must work outside of team --> To coordinate
+* Solution: Balance between own goals and project goals --> Think outside team room
+* The team must think of others than them selves, too
+[P34]
+Over the lifetime of the project we encountered two key challenges due to the
+scope and scale of this effort: integration and dependency management and
+continuous integration. When addressing these challenges, we sought to adhere to
+the basic principals of the Agile manifesto as much as possible: making the
+delivery of working software our overriding goal and fostering communication and
+collaboration instead of dictating rigid processes. We sought to empower
+individuals and teams to make decisions and formulate their own processes, and
+to take calculated risks without fear of reprisals.
+
+However, we found that some of the qualities and practices that made the teams
+work effectively in isolation actually reduced their effectiveness in the
+large-scale environment.
+For example: in smaller projects, we work aggressively to avoid external
+distractions and encourage team members to focus exclusively on their individual
+team goals as expressed in the backlog.  In large-scale projects, team members
+must participate in cross-team activities and allocate time to project-wide
+activities.  In particular, team technical leads were required to dedicate
+significant portions of their time outside of the team room.  We found that many
+of our team leads struggled with this task.  While they recognized the need for
+cross-team communication, they resented context switching and the impact on
+their time dedicated to the team’s sprint goals.
+Furthermore, all of the teams struggled with balancing their identity as a team
+member against their membership in the larger project. This was reflected most
+keenly in our failure to sustain continuous integration and produce frequent
+green builds.
+
+Agile team must make trade-offs between stabilizing an application and
+completing more story cards, the size of this project required teams to put
+significantly more time into tracking down issues that were caused by other
+teams or dependencies.   Many team members found this frustrating and
+demoralizing.
+
+
+[P43] Ryan 2008 - The Price of Agile Is Eternal Vigilance.pdf - 43:11 [We implemented a scrum-of-scru..]  (4:48-4:200)   (Super)
+Codes:  [C: Coordinating/integrating work of many teams - Family: RQ3: Challenges] [P: Scrum of scrums - Family: Practices] 
+No memos
+
+We 
+implemented a scrum-of-scrums run by our release 
+management team to identify inter-team dependencies 
+and resolve merge issues before they occur.
+
+
+[P45] Schnitter 2011 - Large-Scale Agile Software Development At Sap Ag.pdf - 45:18 [What could not be mitigated we..]  (4:2133-4:2292)   (Super)
+Codes:  [C: Coordinating/integrating work of many teams - Family: RQ3: Challenges] 
+No memos
+
+What could not be mitigated were issues with teams dependent on “unreliable”
+Scrum teams, at least if the Scrum teams were isolated in a non-Scrum environment.
+
+
+[P45] Schnitter 2011 - Large-Scale Agile Software Development At Sap Ag.pdf - 45:28 [Several approaches are known t..]  (8:522-8:1054)   (Super)
+Codes:  [C: Coordinating/integrating work of many teams - Family: RQ3: Challenges] [P: Scrum of scrums - Family: Practices] 
+No memos
+
+Several approaches are known to co-ordinate the work of several Scrum teams working
+on one product, e.. Scrum of Scrums [9] or MetaScrum [18]. The size and complexity
+of SAP’s products makes it necessary to consider these techniques. To co-ordinate the
+work of multiple Scrum teams and to communicate the requirements via team product
+backlogs, various approaches were combined. Special product teams were formed for
+this purpose. These teams can be regarded as both a permanent Scrum of Scrums and a
+supervisory product owner.
+
+
+[P45] Schnitter 2011 - Large-Scale Agile Software Development At Sap Ag.pdf - 45:32 [Product teams were introduced ..]  (8:1076-8:1627)   (Super)
+Codes:  [C: Coordinating/integrating work of many teams - Family: RQ3: Challenges] 
+No memos
+
+Product teams were introduced as a second organizational layer above the Scrum teams.
+A product team is responsible for the work of up to 7 development teams. It consists
+of the product owners of those teams and the same number of team members who
+are specialists in particular ﬁelds. Depending on the problem area other experts may
+be included. This allows for full engineering coverage of all problem areas expected,
+well-organized communication among the teams, and direct communication with the
+development teams to detect and mitigate risks.
+
+
+[P45] Schnitter 2011 - Large-Scale Agile Software Development At Sap Ag.pdf - 45:33 [Product teams can rarely suppo..]  (9:841-9:1526)   (Super)
+Codes:  [C: Coordinating/integrating work of many teams - Family: RQ3: Challenges] 
+No memos
+
+Product teams can rarely support more than seven Scrum teams. Ifthe products or components are be too big or too complex to be developed in this organizational setup, an
+intermediate organizational layer is inserted between the product team and the Scrum
+teams. These teams are called “area product teams”. Their responsibility is the same as
+the product teams’ responsibility with the exception of budget and ﬁnal product decisions. In this three-layer organization a productteam works similar to a project management ofﬁce. The complete budget and product responsibility is with the product team,
+while the operational day-to-day decisions are handled by the area product teams.
+
+
+[P45] Schnitter 2011 - Large-Scale Agile Software Development At Sap Ag.pdf - 45:38 [Scaling Scrum to a multi-team ..]  (10:1223-10:1784)   (Super)
+Codes:  [C: Coordinating/integrating work of many teams - Family: RQ3: Challenges] [O: Large scale definition - Family: Contextual] 
+No memos
+
+Scaling Scrum to a multi-team development organization is not as easy. Scrum of
+Scrums and backlog preparation for many teams can be combined by product teams
+as outlined above. Looking at all known parameters of agile project management at
+SAP we tend to say that not much more than 130 development employees may be
+organizedin that fashion. This number sums up developers in 7 teams (max. 70 people),
+the product team (max. 16), developmentinfrastructure responsibles (about 10), quality
+assurance and testers (about 25), general management (about 10).
+
+
+[P48] Smits 2011 - Agile Experience Report - Transition And Complexity At Cisco Voice Technology Group.pdf - 48:30 [Tracking progress of hundreds ..]  (4:1657-4:2111)   (Super)
+Codes:  [C: Coordinating/integrating work of many teams - Family: RQ3: Challenges] 
+No memos
+
+Tracking progress of hundreds of teams working on 
+pieces of major features proved to be a major 
+problem. Tools that we were using did not have roll 
+up capability without imposing strict rules on how 
+data was entered, labeled and updated. We found out 
+our tools were not really scalable for the size and 
+complexity of the programs we were working on. 
+This proved a serious handicap in providing 
+executive summary information about progress.
+
+
+[P50] Sutherland 2011 - Hitting The Wall - What To Do When High Performing Scrum Teams Overwhelm Operations And Infrastructure.pdf - 50:20 [A key impediment was the distr..]  (4:1737-4:2643)   (Super)
+Codes:  [C: Coordinating/integrating work of many teams - Family: RQ3: Challenges] 
+No memos
+
+A key impediment was the distributed 
+development model in use by the Scrum teams.  
+Originally, before Scrum adoption, all teams worked
+together in a common environment.  There were 
+many integration issues as a result and no solid 
+process to rectify them.  So with the initial adoption 
+of Scrum in summer 2009 it was decided that each 
+individual Scrum team should have a dedicated and 
+private server with integration to take place after the 
+build.  In retrospect in the fall of 2009, the downside 
+of the decision to break up the environment was 
+being felt as integration issues were being discovered 
+very late,  as  the  build  process  was  the  first  point  of 
+integration.  To overcome this impediment the 
+decision was made to re-integrate all teams onto a 
+single  server  environment  again,  so  that  integration 
+issues could be rectified before they left 
+development.
+
+
+[P51] Vlaanderen 2012 - Growing Into Agility - Process Implementation Paths For Scrum.pdf - 51:12 [Initially, the sprints lasted ..]  (5:230-5:717)   (Super)
+Codes:  [C: Coordinating/integrating work of many teams - Family: RQ3: Challenges] 
+No memos
+
+Initially, the sprints lasted two or three weeks, depending on
+the team, causing a discrepancy between the sprint durations of some of the
+teams. At the same time, interdependencies started to become more of an issue
+as the amount of teams grew. This caused problems when, for instance, frontend teams needed functionality in the back-end that was not yet developed.
+These problems, which consisted mainly of delays, were solved by ﬁxating sprint
+duration at two weeks for all teams.
+
+
 
 % ---------------------------------------------------------------------
 
@@ -1565,6 +1979,10 @@ minimize team changes, and even talked of instituting a “trading deadline.”
 
 * What is similar in organizations of all scales?
 
+* Transformation and scaling up are connected concepts. Although this research
+  focuses on transformation process only, it can not be completely separated
+  from discussion on scaling up, or on large scale agile implementation in
+  general.
 
 % ---------------------------------------------------------------------
 \section{Limitations and future research}
