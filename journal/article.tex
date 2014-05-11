@@ -1702,7 +1702,8 @@ whole of product delivery were sales [P17, P31], infrastructure and operations
 [P28], legal [P10], security [P10], customer services [P48], and finance [P48].
 All of these groups were reported to be affected on some level by the agile
 transformation.
-% separate QA [P3], --> Later human resources --> Later
+% separate QA [P3], --> Later
+% human resources --> Later
 
 Agile affects timings in the software delivery lifecycle which caused two types
 of problems. Firstly, the iterativeness of agile models was problematic when
@@ -1711,27 +1712,43 @@ interfacing with other functions. Iterativeness changed the pace of delivery
 feeding and supporting development had earlier committed once to a long term
 plan, but in the new arrangement they needed to adjust to incremental delivery
 [P48].
-
-Federoff and Courage [P15] describe how the user experience team struggled with
-the 
-
---> Iterativeness and UED
-
---> DS + UED [P6, P9, P10, P15+P28]
-
-
-The second type of problems was that some release activities would inevitably
-have a long lead time, such as acquiring export clearances and licensing
-authority. A particular function that required extended periods of stability was
-sales and marketing, as they were required to make customer commitments and
-communicate upcomming releases a relatively long time ahead. [P31]
-[P38] --> See marketing lead time?
-
-
-The increased delivery speed of development teams caused infrastructure and
-operations teams to fall behind, and they were forced to update their way of
+Especially user experience (UX) and interaction designers did not welcome an
+incremental model [P6], and were struggling with maintaining the big picture in
+design while working in iterations [P9, P10].
+The infrastructure and operations teams were falling behind due to the increased
+delivery speed of development teams, and they were forced to update their way of
 working [P46, P50].
 
+Federoff and Courage [P15] elaborate on the user experience team's problems
+with the short time horizons of Scrum. Previously the UX team had supplied
+development with designs within a long release cycle, but Scrum required
+completing features within weeks. The problem was that that the UX work required
+a holistic view instead of an incremental one, and the design process did not
+fit well into the time frame of a sprint. The UX team was overloaded and
+discontent, but the situation was fixed by refining the schedule for interations
+with development teams. [P15, P28]
+
+The second type of problems was that some release activities would inevitably
+have a long lead time but required committing to a set of functionalities in
+good time. The agile models' emphasis on short time horizon and flexibility in
+prioritization did not mix well with such activities.
+For instance, it would take time to prepare printed marketing material and press
+releases, but they needed to accurately present the upcoming features of the
+product [P38].
+
+Maples [P31] describes that marketing needed three months for preparing the
+product launch, but the agile process allowed development to keep changing the
+content of the product. As a result marketing was struggling with creating
+material and campaigns without knowing the exact product features. Further, the
+processes of acquiring export clearances and licensing authority required that
+the the feature set of the product was known well on beforehand [P31].
+As a result of these requests development felt that their process was being
+slowed down. The issues were solved by agreeing on that marketing could at any
+time request a release in 90 days, and development would be able to commit to a
+fixed feature set to be delivered [P31].
+
+
+% --
 
 Some cases reported that development efforts were controlled on a top level by a
 project management office (PMO). The PMO was described as entrenched in a
@@ -1748,427 +1765,90 @@ have issues in agile adoption was human resouces (HR).
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-UED
-
-* Problem: Idea of iterative design was not welcomed by user experience experts, interaction designers and visual designers
-* These groups would have preferred designing up front
-[P6]
-Design is made up of user experience experts, interaction designers and visual
-designers. The designers’ initial reaction to Agile was similar to the way
-engineering architects react when faced with the idea that you don’t design
-everything up front, that you constantly refactor, and that requirements will
-change. They were quite taken aback.
-
-
-* Problem: user experience specialists need to keep the big picture within iterations
-[P9]
-the user experience specialists’ main difficulty was how to keep the entire user
-interface design in perspective, and still iterate on specific components.
-Comment: The UX people were considered part of the team.
-
-
-* Problems: Interaction with some groups caused blocking issues
-* User Experience and Design, operations, legal, and security team
-[P10]
-CROSS-FUNCTIONAL DEPENDENCIES: However well we did within the team, we also
-frequently ran into dependencies on other groups often in other locations –
-groups such as UED (User Experience and Design), operations, legal and the
-Yahoo! security team (affectionately called the Paranoids) – which were
-identified as blocking issues but almost never neatly resolved within our sprint
-boundaries.
-
-
-
-
 "C: Adapting non-development parts of organization to agile"
 
 
-SOME KIND OF GENERAL ADJUSTMENT?
-
-* Challenge: Product teams need to communicate with business management
-* Challenge: Communicating with marketing
-* Challenge: Field services
-* The ways of working had to be changed for these groups
-[P45]
-Upscaling methods were mainly driven by theoretical considerations. Implementing
-them revealed that the skills and knowledge of product managers and software
-architects were often not sufficient to manage a number of Scrum teams
-concurrently. Product teams had to communicate with business management,
-marketing, and field services who were not fully prepared for how Scrum and the
-product teams’ expectations would change their daily work. The process of
-software requirements engineering were found to require a major adjustment.
-
-
-ITERATIVENESS / SPEEDED UP INCREMENTAL DELIVERY
-
-* Problem: Development started with agile --> Other departments needed to adapt to iterative delivery
-* Challenge: Product manager --> rethink definition of releases
-* Challenge: Marketing --> Adjust how products are taken to market
-* Challenge: Sales --> Manage customer expectations --> Frequency of new functionality
-* Challenge: How to make commitments to customers --> Requirement priorities
-[P17]
-Like many organizations, BMC’s decision to adopt Agile practices started in the
-development organization. These changes inevitably impact the rest of the
-company as all departments adapt to this new pace of incremental value delivery.
-Product managers must re-think how they define releases and work with
-development. Marketing must adjust how it takes products to market. Sales must
-reset customer expectations on how frequently they have access to new
-functionality.
-As they gain experience with agile, BMC is changing the way they make
-commitments to customers. Discussions with customers are centered more on
-requirement priorities and how those priorities can be delivered earlier and
-with greater satisfaction.
-
-
-* Challenge: Surrounding organization adaption
-* Internal customers --> manufacturing, customer services, marketing, sales, field and partner enablement, training, demos, documentation, finance
-* Problem: They were not familiar with incremental planning --> Originally they committed once
-[P48]
-We have found, though, that the most difficult part of our transition is getting
-everything else that must feed and support the product development teams in
-place. In the past, supporting and surrounding organizations counted on having a
-content commitment once. From this, plans were formed and timelines aligned.
-Incremental planning and commitment was something new for the critical internal
-customer teams  as well (manufacturing, customer services, marketing, sales,
-field and partner enablement, training, demos, documentation, finance, and
-senior leaders.)
-
-
-LEAD TIME CONSIDERATION
-
-* Marketing causes trouble
-* Development adopted first --> No plans for how to further adopt the rest of the stakeholders
-* Challenges: Product stakeholders and management, marketing, and rest of business
-* Problem: Marketing --> Lead time for marketing material
-* Solution: non-development groups learned how to work more efficiently
-[P38]
-Another challenge was teaching the rest of the business how to interact,
-participate, and collaborate. This is not limited to the product stakeholders
-and management but also HR, facilities, IT, and marketing. Marketing has
-interesting and important requirements. There are lead times for printing
-material such as fliers, brochures, and conference booth banners. Press releases
-need to have design down to best show off the product’s content. When suddenly
-the site that is the product in many of these cases could change literally on a
-week to week basis, you can see some of the issues that had to be addressed.
-In the agile world people often think “we can figure out how to interface with
-the rest of the business once we’ve gotten the team up and running” and while
-there are certainly teams that learn to interface with a non-agile business it
-is a risk and a barrier to change. In our case we were lucky that with the
-support of the CTO we were able to influence many elements of the business to be
-more agile themselves, which allowed them to work more effectively with the new
-agile development group.
-
-The non-development groups have also embraced some agile principles and are not
-only better set to interact with the development group but also are functioning
-at a higher level themselves.
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-DEVELOPMENT SUPPORT TEAMS were not satisfied with agile
-* UX lacked big picture --> Iterations
-* Problem: UX work in a large application is too large to fit in one sprint
-
-
-* DS team members dissatisfied after agile introduction
-[P28]
-A survey sent to the Technology organization in March 2007 revealed that 80\% of
-respondents felt that agile was making their scrum team more effective. However,
-when looking at the data by functional area, only 30\% of DS team members agreed
-with this statement.  When asked about several other impacts of agile, the same
-trend was seen (Table 1).
-
-
-* The User Experience team members were dissatisfied --> Radical difference in comparison to development
-* Problem: Creating holistic design when agile is done in iterations
-* Problem: Using UX resources across different teams --> UX as a service to teams, instead of part of the team?
-* Solution: Less teams assigned per UX designer
-[P15, P28]
-After the transition, it was clear that User Experience (UX) team members were
-dissatisfied. When asked 6 months into the rollout if agile was making their
-work life better, only 24\% agreed.
-
-While moving to agile was clearly a success for the R\&D organization at
-salesforce.com, the initial transition period was far from smooth for the User
-Experience team.  In 2006, the vast majority of literature on the topic of agile
-did not include guidance on the inclusion of User-Centered Design (UCD)
-processes [4].  In agile literature, ‘design’ typically referred only to coding
-or system design [1].  The User Experience team was left with many unanswered
-questions; some included:
-• How can we properly identify the target users and ensure that their needs are
-met within agile’s just-in-time process?
-• How can we accomplish holistic design when agile teams are planning and
-building features in a piecemeal fashion?
-• How do UX professionals succeed across multiple teams when agile espouses one
-team per person?
-The unhappiness of the UX team was illustrated clearly in the results of a
-survey sent out to the R\&D organization about 6 months after the rollout. 
-Eighty percent of total respondents felt that agile was making their Scrum team
-more effective. However, when looking at the data by functional area, only 30\%
-of User Experience team members agreed with this statement.  When asked about
-several other impacts of agile, the same trend was seen (Figure 3).
-
-Some of the reasons cited by User Experience for their dissatisfaction with agile 
-included: 
-• Assigned to too many teams 
-• Spending too much time in meetings 
-• Not enough time to complete work 
-• Lack of focus on the big picture
-
-Management made the decision to reduce the number of Scrum teams per User
-Experience team member from four or more to a maximum of two. The process of
-determining which teams would receive assigned resources involved the UX
-managers meeting with the VPs of the different product areas to determine the
-priorities of the new features.
-This solution to de-support approximately 35\% of teams was a situation that no
-one was satisfied with. Certainly, the UX team members were pleased with their
-new, realistic workload, but the decision to strand some Scrum teams was not
-accepted. Ease of use is a core value at salesforce.com. Placing the burden on
-the Scrum teams put that value at risk. In the spirit of agile, UX team members
-brainstormed an alternate solution, and the concept of Office Hours (OH) emerged
-[5]. The UX team members determined that by giving two hours of their time per
-week, they would be able to assist Scrum teams that did not have assigned UX
-resources without spreading themselves too thin.
-
-
-* Problem: User Experience design was a long process --> Timeboxing to sprints compromised quality of design
-[P15]
-Tighter timelines were also mentioned. In Scrum, teams select what they will
-work on at the beginning of a sprint and then build those items to completion
-over the course of that sprint; in the case of salesforce.com that is a one
-month period of time, start to finish. These aggressive timeframes can cause UCD
-to be compromised, since investigating and iterating designs often takes longer
-than weeks, particularly for complex enterprise applications.  In this initial
-phase, the User Experience team struggled to find ways to achieve the success
-that they had reached using waterfall. The R\&D division made significant
-progress using agile, though, so the UX team had no choice but to adapt and
-evolve.
-
-
-* Problem: UX work in a large application is too large to fit in one sprint
-* Solution: Parallel design and development
-* UX work is phased some sprints ahead of development.
-[P15]
-In waterfall, the designer could focus on the design in its entirety. In agile,
-the UX team was forced to take the design and break it into pieces that could be
-tackled by development in one month segments.  This can be difficult for complex
-enterprise features such as analytics or workflow which are often impossible to
-design and evaluate as component parts.
-Parallel development and design (Figure 3) is beneficial in the enterprise
-applications space because features are typically too big to be designed,
-usability tested, iterated, validated, built, translated and documented in one
-sprint.
-
-
-* Solution: DS teams had standard timeboxed times to help development teams
-* System Testing and Product Metrics --> Copied good solution from DS
-* These groups did not need a dedicated member in each team
-[P28]
-DS: Development Services --> Documentation, Usability, and User Interface Design
-OH: Office Hours
-Another benefit and success of the OH program has been that the DS team members
-have been able to support teams that traditionally would not have received any
-user experience or product documentation support at all. Teams outside of the
-Technology organization are permitted to book OH slots if the slots are not
-already taken by Technology scrum teams.
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-MARKETING NEEDS TO KNOW ON BEFOREHAND WHAT WILL BE RELEASED
-
-
-* Problem: Teams completed backlog --> Continued with stories direct from customer --> Single customer bias
-* Problem: Sales and marketing organization had a different vision of the product
-* Problem: Product marketing was not collaborative, and in old mindset
-* Problem: Requirements --> user stories more granular and prioritized
-[P31]
-After several months of working on the new products, the Agile teams “drained”
-the backlog.   For a while, they kept busy working on new user stories that came
-directly from the strategic customer.  This began to lead to a disconnect
-between what the marketing and sales organizations believed to be the overall
-direction of the product, and the actual direction it was taking based on the
-needs of a single customer. It was clearly time for a regroup, and the
-engineering team pushed back on the MRD.  They were in full production mode
-using Agile and they needed more granular, prioritized user stories to fuel
-their efforts.  The teams needed product marketing to be more collaborative in
-the decomposition of the requirements. This was a totally foreign concept for
-the product marketing team. They had approached the relationship with
-engineering as a “black box” – high level requirements went in, and something
-eventually came out (usually late, and sometimes off the mark on what they
-expected).
-
-
-* Challenge: Accomodate time for export clearance
-* Challenge: Acquire third-party licensing authority --> prior to product release
-* Challenge: These processes will remain traditional
-* Challenge: Marketing needs some lead time
-* Enablement activities (sales materials, training)
-* These steps take time, but they are part of the product lifecycle
-* Challenge: Must know beforehand what will be in the product
-[P31]
-While changing our process in the front end of the value chain began to yield
-success, we discovered that there was also a traditional wall at the back end:
-our product release process.
-While the Agile approach enables teams to be flexible with regard to
-prioritization, and very adaptive to changing market conditions and customer
-needs, there are certain “laws of physics” required to release commercial
-product that cannot be altered. For example, the time required to acquire export
-clearance or to acquire third-party licensing authority prior to product
-release.  As a vendor that makes products that must be marketed, sold and
-implemented, there are several traditional processes that are involved in
-releasing our products to market.
-
-First there are the regulatory requirements such as export compliance relative
-to exporting code with certain levels of encryption,  then there are the
-marketing launch plans (demand generation campaigns, collateral, Web site,
-public relations), and finally, the field enablement activities (sales
-materials, training).  All these initiatives take time, and they cannot begin
-without knowledge of exactly what is going to be in the product.
-
-
-* Problem: Marketing had to know on beforehand what will be in the release
-* Problem: Business went with requiring a fixed delivery date and a fixed feature set
-[P31]
-Serious friction arose. The development teams became frustrated because they
-felt marketing and the NPI process was stalling their progress and throwing up
-barriers against the core principles they had adopted.  Marketing, who needed to
-begin prepping for the launch of the product about three months before the
-actual date, found themselves struggling to message and develop materials and
-campaigns without a clear understanding of the features and functionality that
-would actually be “ready” on the release date. And, the NPI group could not
-apply for export compliance nor could they request any third party license
-authorization without knowing what was actually going to be in the product.
-
-
-* Solution: Development and product marketing work together
-* Solution: Product marketing can require a release to be completed in 90 days
-[P31]
-What we instituted was what we call an “Iron Triangle.” The concept is that at
-some number of sprints out before a release, we would commit to delivering a
-fixed set of features and functionality  at a certain date.  Of course, there
-was always the opportunity for us to deliver more than what we committed to, 
-but we absolutely had to deliver the set features by the set date.
-
-If  product marketing wants to release product for any reason they can “declare”
-a release date, and  we’re able to lock the current feature set and have  the
-code ready to release within two sprints of the date they declare the release
-necessary.
-
-% TOP LAYER OF ORGANIZATION IS IN WATERFALL MODE
-% --> Generic ``PMO''
-% 
-% * Problem: PMO is employing a waterfall paradigm
-% [P3]
-% the Amazon PMO may some day become interested in Scrum, but they are enmeshed in
-% maintaining and thriving within a traditional waterfall paradigm. Another
-% example is the existence of separate QA groups. Executive sponsorship would help
-% to begin to break down these entrenched impediments.
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% MARKETING NEEDS TO KNOW ON BEFOREHAND WHAT WILL BE RELEASED
 % 
 % 
-% * Problem: There was a gap between marketing or product management and development --> Requirement elaboration as cause
-% [P5]
-% We were able to successfully bridge the gap between marketing or product
-% management feature and the detailed requirements that are required for Agile.
-% 
-% 
-% * Challenge: PMO with entrenched processes
-% * Challenge: Process group at odds with Scrum teams
-% [P6]
-% Align with Project Management: In any large organization like Yahoo! there
-% inevitably exist Project Management Offices with entrenched process control
-% practices. We had conflicts arise in our international offices as they had
-% continued to roll out the original PDP during the U.S. transition to Scrum. The
-% teams attempting to use Scrum were often at odds with the process group and, as
-% a result, the two groups were not communicating well. We tackled this challenge
-% by building relationships and identifying the common goals that both groups were
-% focused on achieving.
-% 
-% 
-% * Challenge: PMO was a bottleneck inhibiting agility
-% [P46]
-% To make this journey a success, it was clear that the transformation had to
-% start with our strong PMO. Here we had the hub of all things project related –
-% coordination, reporting, process quality assurance, compliance, code performance
-% quality assurance and the 100+ project managers themselves – in a central place.
-% Nothing happened without the PMO’s intimate involvement. It was a bottleneck
-% that just could not exist for the organization to be agile. First and foremost,
-% all the project managers were returned to their positions in the development
-% organization, reporting directly to development managers. There the project
-% managers (PMs) became accountable for project success – no longer were they
-% simply facilitators and enforcers of the process. While they had always been
-% accountable for truth in reporting, now they were accountable for results –
-% their bonus was on the line.
-% 
-% * Problem: Development started with agile --> Other departments needed to adapt to iterative delivery
-% [P17]
-% Changes inevitably impact the rest of the company as all departments adapt to
-% this new pace of incremental value delivery. Product managers must re-think how
-% they define releases and work with development.
-
-
-%-- 
-
-% [P17] Like many organizations, BMC’s decision to adopt Agile practices started
-% in the development organization.
-
-% * Development was content with using agile only internally
-% * General problem: Scaling agile practices into use in different roles
-% [P2]
-% One of the challenges faced by this organisation is how to extend an agile way
-% of thinking beyond the developers, and both the Agile Advocates and Project Z
-% believed that agile should cover the entire process
-
-
-% * General challenge: Agile practices work worse in non-development
-% [P18]
-% Agile practices worked well in development teams and some other teams. Not
-% surprisingly, the more distant from development, the less successful the pilot.
-% 
-% “Why change? Agile practices will not suit us.” The further away from actual
-% software development, the less understanding about what benefits Agile ways of
-% working will bring. The idea that Agile works best if customer contact and
-% customer contract are synergistic does not easily penetrate a large
-% organization.
-
-
-% * Development of new products moved to agile first 
-% * Problem: Moving the product from early access to GA --> Value chain has traditional parts
+% * Problem: Teams completed backlog --> Continued with stories direct from customer --> Single customer bias
+% * Problem: Sales and marketing organization had a different vision of the product
+% * Problem: Product marketing was not collaborative, and in old mindset
+% * Problem: Requirements --> user stories more granular and prioritized
 % [P31]
-% The biggest bricks in our Two-Year Wall were being laid outside the development
-% organization. The basic principles of Agile and lean are to reduce waste and
-% deliver working software to the customer as often as possible. However, the
-% development organization does not do this alone. When you look at the end-to-end
-% process, there are many other functions involved:  sales, marketing, legal,
-% finance. What we didn’t understand when we first embarked upon the Agile journey
-% is what a disruptive force our approach would be on the entire company. As I
-% mentioned earlier, the first teams to transition to Agile were those working on
-% a new set of products. These teams had been working very closely with a
-% strategic customer, and in the months prior to the public release of these
-% products the situation was ideal for the collaboration, iteration and pace of
-% releases. The reality is, in the first 18 months of our transformation the
-% original Agile teams were operating as an “Agile microcosm” insulated from the
-% rest of our traditional, multi-phased business processes. Once it became time to
-% move the product from “early access” to general availability – to move from
-% factory to inventory – things started to come apart.  Friction arose as the
-% Agile teams began bumping up against the other, traditional, parts of the value
-% chain.
+% After several months of working on the new products, the Agile teams “drained”
+% the backlog.   For a while, they kept busy working on new user stories that came
+% directly from the strategic customer.  This began to lead to a disconnect
+% between what the marketing and sales organizations believed to be the overall
+% direction of the product, and the actual direction it was taking based on the
+% needs of a single customer. It was clearly time for a regroup, and the
+% engineering team pushed back on the MRD.  They were in full production mode
+% using Agile and they needed more granular, prioritized user stories to fuel
+% their efforts.  The teams needed product marketing to be more collaborative in
+% the decomposition of the requirements. This was a totally foreign concept for
+% the product marketing team. They had approached the relationship with
+% engineering as a “black box” – high level requirements went in, and something
+% eventually came out (usually late, and sometimes off the mark on what they
+% expected).
 % 
-% * Development adopted first --> No plans for how to further adopt the rest of the stakeholders
-% [P38]
-% When suddenly the site that is the product in many of these cases could change
-% literally on a week to week basis, you can see some of the issues that had to be
-% addressed. In the agile world people often think “we can figure out how to
-% interface with the rest of the business once we’ve gotten the team up and
-% running” and while there are certainly teams that learn to interface with a
-% non-agile business it is a risk and a barrier to change. In our case we were
-% lucky that with the support of the CTO we were able to influence many elements
-% of the business to be more agile themselves, which allowed them to work more
-% effectively with the new agile development group.
+% 
+% * Challenge: Accomodate time for export clearance
+% * Challenge: Acquire third-party licensing authority --> prior to product release
+% * Challenge: These processes will remain traditional
+% * Challenge: Marketing needs some lead time
+% * Enablement activities (sales materials, training)
+% * These steps take time, but they are part of the product lifecycle
+% * Challenge: Must know beforehand what will be in the product
+% [P31]
+% While changing our process in the front end of the value chain began to yield
+% success, we discovered that there was also a traditional wall at the back end:
+% our product release process.
+% While the Agile approach enables teams to be flexible with regard to
+% prioritization, and very adaptive to changing market conditions and customer
+% needs, there are certain “laws of physics” required to release commercial
+% product that cannot be altered. For example, the time required to acquire export
+% clearance or to acquire third-party licensing authority prior to product
+% release.  As a vendor that makes products that must be marketed, sold and
+% implemented, there are several traditional processes that are involved in
+% releasing our products to market.
+% 
+% First there are the regulatory requirements such as export compliance relative
+% to exporting code with certain levels of encryption,  then there are the
+% marketing launch plans (demand generation campaigns, collateral, Web site,
+% public relations), and finally, the field enablement activities (sales
+% materials, training).  All these initiatives take time, and they cannot begin
+% without knowledge of exactly what is going to be in the product.
+% 
+% 
+% * Problem: Marketing had to know on beforehand what will be in the release
+% * Problem: Business went with requiring a fixed delivery date and a fixed feature set
+% [P31]
+% Serious friction arose. The development teams became frustrated because they
+% felt marketing and the NPI process was stalling their progress and throwing up
+% barriers against the core principles they had adopted.  Marketing, who needed to
+% begin prepping for the launch of the product about three months before the
+% actual date, found themselves struggling to message and develop materials and
+% campaigns without a clear understanding of the features and functionality that
+% would actually be “ready” on the release date. And, the NPI group could not
+% apply for export compliance nor could they request any third party license
+% authorization without knowing what was actually going to be in the product.
+% 
+% 
+% * Solution: Development and product marketing work together
+% * Solution: Product marketing can require a release to be completed in 90 days
+% [P31]
+% What we instituted was what we call an “Iron Triangle.” The concept is that at
+% some number of sprints out before a release, we would commit to delivering a
+% fixed set of features and functionality  at a certain date.  Of course, there
+% was always the opportunity for us to deliver more than what we committed to, 
+% but we absolutely had to deliver the set features by the set date.
+% 
+% If  product marketing wants to release product for any reason they can “declare”
+% a release date, and  we’re able to lock the current feature set and have  the
+% code ready to release within two sprints of the date they declare the release
+% necessary.
 
-
-% * Challenge: The entire organization must work in the same mode
-% [P42]
 
 
 % ---------------------------------------------------------------------
