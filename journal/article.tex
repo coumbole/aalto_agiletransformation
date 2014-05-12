@@ -1739,11 +1739,48 @@ product launch, but the agile process allowed development to keep changing the
 content of the product. As a result marketing was struggling with creating
 material and campaigns without knowing the exact product features. Further, the
 processes of acquiring export clearances and licensing authority required that
-the the feature set of the product was known well on beforehand [P31].
+the the feature set of the product was known well on beforehand.
 As a result of these requests development felt that their process was being
 slowed down. The issues were solved by agreeing on that marketing could at any
 time request a release in 90 days, and development would be able to commit to a
 fixed feature set to be delivered [P31].
+
+% Requirements engineering is difficult
+
+In agile methods requirements engineering is usually closely tied to the
+development team. However, large development projects will demand additional
+high level requirements management.
+This is apparent in cases where complexity of the product will require
+additional layers of product management [P45], requirements are created by
+several stakehoder groups and development teams can not be in contact with all
+of them [P39], or teams do not have access to stakeholders due to a distributed
+seetting [P24].
+As an integral part of the software development lifecycle, requirements
+management will be affected by the new agile process. In large organizations
+product and requirements management was initially done in a traditional way, but
+it was contrasted by the agile process that required iteratively supplying small
+requirements to development [P51]. The agile method had to be extended to
+include a process on how to get large requirements into team backlogs [P31].
+
+Requirements were in some cases first defined on a high level in marketing
+requirements documents (MRD) [P1, P31] or functional specifications [P33]. These
+high level requirements needed to be elaborated to be used by agile development
+teams. The requirements breakdown in it self was found to be difficult [P1,
+P33], and also when to do the breakdown and to which detail level [P17].
+Product managers and business analysts were struggling in creating high level
+requirements [P33, P37], and teams were struggling in breaking them down to an
+estimable size [P33]. Smits and Rilliet [P48] describe how high level product
+management delivered requirements in too large chunks resulting in development
+teams spending large amounts of time on defining suitaby sized stories. In one
+case the teams were overwhelmed by reprioritization and requirements bartering
+when stakeholders learned that requirements could be rearranged flexibly [P31].
+
+Several cases highlighted that much learning was needed to master the new
+process of creating user stories, both on product management and development
+levels [P27, P30, P33, P37]. There were problems such as ambiguity in
+requirements [P5, P11], and effort estimation for stories was hard to do well
+[P27, P37].
+
 
 % --
 
@@ -1756,545 +1793,23 @@ agile adoption [P3, P6]. The PMO was seen as a hub and bottleneck controlling
 all aspects of projects, and its central structure had to be dismantled for
 the organization to become agile [P46].
 
+% --
+
+Some cases reported  Some organizations used a quality assurance group separate
+from development.
+
 Problems in adopting agile were even showing in functions outside the software
 delivery lifecycle. A support function that was particularly mentioned to
 have issues in agile adoption was human resouces (HR).
 
 
-
-% Requirements engineering is difficult
-
-Point --> Requirements management also needs to adopt the new methodology
-Product management was initially done in a traditional way, but it was not
-capable of iteratively supplying small enough requirements to the agile
-development process [P51]. The agile method had to be extended to include a
-process on how to get large requirements into team backlogs [P31].
-
-And --> The methodology needs to be adjusted
-Scrum had to be adjusted to fit for large scale development, as the methodology
-did not have guidelines on how to large and complex requirements [P31, P51].
-
-In agile methods requirements engineering is usually a task closely tied to the
-development team. However, large development projects will demand more
-requirements management effort.
-This is apparent in cases where complexity of the product will require
-additional layers of product management [P45], requirements are created by
-several stakehoder groups and development teams can not be in contact with all
-of them [P39], or teams do not have access to stakeholders due to a distributed
-seetting [P24].
-
-In the development life cycle requirements were in some cases first defined on a
-high level in marketing requirements documents (MRD) [P1, P31] or functional
-specifications [P33]. The high level requirements needed to be elaborated to be
-used by development teams. The requirements breakdown in it self was found to be
-difficult [P1, P33], and also when to do the breakdown to which detail level
-[P17].
-
-
-Several cases described that much learning was needed to master the new process
-of creating user stories, both on product management and development levels
-[P11, P27, P30, P33, P37]. Also the effort estimation for stories was hard to do
-well [P27, P37].
-
-Product managers and business analysts were struggling in creating high level
-requirements [P33, P37], and teams were struggling in breaking them down to an
-estimable size [P33]. Smits and Rilliet [P48] describe how high level product
-management delivered requirements in too large chunks resulting in development
-teams spending large amounts of time on defining suitaby sized stories.
-
-
-
-Some cases reported  Some organizations used a quality assurance group separate
-from development.
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-LARGE SCALE DEVELOPMENT EFFORT WILL DEMAND MORE FROM REQUIREMENTS MANAGEMENT
-[P17]
-% [P31] --> Scrum needs adjustment [P51b]
-% [P39] --> All subject matter experts can not be brought together
-[P46] --> High level stakeholders must be connected at project start
-[P45] --> Communicating requirements down
-[P51b] -> Non agile requirements management
-  |
-  v
-BREAKDOWN IS HARD IN LARGE SCALE
-[P1]  --> Extracting from MRDs hard (in general)
-[P17] --> Have correct granularity at each phase in the life cycle
-[P33] --> Breaking down backlogs was really hard
-[P37] --> Business analysts not used to breaking down
-[P48] --> Too large requirements to teams
-[P51b] -> 
-
-THERE IS A GAP BETWEEN HIGH LEVEL AND DEVELOPMENT
-[P31] --> Product marketing team was not collaborative at start (product managers)
-[P39] --> Requirements are gathered in a separate function
-[P45]
-
-PROBLEMS IN REQUIREMENTS DEFINITION BEGINNING
-[P31]
-[P46]
-
-CUSTOMERS NOT AVAILABLE
-% [P39]
-
-GENERAL AGILE PROBLEM
-[P5]  --> Requirements defined ambiguously
-
-BAD BEHAVIORS IN REQUIREMENTS MANAGEMENT
-[P31] --> Backlog bartering
-[P31] --> Teams listened to single customer instead of big picture set by product marketing team
-
-
-CREATING USER STORIES WAS GENERALLY HARD TO LEARN
-
-* Writing user stories was difficult at start --> It was hard to learn the breakdown practice
-* Hard to do well in sprint planning session
-[P11]
-Writing and grooming user stories seems like a simple process during Scrum
-training.  When many teams start sprinting at once, no one starts off as an
-expert at writing stories.  In the mad rush to convert requirements to stories,
-many stories had the correct format, but were often too big, too ambiguous, or
-too prescriptive.  Product owners and teams who held grooming sessions once or
-twice a week over time refined their backlogs so that planning meetings were
-short, and there was no wasted time between sprints trying to figure out what to
-do next.  For one untended product backlog, we instituted “speed grooming” where
-we spent a maximum of five minutes discussing a story to categorize it as “ready
-for a team,” “obsolete,” “more grooming,” etc., so the stories could be readied
-for upcoming sprints.  Most of our stories were for system software, not end
-user features, so teams consistently underestimated how long a story would take,
-and would complain that it couldn’t be broken down further.  All of sudden they
-were being required to break down work that used to take months into tasks of a
-few hours.  In hindsight, we could have reduced stress on everyone if we had
-devoted more time upfront to developing everyone’s skills in writing stories and
-decomposing epics.
-
-
-* In the beginning the team had problems learning how to break down requirements into stories
-* Solution: Better customer and team collaboration --> More real customer, less internal customer
-[P27]
-The team had difficulty estimating tasks during the planning session: What
-should go into a story? How should a task card be written? Is the story points
-system better than the hour’s system? We also had a lack of well-defined
-acceptance criteria before and during the planning session.
-
-One solution we came up with was to improve the relationship between us and our
-internal customers. Planning sessions were dreaded - long and not well
-structured. Our team was driven based on the internal customer requirements,
-which went into a backlog that the program manager also known as Susha
-maintained. The more efficient way to understand what a task entailed was to
-involve the customers in our planning meeting and pair up with them on writing
-the actual story. The customers partnered up with us for 15 minutes during the
-planning sessions.
-
-
-* Agile raised awareness of requirements churn
-* Completed stories did not always add value for clients --> Stories defined badly
-* Problem: There was a separation between development teams and customers
-[P30]
-The introduction of Agile raised visibility of the requirements churn and lack
-of clarity in feature definition, but writing good user stories remained
-difficult, due in part to the separation between the client and product
-development teams. Engineering became known as the “story-eating engine.”
-Stories were being completed, but did not always add value for clients.
-Agile successfully exposed the next areas needing attention: defining
-value-added stories.
-
-* The shift in practice from functional specs to user stories is challenging
-[P33]
-The transition from writing full product or functional specs to writing user
-stories is challenging. Learn how to break up larger features into smaller user
-stories, and prioritize them.
-
-
-* Business analysts have problems with stories
-* No skills in requirements breakdown
-* Story breakdown was difficult practice --> Teams
-* Things got better with time
-[P37]
-Our business analysts were running into the same issue one level up. They were
-not used to providing feature requirements in story form, much less breaking
-down these ”feature” level stories into stories that could be reasonably
-estimated by the development team. I realized almost immediately the stories
-were too big, but you can’t force immediate understanding. Like any skill,
-estimating takes practice. We went through many agonizing estimation and story
-breakdown sessions before we started to get some traction. As we began to build
-up some historical data this closed the feedback loop. The team was able to see
-that we were frequently underestimating and that this was directly connected to
-the trouble we were still having with story breakdown.
-
-We started finishing cards, but found that estimates of hours often took weeks.
-Stories would spawn additional stories in order to reach completion. For
-example, a story that started with a two day estimate would generate a week’s
-worth of stories (sometimes even more than a week!). Many agile developers would
-say ”Great! That’s part of agile.” Gaining clarity on a story and understanding
-that there is more to it is part of the process. Unfortunately this was
-happening far too often.
-
-
-"C: Difficulties with requirements engineering or backlog"
-
-
-
-* Not agile: MRDs --> Stories had to be extracted from detailed documentation --> Not good
-* MRDs not based on reality
-* Extracting user stories from MRDs --> Breakdown hard because of too much detail in MRDs
-[P1, P2]
-Extracting user stories from existing, very detailed ‘marketing requirements
-documents’ (MRDs) was another workaround. These MRDs were a prominent artifact
-found across the organisation. Leaders of Project Z claimed that it was very
-difficult to work with such detailed documents in a project whose scope could
-change rapidly; one agile developer described MRDs as “not based in reality at
-all”.
-Comment:
-The problem with MRDs is a symptom of the challenge to integrate "the business" with the agile process.
-
-
-* The requirements were vaguely defined in the beginning --> Abmbiguity in requiements
-* There was no extended QA period when requirements ambiguities were resolved in the old model
-* Connection to QA
-* Solution: better requirements management
-* Solution: New role to bridge gap between high and detailed level
-* Solution: Requirements are elaborated JIT
-* Solution: Requirements runway [P17]
-[P5, P17]
-There was constant debate over both the meaning of the requirement and whether
-or not the requirement was met.  Quality Assurance engineers were frustrated
-trying to determine whether or not we should accept this feature.  Simply put,
-we had not invested enough of our velocity in either up front or ongoing
-requirements elaboration.
-Going into the second release, we knew we had to do a better job with managing,
-elaborating, and prioritizing requirements.  This had strictly been an issue
-regarding where we chose to invest our energy.
-Properly managing requirements was critical.
-
-* The scale of the enterprise did not allow for ``throw away stories''
-* Problem: Scale/size demands better requirements management 
-[P17]
-As BMC went through their initial iterations, they realized there was often a
-gap between the level of detail in their system level features and the detail
-needed for iteration planning and execution. The use of simple “throw away
-stories” was insufficient to their challenge of scale. To bridge this gap, BMC
-created the role of Requirements Architect as part of each development team.
-The responsibility of each Requirements Architect is to take the high-level
-features defined by product management and decompose these on a just-in-time
-basis into the more detailed requirements and stories needed to drive iteration
-planning and development.
-This new role increased the accuracy of development estimates and improved the
-collaboration between the development team and product management.
-
-
-* Problem: Correct granularity in requirements at each stage in the life cycle
-[P17]
-One of the challenges BMC faces is defining the right level of requirement
-detail at the right time in the life cycle. BMC is now using Rally Software to
-manage a prioritized feature backlog and to elaborate the requirements and
-stories for each component that will likely be needed to implement the feature.
-
-
-* High level requirements are problematic
-[P30]
-Continuing progress includes:
-* Managing an effective enterprise backlog.
-
-
-* Large scale requires adjustment to Scrum practices --> Requirements --> Getting things in backlog
-* Enterprise QA
-[P31]
-we discovered some areas that would require us to adapt our chosen Scrum
-methodology to account for the realities of complex, large-scale development. 
-Two key activities fell outside the scope of our original Scrum framework
-1. Informing how things get into the backlog, and 2. Enterprise testing.
-
-
-* The agile setup allowed for change --> Backlogs could be changed at beginning of each sprint
-* Backlog bartering --> Negative effects --> Distrust
-* Collaboration between product marketing and development to manage requirements
-[P31]
-Once the organization began to understand the increased productivity of the
-Agile teams, and they saw that every three weeks the teams selected what they
-would work on, they began to grasp the possibility that any feature request
-could be delivered in mere weeks.
-And, suddenly, we found the backlog was “up for grabs” at the beginning of each
-sprint.
-Requests came flooding in from the field, from marketing, from our support
-organization. They would be automatically added to the backlog, and each sprint
-became an opportunity to evaluate and reprioritize.
-And, since the Agile approach increases collaboration, everyone had the
-opportunity to “lobby” for his or her requests to make the backlog. This
-constant influx of demand from several sources began to put a strain on the
-system.  Questions about how to prioritize the backlog items and a subversive
-process of “backlog bartering” began. This negatively impacted the teams and
-their performance, and it also generated distrust among the various groups.
-
-
-* Problem: Teams completed backlog --> Continued with stories direct from customer --> Single customer bias
-* Problem: Sales and marketing organization had a different vision of the product
-* Problem: Product marketing was not collaborative, and in old mindset
-* Problem: Requirements --> user stories more granular and prioritized
-[P31]
-After several months of working on the new products, the Agile teams “drained”
-the backlog.   For a while, they kept busy working on new user stories that came
-directly from the strategic customer.  This began to lead to a disconnect
-between what the marketing and sales organizations believed to be the overall
-direction of the product, and the actual direction it was taking based on the
-needs of a single customer.
-It was clearly time for a regroup, and the engineering team pushed back on the
-MRD.  They were in full production mode using Agile and they needed more
-granular, prioritized user stories to fuel their efforts.  The teams needed
-product marketing to be more collaborative in the decomposition of the
-requirements. This was a totally foreign concept for the product marketing team.
- They had approached the relationship with engineering as a “black box” –
-highlevel requirements went in, and something eventually came out (usually late,
-and sometimes off the mark on what they expected).
-
-* Problem: MRD is not dynamic
-* Problem: MRD requirements scoped once a year --> Teams decide for themselves
-* Problem: Product marketing team was very disrupted of the requirement of collaboration!
-[P31]
-Further, the MRD needed to be more dynamic. Because the teams had achieved a
-predictable, efficient pace of delivery, scoping the requirements of a release
-once a year wasn’t enough to feed the engine.  Without the proper fuel the teams
-were left to decide for themselves what new things to work on, driving further
-disconnect between the groups. The concept of continuous collaboration
-throughout the development cycle was a very disruptive concept for the product
-marketing team.
-
-
-* Backlog management was difficult
-* Requirements breakdown was very difficult
-* Teams did not have insight on how to organize backlogs across teams
-* Inconsistency of backlog management practice between teams
-[P33]
-In addition to the hottest ideas coming off the IdeaExchange, salesforce.com’s
-product managers also have backlogs of important features, and these product
-backlogs are an integral part of ADM.
-The initial creation and prioritization of product backlogs was an ominous
-challenge, and nearly impossible to achieve in the two-month timeframe the
-product managers were allotted. Breaking down requirements into both epic and
-detailed user stories was arduous, and the way in which the requirements were
-broken down was inconsistent between teams because each team had limited insight
-into how other teams were organizing their product backlogs.
-To address this issue, salesforce.com built an in-house app called  Scrumforce
-
-
-* Challenge: Writing user stories is hard
-* The shift in practice from functional specs to user stories is challenging
-* User stories should be written complete and accurately --> in the beginning of the sprint
-* (no further mentionings of large scale)
-[P33]
-The transition from writing full product or functional specs to writing user
-stories is challenging. Learn how to break up larger features into smaller user
-stories, and prioritize them.
-
-With user stories come smaller and more vague requirements, and because of the
-agile nature of the development process, the product owner has a tendency to
-change requirements during a sprint. Often, this is due to the product owner not
-specifying the full requirements before the sprint starts. This can waste time
-and result in work that is thrown away. User stories should be complete, have
-acceptance criteria, and be usability tested before being added to a sprint.
-Having clear guidelines prepared for when the team is ready to tackle a user
-story will help reduce waste.
-
-
-* Requirement management was difficult
-* Actual stakeholders were not available for teams 
-[P39]
-there were a number of difficulties in requirements management. Actual
-stakeholders weren’t available for the teams due to  many reasons and they used
-another consulting company in the UK to gather their requirements, design UI and
-communicate them back to teams. Even more requirements were provided from risk
-management subject matter experts in London.
-Comment: This sounds a bit like the initial state.
-
-
-* Large scale problem
-* It is impossible to bring all subject matters together in a large project
-[P39]
-Product discovery workshops are an extremely efficient technique allowing for
-quick elaboration of a product roadmap and creating mid-term requirements
-details. However, as most efficient tools do, it has certain limitations. One of
-them is the need to have the PO and the team co-located for a sprint which might
-be a budget issue for a distributed project. Another one is the nature of a PO
-role in enterprise projects where you simply can’t bring all the subject matter
-experts in one place with the team for any reasonable amount of time.
-
-
-* Product management unable to communicate requirements down to development
-* High level design functions had hard time communicating together and with development
-[P45]
-Around the same time some problems surfaced which were not connected to Scrum
-usage but needed to be resolved before moving to Scrum on a large scale:
-1. Communication among product management, software architects, development
-   teams, and quality assurance was not strong enough to ensure a common
-   understanding of development goals. Product management often was unable to
-   communicate product requirements to software engineers. Languages and
-   notations differed significantly.
-2. The role of software architecture (high-level design) was not yet well
-   understood. This led to increased dependencies among products and components,
-   e.g. because componentization was weak and code reuse was highly valued.
-   Another result was the lack of conceptual preparation for the development
-   teams for whom there were too many obstacles to harmonize on interfaces and
-   adhere to delivery timelines.
-To overcome both problems a team was formed to provide education on software
-architecture for developers, software architects, and product management.
-
-
-* Requirements engineering must be done differently
-* Product management has a hard time managing many agile teams simultaneously
-[P45]
-Upscaling methods were mainly driven by theoretical considerations. Implementing
-them revealed that the skills and knowledge of product managers and software
-architects were often not sufficient to manage a number of Scrum teams
-concurrently. Product teams had to communicate with business management,
-marketing, and field services who were not fully prepared for how Scrum and the
-product teams’ expectations would change their daily work. The process of
-software requirements engineering were found to require a major adjustment.
-
-
-* Backlog could not be managed sensibly for teams over 130 people
-* Product management with a too large scope did not work
-* Managing requirements for product backlog is difficult in large scale (generally)
-* Hierarchial requirements management is troublesome
-* The organization's hierachy is reflected in requirements management
-[P45]
-A three-level hierarchy of teams to manage requirements for product backlog
-generation has not yet proven to work as expected. Currently the high complexity
-of SAP’s products which is reflected in the organizational structure of SAP’s
-development areas makes it impossible to drop one hierarchy level of project
-management. This observation has triggered significant effort to rigorously
-break up SAP’s product lines into separate components to ensure that no product
-component needs more resources than the 130 people as calculated above.
-
-
-* Problems with backlogs at project start --> inconsistency at project start
-* Product management (PO) tasks have to be done at project start
-* Technology and business leadership (high level) needs to be engaged strongly at project start
-[P46]
-After month 16 of our journey, focus shifted toward connecting the product
-owners, Scrum Masters and technology managers prior to the project start. Our
-projects were starting without good backlogs and the level of product owner
-involvement was inconsistent, causing projects to start slowly. After some soul
-searching we concluded that we were treating agile development as a paradigm
-shift (mapping existing roles to Scrum roles, yet not doing anything different).
-What we needed was to educate it as a new paradigm. The result was Agile
-Connections. This is a sequence of training that starts with an overview to
-create awareness and desire to use agile practices in delivering the business
-value. Then, hands-on workshops transfer knowledge, followed by jump starts and
-coaching to help reinforce the ability to use the practices. The overall goal is
-to get the product owner, ScrumMaster and technology manager together to enable
-projects to start better.
-
-
-* Too large requirements to teams --> Could not break down stories
-* Difficulties in breaking down requirements to stories
-* Business (high level) requirements management gave too large chunks of requirements to development
-[P48]
-An executive Portfolio Investment Committee was initiated with the goal of
-working across all of the business units in our Technology Group to set
-investment priorities. Two problems emerged – we did not have the management
-information to support the decisions of the Portfolio Committee, and information
-about the strategic decisions and direction were not effectively communicated to
-the organization so that all participants in the system release planning process
-were informed. The next stage of “decomposition” of Themes, Epics and User
-Stories didn’t really happen, so that the chunks of work were so large that the
-Product Teams and Scrum teams had to spend an inordinate amount of time breaking
-things down, (and clarifying the requirements at the lower levels) before any
-sprint zero or sprint planning could occur.
-
-
-* Sprint planning was taking too long --> User story breakdown was too difficult
-* Solution: Story estimation is done more iteratively
-[P51] (Case A)
-The sprint planning meeting initially took approximately one day, because all
-the user stories had to be discussed, estimated and planned at once. This was
-considered too long to be effective. Therefore, story estimation is now done
-regularly throughout the sprints. This requires shorter bursts of attention,
-which eases the process. On the day of the sprint planning, the product owners
-present the user stories to their own team(s), followed by the selection and
-planning of user stories by the development teams. The process of selection and
-planning now takes approximately one hour, instead of one day.
-
-
-* Requirements given from product management too large --> not enough detail for development
-* Product management adapted to Scrum --> Continuous attention to product backlog
-* Scrum does not tell how to manage large requirements on different levels 
-[P51] (Case B)
-Until 2007, agile product development was accompanied by non-agile product
-management. Although several stages of elaboration were employed, no fixed
-cycles were used. This caused that product managers did not manage to provide
-development with sufficiently detailed requirements before the start of each
-sprint. To improve this, the product management team adjusted their process to
-the Scrum principles as well. This implied a continuous adaptation of the
-product backlog to a changing environment. Since Scrum itself does not provide
-guidelines for effectively managing large amounts of requirements of different
-granularity, a set of stages has been introduced, called the Agile Requirements
-Refinery [26]. Within the agile requirements refinery, an idea will generally
-move through the stages vision, theme, concept, and requirement definition.
-During these stages, requirements are refined with details and specifications.
-This has resulted in a new categorization on the product backlog.
-
-
-
-
-MULTISITE CASE
-
-% * Requirements engineerinf was difficult in Multisite
-% [P24]
-% Initially we started with the Product Owner (PO) as a role for sales and account
-% management. It worked reasonably well with local teams in Denmark when they
-% could collaborate and meet when required. But it did not work well with teams in
-% Bangladesh. We moved some of the very experienced senior developers and
-% consultants into global PO roles to establish a more structured flow of tasks
-% and collaboration with the teams. To establish a structure to improve the flow
-% of work between the Danish and the Bangladeshi teams we introduced a “Proxy PO”
-% for each team in Bangladesh.
-% 
-% Understanding the problem domain and how the different requirements were related
-% was still hard. We used many different techniques to move the domain knowledge
-% and user understanding out to the different teams.
-% 
-% 
-% * Solution: Global planning is required for multisite
-% [P24]
-% Global planning:
-% Having one team and therefore one sprint backlog meant, that we had to do sprint
-% planning together. Not an easy task, but after some experiments, we came up with
-% a solution that worked for us:
-% 
-% • The whole global team was presented with the user stories online
-% • The global team went offline and started to break down the stories and meet to
-%   synchronize sprint backlog items into one sprint backlog
-% • The global team informed the PO of the result
-% 
-% We spent a lot of time trying to make it work well, and it required a high level
-% of trust between all parties. It also required a lot of knowledge of the
-% business domain, but made it easy to ask for the relevant knowledge when doing
-% the breakdown and planning.
-% 
-% 
-% * Colocation of requirements communication is required even in multisite  
-% [P24]
-% The R\&D team could build the best quality code, but we kept building elements
-% of the wrong things. It was almost like building a top of the line V12 engine, for
-% a solar cell car race. The trust between the team and the PO were at stake. “I
-% told you to build an engine, and you should have known it was an electric engine
-% I needed”. So once again we had to improve the quality and understanding of
-% requirements between the PO and the global team both before and during the
-% actual development in the sprint. After retrospectives and more discussions, we
-% decided to try moving the PO into the Danish R\&D team room.
-
-
 % ---------------------------------------------------------------------
 
 
 % ---------------------------------------------------------------------
-
-
-
-
 
 
 
