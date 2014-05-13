@@ -1781,45 +1781,7 @@ levels [P27, P30, P33, P37]. There were problems such as ambiguity in
 requirements [P5, P11], and effort estimation for stories was hard to do well
 [P27, P37].
 
-
-% Problems with HR
-
-Problems in adopting agile were even showing in functions outside the software
-delivery lifecycle. In several cases human resouces (HR) was a support function
-mentioned to work against the agile adoption. In order to gain full results of
-the transformation the entire organization should to be aligned, including HR
-[P38, P42, P49].
-Especially the rewarding practices set by HR were seen as problematic for the
-agile model. Rewarding was tied to personal performance, which was acting
-against team centric thinking and the agile model in general [P3, P6, P49].
-One case reported even on a practice of tracking failures down to individuals
-[P40].
-
-% --
-
-% This where?
-
-Some cases reported that development efforts were controlled on a top level by a
-project management office (PMO). The PMO was described as entrenched in a
-waterfall paradigm, and the top-level rigidity was causing friction in the
-agile adoption [P3, P6]. The PMO was seen as a hub and bottleneck controlling
-all aspects of projects, and its central structure had to be dismantled for
-the organization to become agile [P46].
-
-% --
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% When developing large software systems individual teams will not have resources
-% to verify on their own that the results of an iteration pass the QA of the
-% entire system. In these cases separate testing groups will perform heavy testing
-% tasks.
-%  
-% The activities of specialized QA teams still needs to be coordinated with
-% development teams 
-
+% Problems with enterprise or external QA
 
 In an enterprise setting quality assurance (QA) tasks will require effort beyond
 the general agile convention of doing testing within a crossfunctional team. In
@@ -1848,346 +1810,37 @@ retroactively resolve ambiguities in requirements [P5]. However, as agile
 required QA work to be done incrementally with development problems with
 ambiguity in requirements became an impediment to QA [P5].
 
+% Problems with HR
 
-% ---------------------------------------------------------------------
+Problems in adopting agile were even showing in functions outside the software
+delivery lifecycle. In several cases human resouces (HR) was a support function
+mentioned to work against the agile adoption. In order to gain full results of
+the transformation the entire organization should to be aligned, including HR
+[P38, P42, P49].
+Especially the rewarding practices set by HR were seen as problematic for the
+agile model. Rewarding was tied to personal performance, which was acting
+against team centric thinking and the agile model in general [P3, P6, P49].
+One case reported even on a practice of tracking failures down to individuals
+[P40].
 
-* There is a separate test team --> Not integrated with development teams
-* Problem: There is a 2 iteration lag for defects found by the test team
-[P30]
+% --
 
-* Separate Systems Teams --> System validation
-* Development teams did not know how to create increments that would be testable
-* Connection to requirements engineering
-[P48]
+% This where?
 
-* There was offshore QA resources --> They still needed to be leveraged
-* An arrangement was set up to leverage external QA
-[P17]
-
-* Separate QA groups --> General impediment (not elaborated)
-[P3] (Skip this? too vague)
-
-
-ENTERPRISE TESTING EXPLAINED
-
-* Enterprise testing --> Falls outside Scrum
-[P31]
-
-* In waterfall there are several test environments the release goes through
-* In agile it is hard to fit going through these environments
-* Hard to fit large scale testing in agile
-* The test environment model had to be revised
-[P29]
+Some cases reported that development efforts were controlled on a top level by a
+project management office (PMO). The PMO was described as entrenched in a
+waterfall paradigm, and the top-level rigidity was causing friction in the
+agile adoption [P3, P6]. The PMO was seen as a hub and bottleneck controlling
+all aspects of projects, and its central structure had to be dismantled for
+the organization to become agile [P46].
 
 
-% LACK OF AUTOMATION
-% 
-% * Testers were not engaged with the agile process --> For what reason? --> Generally
-% [P10]
-% * Solution: QA responses are handled in the second half of the sprint
-% [P10] (skip this?)
-% * There was a separate QA --> It was a bit difficult to integrate QA with the development teams
-% * QA tasks did not fit inside sprints --> There was lots of legacy code that needed to be regression tested
-% * Legacy code took long to test
-% [P10]
-% 
-% * Lack of automated tests --> Rush in testing
-% * Rushing to release --> Little time to test --> Automated tests skipped
-% [P11]
-% 
-% * Continuous build environment missing --> late discovery of bugs
-% * Late discovery of bugs --> hard to stay releasable
-% * There are iterations that are forced to be only testing and fixing
-% * Invest in test automation
-% [P17]
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% CONNECTION TO RE
-% 
-% * Separate Systems Teams --> System validation
-% * Development teams did not know how to create increments that would be testable
-% * Connection to requirements engineering
-% [P48]
-% 
-% * Requirements ambiguity --> Was originally resolved in an extensive QA period in the end of the development cycle
-% * QA was struggling --> Requirements were done badly --> Learning was needed  
-% [P5]
-
-
-% SPECIALIZED TESTING
-% 
-% * Some testing activities are not focused in agile --> Performance, load, memory
-% * These testing activities must not be forgotten
-% * A separate Integration Test Team --> Works also on these special testing activities
-% [P17]
-% 
-% * Performance, scalability testing --> Require a lot of resources
-% * This enterprise testing must be performed --> Teams can not do it
-% * These testing types need to be centralized --> Specialized environments, specialized tasks
-% * Development teams share the enterprise testing team
-% * Solution: A separate EQC was established offsite
-% [P31]
-% 
-% * External system testing team --> Their work is not needed all the time by teams
-% * They perform work that is necessary for DoD of teams
-% * Problem: How to organize system testing resources so that all teams can be served
-% [P28]
 
 
 % ---------------------------------------------------------------------
-
-("C: QA is difficult in agile" | "C: Problems with separate non-agile QA")
-
-
-
-* Separate QA groups --> General impediment (not elaborated)
-[P3]
-the Amazon PMO may some day become interested in Scrum, but they are enmeshed in
-maintaining and thriving within a traditional waterfall paradigm. Another
-example is the existence of separate QA groups. Executive sponsorship would help
-to begin to break down these entrenched impediments.
-
-
-* Requirements ambiguity --> Was originally resolved in an extensive QA period in the end of the development cycle
-* QA was struggling --> Requirements were done badly --> Learning was needed  
-[P5]
-There was constant debate over both the meaning of the requirement and whether
-or not the requirement was met.  Quality Assurance engineers were frustrated
-trying to determine whether or not we should accept this feature.  Simply put,
-we had not invested enough of our velocity in either up front or ongoing
-requirements elaboration.
-Going into the second release, we knew we had to do a better job with managing,
-elaborating, and prioritizing requirements.  This had strictly been an issue
-regarding where we chose to invest our energy.
-Properly managing requirements was critical.
-
-
-* Testers were not engaged with the agile process --> For what reason? --> Generally
-[P10]
-INTEGRATING  QA: We noticed that many testing actions were inevitably deferred
-until the end of the sprint or remained incomplete, and that the testers seemed
-less engaged with the process.
-Comment: This does not say that the testers are separate from the team...
-
-
-* Solution: QA responses are handled in the second half of the sprint
-[P10] (skip this?)
-How could we adapt Scrum – or otherwise change our own behaviors – in order to
-integrate QA, manage dependencies, focus our daily meetings and release software
-at the end of sprints of a reasonable duration? Inspired by ideas encountered at
-an industry conference (SD Best Practices), the team decided to extend its scrum
-approach in two simple ways.
-Four weeks still felt like the shortest sprint duration that made sense if our
-aim was to deliver potentially shippable releases at the end of each sprint. 
-However, the addition of two-week TASK CYCLES [1] provided a way to structure
-our time within a sprint to good effect (as shown in Figure 5).  During the
-first task-cycle within a sprint the developers would focus on implementation of
-backlog items that we expected to appear in the sprint release.  These changes
-would be checked into our MAIN  code branch. During the second task cycle within
-the sprint the developers would divide their time between resolving issues
-reported by QA while testing those backlog items (as a priority), and continuing
-to work on backlog items that we expected to appear in the following sprint
-release.
-
-
-* There was a separate QA --> It was a bit difficult to integrate QA with the development teams
-* QA tasks did not fit inside sprints --> There was lots of legacy code that needed to be regression tested
-* Legacy code took long to test
-[P10]
-Indeed, each step forward was accompanied by the discovery of additional
-challenges (the next layer  of the  onion).  Several new problems now came to
-the fore:
-(1) REGRESSION DEFECIT: despite tighter integration of the  QA  team,  it
-quickly became clear that our large legacy code base made necessary a  much
-larger amount of testing than  we  could  easily accommodate  within a sprint,
-or even a multisprint release, even when  developers  dropped everything to join
-the testing effort  as  a  release approached.
-
-
-* Lack of automated tests --> Rush in testing
-* Rushing to release --> Little time to test --> Automated tests skipped
-[P11]
-Scrum preaches test driven design and releasable product every two to four
-weeks.  For some of our newer products that had been rushed to market, there
-were few tests and, due to restructuring, no test teams.  Fortunately, engineers
-were used to testing each others’ code within the team.  But there were no
-automated builds, and no automated tests, and some test cycles took an entire
-week or more.  Since multiple teams were in the same situation, it was easier to
-get buy in to launch a Scrum project focused on creating an organization-wide
-structure for automating builds and testing that all Cloud Engineering teams
-could use.
-
-
-* There was offshore QA resources --> They still needed to be leveraged
-* An arrangement was set up to leverage external QA
-[P17]
-BMC needed to continue leveraging QA resources in India while adopting agile
-methodologies. Their solution was to create blended QA teams that matched one
-Lead QA engineer co-located with the US-based development organization with
-several QA engineers located in India. The co-located Lead QA engineer provides
-the necessary coordination and communication at daily US stand-ups, and then
-communicates back to the India-based QA resources on progress and priorities.
-The result is that BMC is able to gain the benefits of a round-the-clock QA
-cycle.
-
-
-* Continuous build environment missing --> late discovery of bugs
-* Late discovery of bugs --> hard to stay releasable
-* There are iterations that are forced to be only testing and fixing
-* Invest in test automation
-[P17]
-One of the most difficult challenges is staying releasable throughout the
-development cycle. There are several causes – including late defect discovery
-and the deferral of major bugs due in part to lack of a continuous build
-environment. In turn, these issues cause the need for multiple hardening
-iterations spent on pure test and fix activities. Going forward, BMC will
-address these issues with two initiatives:
-1. Maintaining and improving the continuous integration environment.
-2. A focus on pulling testing forward in the cycle using test-driven development
-   (TDD) practices at both the unit test and acceptance test levels, and
-   increasing the investment in test automation.
-
-
-* Some testing activities are not focused in agile --> Performance, load, memory
-* These testing activities must not be forgotten
-* A separate Integration Test Team --> Works also on these special testing activities
-[P17]
-It is easy to overlook standard engineering best practices when focusing on the
-new planning, development and testing behaviors of the agile paradigm. Sometimes
-standard BMC practices like performance testing, load testing and monitory
-memory usage weren’t executed until late in the development cycle. Pulling these
-activities forward in the release cycle and maintaining an integration test bed
-is the responsibility of a newly-formed Integration Test Team that insures that
-cross-team functionality is performing properly throughout the release cycle.
-
-
-* External system testing team --> Their work is not needed all the time by teams
-* They perform work that is necessary for DoD of teams
-* Problem: How to organize system testing resources so that all teams can be served
-[P28]
-Both the System Testing team and the Product Metrics team have implemented OH.
-Both of these teams perform work that is vital to the Technology team’s
-definition of “done” for a sprint; therefore, it is important that scrum teams
-have access to these resources. However, not all scrum teams need a dedicated
-system testing engineer, and no scrum teams need a dedicated product metrics
-analyst. Therefore, these two functional teams are ideal candidates for OH.
-
-The System Testing team has implemented OH for scrum teams to utilize the
-expertise of the system testing engineers as well as the system testing
-environments. Like the DS team, the System Testing team does not have enough
-staff to meet the demands for its services. In addition, many of the tasks that
-the system testing engineers do can be performed by other scrum team members.
-Therefore, the System Testing team has instituted OH similar to the UE OH.
-During the System Testing OH, system testing engineers work with scrum team
-members on:
-
-• Training scrum team members on how to use system testing environments and
-  tools.
-• Reviewing system testing results.
-• Validating features that have system testing requirements for scrum teams
-  without an assigned system testing engineer.
-
-The Product Metrics team has implemented OH in a similar way. During Product
-Metrics OH, the product metrics analysts help scrum team members with:
-
-• Defining what types of metrics are relevant to track the adoption of their features.
-• Using and interpreting the feature adoption metrics that are in the metrics database.
-
-
-* In waterfall there are several test environments the release goes through
-* In agile it is hard to fit going through these environments
-* Hard to fit large scale testing in agile
-* The test environment model had to be revised
-[P29]
-In a waterfall process, code is iterated and each build is deployed to a
-development unit test (DUT) environment.  This environment is primarily used by
-developers to test their own code.
-When the code has been determined as stabilized, a build is deployed into
-another environment called the development integration test (DIT) environment. 
-This is the environment where component testing often begins with build
-verification and unit tests being run.
-When a build it deemed “ready” it is iterated and deployed into a system
-integration test environment (SIT) where end-to-end and system testing such as
-performance is done.
-The last stop for a build is the user acceptance test environment (UAT) where
-user and other types of testing is done.
-Every major build from release candidates to the final build will eventually
-have gone through each environment.  This model while effective in a waterfall
-method does not adapt easily to the Scrum Model.
-
-
-* There is a separate test team --> Not integrated with development teams
-* Problem: There is a 2 iteration lag for defects found by the test team
-[P30]
-The software testing team tried many ways to coordinate with development teams
-over the first few sprints, but ultimately decided to run its own Scrum. They
-received work items from development teams when work items were “completed.” The
-result: a two-week iteration lag between the discovery of a defect and the time
-it could be fixed. Defects were queued to enter the development team’s next
-sprint. Another iteration lapsed before verification of the fix could occur.
-Because of the high cost of fixing defects, triage on defects was conducted by
-product owners and testers who chose not to fix some defects in exchange for new
-features.
-
-
-* Enterprise testing --> Falls outside Scrum
-[P31]
-we discovered some areas that would require us to adapt our chosen Scrum
-methodology to account for the realities of complex, large-scale development. 
-Two key activities fell outside the scope of our original Scrum framework
-1. Informing how things get into the backlog, and 2. Enterprise testing.
-
-
-* Performance, scalability testing --> Require a lot of resources
-* This enterprise testing must be performed --> Teams can not do it
-* These testing types need to be centralized --> Specialized environments, specialized tasks
-* Development teams share the enterprise testing team
-* Solution: A separate EQC was established offsite
-[P31]
-we realized that we were relying on our partnership with a very large customer
-to test the scalability of one of our products.  We would “drop” new code into
-their environment after each sprint, and they would let us know where we had
-issues. We knew that as we scaled Agile practices to more of the organization,
-using our teams and customers as test labs would lead to serious problems. So we
-decided to establish a formalized enterprise testing process. According to Scrum
-practices, all testing, including enterprise testing, should be done within the
-Scrum team, and a user story is only complete once it is fully tested. Certain
-types of enterprise testing pose challenges to this principle. Performance
-requirements, for instance, are often based on scenarios that transcend
-individual user stories. To incorporate performance, scalability and integration
-testing, we would have to adapt our Scrum practices.
-
-A few years ago, Borland established an Enterprise Quality Center (EQC) in
-Singapore.  This test lab is our central resource for all scalability,
-performance and integration testing.
-
-While our solution involves teams being dependent on an external organization
-and requires us to have two versions of “complete” for a user story, the benefit
-is that the EQC has become a virtual resource that we are able to provision as
-needed to the various Scrum teams. While this may be a controversial move, it is
-absolutely necessary.  We simply cannot release products that have not been
-fully enterprise tested.
-
-
-* Separate Systems Teams --> System validation
-* Development teams did not know how to create increments that would be testable
-* Connection to requirements engineering
-[P48]
-• We agreed to make the Systems Teams (system validation and trials) the
-pacemaker – the metronome - of the new agile framework, and it turned out that
-moving to time-boxed and phased execution of their activities was actually a
-welcome change for many. Instead of random delivery of products to the test and
-trial phases, the model these groups developed had a schedule of acceptance
-dates, which provided the Systems Teams much more flexibility. It also gave the
-teams opportunities for early exposure of defects and integration problems.
-
-• Unfortunately, the Product Teams were not able to deliver software components
-that could be tested or trialed early. So in effect, Systems Teams were “all
-dressed up with no place to go…”. It seems that the Scrum teams didn’t know how
-to break down their work into consumable pieces that could logically be
-delivered, tested and trialed incrementally.  Primarily this was because our
-portfolio and roadmap processes were at “too high a level”.
-
 
 
 
