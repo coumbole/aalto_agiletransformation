@@ -172,6 +172,8 @@ pp. 64 - 69, 2002.
 * Self organization and independence of teams -- This is a question relating how
   to organize management. 
 
+* Scrum master must not command and control -- Scrum master as manager??
+
 % ---------------------------------------------------------------------
 \section{Research method}
 \label{sec:method}
@@ -783,22 +785,6 @@ the studies was an interview article. The publication forums of the primary
 studies were distributed so that 57 sources were conference proceedings, 4
 sources were journal articles, and one source was a technical report.
 
-\begin{figure}[b]
-  \begin{center}
-    \includegraphics[width=1\textwidth]{graphics/organization_size.pdf}
-    \caption{Distribution of organization sizes in primary studies}
-    \label{fig:organization_size}
-  \end{center}
-\end{figure}
-
-The size of the organizations varied from the minimum included size of 50 to
-18,000 people. The median size was 300 people. In 7 studies the size was
-presented in terms of teams, ranging from the minimum of 6 teams to 150 teams.
-The median was 10 teams. In 8 studies there was no direct indication on size
-but the issues discussed revealed that the organization was of large size
-accoding to our definition. The distribution of organization sizes is presented
-in figure \ref{fig:organization_size}.
-
 Figure \ref{fig:transformation_time} summarizes the publication years of the
 primary studies, and the years when the transformations were reported to have
 started. All studies and transformations were dated after year 2000. There were
@@ -813,7 +799,34 @@ typically published two years after the start of the transformation.
   \end{center}
 \end{figure}
 
-\begin{table}[bh]
+The size of the organizations varied from the minimum included size of 50 to
+18,000 people. The median size was 300 people. In 7 studies the size was
+presented in terms of teams, ranging from the minimum of 6 teams to 150 teams.
+The median was 10 teams. In 8 studies there was no direct indication on size
+but the issues discussed revealed that the organization was of large size
+accoding to our definition. The distribution of organization sizes is presented
+in figure \ref{fig:organization_size}.
+
+\begin{figure}[b]
+  \begin{center}
+    \includegraphics[width=1\textwidth]{graphics/organization_size.pdf}
+    \caption{Distribution of organization sizes in primary studies}
+    \label{fig:organization_size}
+  \end{center}
+\end{figure}
+
+The business areas of the case organizations are presented in table
+\ref{table:businessareas}. Different business areas were represented somewhat
+evenly. Online services was the largest group, including companies
+providing software as a service solutions for businesses, online media players
+for consumers, online services for consumers, and communication software for
+businesses. The second largest group was telecommunications, including companies
+such as British Telecom, Cisco, Ericsson, and Nokia Siemens Networks. The third
+largest group was enterprise management solution providers with products for
+business process management, project protfolio management, and facility
+management.
+
+\begin{table}[!t]
     \begin{tabular}{ l r }
         \toprule
         Business area    &  Case organizations   \\
@@ -834,17 +847,6 @@ typically published two years after the start of the transformation.
     \caption{Business areas of case organizations in primary studies}
     \label{table:businessareas}
 \end{table}
-
-The business areas of the case organizations are presented in table
-\ref{table:businessareas}. Different business areas were represented somewhat
-evenly. Online services was the largest group, including companies
-providing software as a service solutions for businesses, online media players
-for consumers, online services for consumers, and communication software for
-businesses. The second largest group was telecommunications, including companies
-such as British Telecom, Cisco, Ericsson, and Nokia Siemens Networks. The third
-largest group was enterprise management solution providers with products for
-business process management, project protfolio management, and facility
-management.
 
 
 \subsection{Agile methods used}
@@ -1164,12 +1166,13 @@ Big bang
 
 Transitional
 
+\clearpage
 
 \subsection{Challenges in transformation}
 
 Any organizational transformation involving numerous individuals will face some
-challenges. As stated by Research Question 3, we investigated what are typical
-challenges that large organizations introducing agile methods face.
+challenges. As stated by Research Question 3, we investigated what challenges
+large organizations introducing agile methods may face.
 
 The challenges presented in this section are factors that primary studies
 described hindering the progress of the transformation.
@@ -1179,6 +1182,14 @@ imlementation. These issues are still included as creating an agile
 implementation can be seen as a part of the transformation process.
 Some solutions for challenges are also presented, but they should be considered
 as ways of describing the challenges rather than direct success factors.
+
+\begin{figure}[!b]
+  \begin{center}
+    \includegraphics{graphics/challenges_summary.pdf}
+    \caption{Challenges in agile transformation}
+    \label{fig:challenges_summary}
+  \end{center}
+\end{figure}
 
 Challenges can be organized on a high level into three categories. First we
 discuss challenges relating to managing the transformation. These challenges
@@ -1201,9 +1212,9 @@ development to agile.
 
 \subsubsection{Change resistance}
 
-To start a transformation the organization needs an initial push. However,
-people are usually disinclined to change, and it any organizational change
-should anticipate some resistance. People will not be willing to change unless
+In an organizational transformation working habits and roles need to change.
+However, people are usually disinclined to change and some resistance should be
+anticipated in any change process. People will not be willing to change unless
 there are good reasons, and the change is preceived easy enough. It is difficult
 to attain a buy-in for a change, and even organizations that have a flexible
 culture will face resistance [P10]. It should be expected that not everyone will
@@ -1216,7 +1227,7 @@ instance, Fecarotta [P14] described the organization of Boeing as risk-averse
 and cautious which slows down any change. The organization was also described
 having a deeply rooted status-quo because of high employee retention, which
 further hindered change [P14]. In some cases it was reported that people worried
-about new roles and responsibilities that agile would possibly bring [P44]. For
+about new roles and responsibilities that the agile model might bring [P44]. For
 instance, testers were worried that they would need to take on cross functional
 tasks, which would be outside their area of expertise [P18]. Yet another reason
 for change resistance was the move from own offices to team areas [P22]. People
@@ -1525,24 +1536,23 @@ impact on the coordination effort [P17].
 
 \subsubsection{Large organization issues}
 
-The primary studies revealed challenges which relate particularly to large
+The primary studies revealed challenges that relate particularly to large
 scale. Additional layers of management are usually necessary to steer large
 groups of people, but agile methods provide little guidance on how to organize
-management. Also, as large organizations accomodate many development teams there
-may be problems if the development models between teams are not synchronized.
-Internal fragmenttation is a further problem that may be encountered in large
-organizations.
+management. Problems may arise in a large environment if the schedule of agile
+adoption varies from team to team. Internal fragmenttation is a further problem
+that may be encountered in large organizations.
 
 % Roles of managers
 
 The existence of additional management positions may pose problems to agile
 processes that emphasize self organization.
-The role of middle management was seen as unclear in agile methods [P2]. This is
-problematic as an agile transformation requires cultural change especially on
-the middle management level [P2].
-It was described that people in management positions needed to resist the
-tendency to take command and control to allow room for self organization, but
-the change in role was difficult to achieve for the people involved [P11, P52].
+Especially the role of middle management was seen as unclear in agile methods
+[P2]. This is problematic as an agile transformation requires cultural change
+particularly on the middle management level [P2].
+It was described that managers needed to resist the tendency to take command and
+control and allow room for self organization, but the change in role was
+difficult to achieve for the people involved [P11, P52].
 Nielsen and McMunn [P30] describe how the project management group had
 previously worked through big up front plans and competing of resources, but
 those ways would need to dramatically change.
@@ -1564,21 +1574,21 @@ new positions more suitable for agile [P38, P52].
 In most cases a large organizational transformation proceeded gradually, and
 during the process it was possible that the new agile model was used in parallel
 with the old methods. The arrangement of using the old and new models side by
-side was seen as problematic [P1, P26], and causing tensions on all
+side was seen as generally problematic [P1, P26], and causing tensions on all
 organizational levels [P10]. Ongoing projects had been set up with previous
-development methods, and the agile methods needed to be arranged to fit with
-them [P8, P29]. A particular problem in collaborating between projects using
-different models was that in Scrum the software design was fleshed out over time
-as sprints progressed, but the waterfall model would require detailed design to
-be locked early in the project [P29].
+development methods, and the agile methods needed to be arranged to fit along
+with them [P8, P29]. A particular problem in collaborating between projects
+using different models was that in Scrum the software design was fleshed out
+over time as sprints progressed, but the waterfall model would require detailed
+design to be locked early in the project [P29].
 
-Despite the agile introduction there were problems with management working
-according to the old waterfall model. O'Connor [P38] described management as
-``focused on meetings and big up front project plans'' despite agile being in
-use. In another case management was losing confidence in agile because familiar
-reports on cost analysis and percentage complete were not produced [P35]. As
-Scrum teams did not commit to fixed schedules they were considered unreliable
-according to the original model [P45].
+Even when agile had been taken into use in development there were problems with
+management working according to the old waterfall model. O'Connor [P38]
+described management as ``focused on meetings and big up front project plans''
+despite agile being in use. In another case management was losing confidence in
+agile because familiar reports on cost analysis and percentage complete were not
+produced [P35]. As Scrum teams did not commit to fixed schedules they were
+considered unreliable according to the original model [P45].
 
 Some cases reported that development efforts were still controlled on a top
 level by a project management office (PMO). The PMO was described as entrenched
@@ -1597,13 +1607,13 @@ of two processes [P48].
 
 % Challenge: Differing vocabularies
 
-In addition to teams using agile and waterfall methods side by side it is
-possible in a large organization that the agile interpretations of teams start
-diverging. When many teams implement agile without consistent guidance friction
-and fragmentation may be generated [P9]. The organization may require moving
-people between teams from time to time, and therefore it would be desirable that
-no big differences in teams' agile cultures exist. Divergence in process would
-create risk increasing costs when relocating people [P38].
+In addition to teams using agile and waterfall models side by side a large
+organization makes it possible that the agile interpretations of teams diverge.
+When many teams implement agile without consistent guidance friction and
+fragmentation may emerge [P9]. The organization may require moving people
+between teams from time to time, and therefore it would be desirable that no big
+differences in teams' agile cultures exist. Divergence in process would create
+risk of increased costs when relocating people [P38].
 Further, if processes of teams diverged management had difficulties in
 forecasting and comparing work of different teams [P38, P48]. To overcome
 problems with divergence in agile models some organizations defined standards to
