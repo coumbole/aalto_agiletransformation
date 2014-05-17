@@ -1638,22 +1638,43 @@ impact on the coordination effort [P17].
 
 
 
-\subsubsection{Large organization issues}
+\subsubsection{Other issues in large organizations}
 
-The primary studies revealed challenges that relate particularly to large
-scale. Additional layers of management are usually necessary to steer large
-groups of people, but agile methods provide little guidance on how to organize
-management. Problems may arise in a large environment if the schedule of agile
-adoption varies from team to team. Internal fragmenttation is a further problem
-that may be encountered in large organizations.
+In addition to inter-team coordination there were also other challenges that
+should only emerge in a sizable organization.
+Additional layers of management are usually necessary to steer large groups of
+people, but agile methods provide little guidance on how to organize management.
+Problems may arise in a large environment if the schedule of agile adoption
+varies from team to team. Internal fragmenttation is a further problem that may
+be encountered in large organizations.
+Table \label{table:challenges_largescale} summarizes these challenges.
+
+\begin{table}[b]
+    \centering
+    \begin{tabular}{ >{\raggedright\arraybackslash}p{0.56\textwidth}
+                     >{\raggedright\arraybackslash}p{0.36\textwidth} }
+        \toprule
+        Challenges relating to large scale  &  Described in \\
+        \midrule
+        Management roles unclear in agile       &  P2, P11, P27, P30, P38, P49, P52 \\
+        Using old and new models side by side   &  P1, P8, P10, P26, P29 \\
+        Management uses waterfall model         &  P3, P6,P35,P38, P45, P46  \\
+        Duplicating management with two models  &  P20, P48 \\
+        Agile models diverge between teams      &  P8, P9, P38, P43, P48 \\
+        Internal boundaries in organization     &  P10, P11 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Summary of challenges relating especially to large scale}
+    \label{table:challenges_largescale}
+\end{table}
 
 % Roles of managers
 
 The existence of additional management positions may pose problems to agile
 processes that emphasize self organization.
-Especially the role of middle management was seen as unclear in agile methods
-[P2]. This is problematic as an agile transformation requires cultural change
-particularly on the middle management level [P2].
+Especially the role of middle management was unclear in agile methods [P2]. This
+is problematic as an agile transformation requires cultural change particularly
+on the middle management level [P2].
 It was described that managers needed to resist the tendency to take command and
 control and allow room for self organization, but the change in role was
 difficult to achieve for the people involved [P11, P52].
@@ -1782,9 +1803,9 @@ reorganization made it diffucult for teams to plan ahead [P11].
 
 Agile methods are typically considered as a set of activities closely related to
 software development. Cases describe how development teams were the first
-entities in the organization that were considered when introducing agile [P2,
-P17, P31, P38]. However, development operates in a larger context and will need
-to interface with other organizational functions.
+entities that were considered when introducing agile [P2, P17, P31, P38].
+However, development operates in a larger context and will need to interface
+with other organizational functions.
 Challenges were faced when exposing other parts of the organization to the agile
 model, and functions that were further away from development were resistant to
 change [P2, P18, P31]. A tension was growing between development and broader
@@ -1810,7 +1831,7 @@ customer services [P48], and finance [P48].
   \end{center}
 \end{figure}
 
-Agile affects timings in the software delivery lifecycle which caused two types
+Agile affects timings in the software delivery lifecycle, what caused two types
 of problems. Firstly, the iterativeness of agile models was problematic when
 interfacing with other functions. Iterativeness changed the pace of delivery
 [P17], and forced design to focus on a shorter scope [P15]. Various groups
@@ -1835,7 +1856,7 @@ with development teams. [P15, P28]
 
 The second type of problems was that some release activities would inevitably
 have a long lead time but required committing to a set of functionalities in
-good time. The agile models' emphasis on short time horizon and flexibility in
+good time. The agile model's emphasis on short time horizon and flexibility in
 prioritization did not mix well with such activities.
 For instance, it would take time to prepare printed marketing material and press
 releases, but they needed to accurately present the upcoming features of the
@@ -1868,35 +1889,47 @@ One case reported even on a practice of tracking failures down to individuals
 
 \subsubsection{Integrating requirements management and quality assurance}
 
-Traditionally development is preceeded by requirements engineering and succeeded
+Development is traditionally preceeded by requirements engineering and succeeded
 by quality assurance (QA) activities. Agile methods suggest that essential parts
 of these activities would be performed within the development team. However,
 when developming large systems the effort required for managing requirements and
-QA may be too heavy for individual teams to handle.
+QA may be too heavy for individual teams to handle. Table
+\ref{table:challenges_requirementsandqa} presents challenges in implementing
+additional requirements management and quality assurance required in large
+development projects.
+
+\begin{table}[t]
+    \centering
+    \begin{tabular}{ >{\raggedright\arraybackslash}p{0.61\textwidth}
+                     >{\raggedright\arraybackslash}p{0.31\textwidth} }
+        \toprule
+        Challenges in requirements engineering and quality assurance  &  Described in \\
+        \midrule
+        How to accommodate high level requirements management  &  P24, P31, P39, P45  \\
+        Problems with breakdown of requirements        &  P1, P17, P33, P48  \\
+        Creating and estimating user stories is hard   &  P5, P11, P27, P30, P33, P37 \\
+        Handling coexisting long and short term planning  &  P9, P10, P13, P26, P31, P38 \\
+        Accommodating performance, load, and memory testing  &  P17, P28, P31, P48 \\
+        Lack of automated testing slows down           &  P10, P11, P17 \\
+        New requirements management practices affect QA  &  P5, P48 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Summary of requirements engineering and quality assurance related
+             challenges relating in the agile model}
+    \label{table:challenges_requirementsandqa}
+\end{table}
 
 % Requirements engineering is difficult
 
-In agile methods requirements engineering is usually closely tied to the
-development team. However, large development projects will demand additional
-high level requirements management. This is apparent in cases where complexity
-of the product will require additional layers of product management [P45],
-requirements are created by several stakehoder groups and development teams can
-not be in contact with all of them [P39], or teams do not have access to
-stakeholders due to a distributed seetting [P24]. Agile methods need to be
+In agile methods requirements engineering is usually informal and closely tied
+to the development team. However, large development projects will demand
+additional high level requirements management. This is apparent in cases where
+complexity of the product will require additional layers of product management
+[P45], requirements are created by several stakehoder groups and development
+teams can not be in contact with all of them [P39], or teams do not have access
+to stakeholders due to a distributed seetting [P24]. Agile methods need to be
 extended to include a process on how to get large requirements into team
 backlogs [P31].
-
-% As an integral part of the software development lifecycle, requirements
-% management will be affected by the new agile process. In large organizations
-% product and requirements management was initially done in a traditional way, but
-% it was contrasted by the agile process that required iteratively supplying small
-% requirements to development [P51]. 
-
-Several cases highlighted that much learning was needed to master the new
-process of creating user stories, both on product management and development
-levels [P27, P30, P33, P37]. There were problems such as ambiguity in
-requirements [P5, P11], and effort estimation for stories was hard to do well
-[P27, P37].
 
 Requirements were in some cases first defined on a high level in marketing
 requirements documents (MRD) [P1, P31] or functional specifications [P33].
@@ -1909,10 +1942,22 @@ requirements [P33, P37], and teams were struggling in breaking them down to an
 estimable size [P33]. Smits and Rilliet [P48] describe how high level product
 management delivered requirements in too large chunks resulting in development
 teams spending large amounts of time on defining suitaby sized stories.
-% ?
-In one case the teams were overwhelmed by reprioritization and requirements
-bartering when stakeholders learned that requirements could be rearranged
-flexibly [P31].
+
+Several cases highlighted that much learning was needed to master the new
+process of creating user stories, both on product management and development
+levels [P27, P30, P33, P37]. There were problems such as ambiguity in
+requirements [P5, P11], and effort estimation for stories was hard to do well
+[P27, P37].
+
+% As an integral part of the software development lifecycle, requirements
+% management will be affected by the new agile process. In large organizations
+% product and requirements management was initially done in a traditional way, but
+% it was contrasted by the agile process that required iteratively supplying small
+% requirements to development [P51]. 
+
+% In one case the teams were overwhelmed by reprioritization and requirements
+% bartering when stakeholders learned that requirements could be rearranged
+% flexibly [P31].
 
 % Long term planning
 
