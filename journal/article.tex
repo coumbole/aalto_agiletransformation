@@ -177,6 +177,10 @@ pp. 64 - 69, 2002.
 * People centricity -- agile is not for squeezing efficiency -- agile is not for
   fewer career opportunities in a flatter organization.
 
+* Team centricity -- agile focuses on team rather than individuals
+
+* Agile focuses on short time horizons ???
+
 * Agile is a mindset -- it can not be studied from a book -- need of coaching
 
 % ---------------------------------------------------------------------
@@ -376,7 +380,8 @@ primary studies. The databases included in the search are listed in Table
 searches which allowed us flexibility when constructing the search strings.
 
 \begin{table}
-    \begin{tabular}{ p{0.28\textwidth} l l }
+    \centering
+    \begin{tabular}{ l l l }
         \toprule
         Database         & URL                         & N of matches   \\
         \midrule
@@ -404,17 +409,19 @@ we chose to rely more on manual filtering. The resulting facets and keywords are
 listed in Table \ref{table:searchterms}.
 
 \begin{table}
-    \begin{tabular}{ p{0.22\textwidth} p{0.76\textwidth} }
+    \centering
+    \begin{tabular}{ >{\raggedright\arraybackslash}p{0.22\textwidth}
+                     >{\raggedright\arraybackslash}p{0.70\textwidth} }
         \toprule
         Facet                  & Keywords   \\
         \midrule
-        Agile methods\newline (before \& after) &
+        Agile methods (before \& after) &
             \texttt{agile, scrum, "extreme programming",
             waterfall, "plan-driven", RUP}\\
         Organizational transformation &
             \texttt{transform*, transiti*, migrat*, journey, adopt*, deploy, introduc*,
             "roll-out", rollout}\\
-        Only software\newline related atricles &
+        Only software related atricles &
             \texttt{(software OR (conference="agile, xp, icgse, icse"))
             AND NOT (title+abs="manufacturing" OR conference="agile manufacturing")}
         \\
@@ -554,7 +561,9 @@ than using an a priori approach was to avoid the researchers' previous
 assumptions of the research area to affect the choice of codes
 
 \begin{table}[h]
-    \begin{tabular}{ p{0.28\textwidth} p{0.7\textwidth} }
+    \centering
+    \begin{tabular}{ >{\raggedright\arraybackslash}p{0.26\textwidth}
+                     >{\raggedright\arraybackslash}p{0.66\textwidth} }
         \toprule
         Contextual code     & Explanation   \\
         \midrule
@@ -565,13 +574,13 @@ Business area & The business area in which the organization operates. \\
 
 Organization size & Mentioning the size of the case organization. \\
 
-Time of\newline transformation & When the transformation has been in
+Time of transformation & When the transformation has been in
 progress, or how long the transformation has taken. Possibly relative to
 the time of the research. \\
 
 Research process & The paper describes a research process. \\
 
-Geographical\newline location & Where the organization is located. \\
+Geographical location & Where the organization is located. \\
 
 Large scale definition & A definition of "large scale" software development. \\
 
@@ -589,8 +598,10 @@ defining scope and examples for codes were defined for each family. The example
 codes would not necessarily be used as actual codes, and would not represent the
 entire or final scope of the families.
 
-\begin{table}[h]
-    \begin{tabular}{ p{0.32\textwidth} p{0.65\textwidth} }
+\begin{table}[t]
+    \centering
+    \begin{tabular}{ >{\raggedright\arraybackslash}p{0.31\textwidth}
+                     >{\raggedright\arraybackslash}p{0.61\textwidth} }
         \toprule
         Code family          &  Description
         \\
@@ -599,7 +610,7 @@ entire or final scope of the families.
         RQ1: Reason to change &
         Reasons to start the transformation (demand for faster delivery). \\
 
-		RQ2: Transformation\newline process &
+		RQ2: Transformation process &
 		Statements that describe the transformation process (top-down, big bang,
 		stepwise). \\
 
@@ -660,6 +671,7 @@ number of quotations is less than the sum of quotations in the categories
 because a single quotation may have multiple codes.
 
 \begin{table}[h]
+    \centering
     \begin{tabular}{ l r r }
         \toprule
         Code family    &  Codes  &  Quotations
@@ -723,6 +735,7 @@ was counted including only codes that had matching themes. We concluded that the
 average quotation overlap score was 2.2.
 
 \begin{table}
+    \centering
     \begin{tabular}{ l r r r }
         \toprule
         Document    &  Matching themes  &  Total themes  &  Quotation overlap (0-3) \\
@@ -767,7 +780,10 @@ quotations and codes will still remain a subjective matter.
 -- We avoid numbers in results, such as frequency of a phenomena, except in the
    meta-analysis section.
 
+
 % ---------------------------------------------------------------------
+\clearpage
+
 \section{Results}
 \label{sec:results}
 
@@ -796,7 +812,7 @@ started. All studies and transformations were dated after year 2000. There were
 peaks in transformation studies in years 2008 and 2011. The studies were
 typically published two years after the start of the transformation.
 
-\begin{figure}[t]
+\begin{figure}[b]
   \begin{center}
     \includegraphics[width=1\textwidth]{graphics/transformation_time.pdf}
     \caption{Publication years and reported start years of transformations}
@@ -812,7 +828,7 @@ but the issues discussed revealed that the organization was of large size
 accoding to our definition. The distribution of organization sizes is presented
 in figure \ref{fig:organization_size}.
 
-\begin{figure}[b]
+\begin{figure}[!t]
   \begin{center}
     \includegraphics[width=1\textwidth]{graphics/organization_size.pdf}
     \caption{Distribution of organization sizes in primary studies}
@@ -820,18 +836,8 @@ in figure \ref{fig:organization_size}.
   \end{center}
 \end{figure}
 
-The business areas of the case organizations are presented in table
-\ref{table:businessareas}. Different business areas were represented somewhat
-evenly. Online services was the largest group, including companies
-providing software as a service solutions for businesses, online media players
-for consumers, online services for consumers, and communication software for
-businesses. The second largest group was telecommunications, including companies
-such as British Telecom, Cisco, Ericsson, and Nokia Siemens Networks. The third
-largest group was enterprise management solution providers with products for
-business process management, project protfolio management, and facility
-management.
-
 \begin{table}[!t]
+    \centering
     \begin{tabular}{ l r }
         \toprule
         Business area    &  Case organizations   \\
@@ -853,6 +859,17 @@ management.
     \label{table:businessareas}
 \end{table}
 
+The business areas of the case organizations are presented in table
+\ref{table:businessareas}. Different business areas were represented somewhat
+evenly. Online services was the largest group, including companies
+providing software as a service solutions for businesses, online media players
+for consumers, online services for consumers, and communication software for
+businesses. The second largest group was telecommunications, including companies
+such as British Telecom, Cisco, Ericsson, and Nokia Siemens Networks. The third
+largest group was enterprise management solution providers with products for
+business process management, project protfolio management, and facility
+management.
+
 
 \subsection{Agile methods used}
 
@@ -873,7 +890,8 @@ many organizations viewed the agile method as continuously evolving.
 Organizations evolved the agile methods for instance through retrospectives and
 continuous improvement.
 
-\begin{table}[t]
+\begin{table}[h]
+    \centering
     \begin{tabular}{ l r }
         \toprule
         Method                             &  N  \\
@@ -889,6 +907,9 @@ continuous improvement.
     \caption{Agile methods reported in number of cases}
     \label{table:agilemethods}
 \end{table}
+
+
+\clearpage
 
 \subsection{Reasons to change}
 
@@ -906,6 +927,7 @@ The identified reasons for organizations to change are presented in table
 
 
 \begin{table}
+    \centering
     \begin{tabular}{ p{1.2cm} p{1.2cm} l }
         \toprule
         \multicolumn{3}{l}{Reasons to change}  \\
@@ -1245,6 +1267,7 @@ resistance discovered in the primary studies are summarized in table
 \ref{table:challenges_changeresistance}.
 
 \begin{table}[b]
+    \centering
     \begin{tabular}{ l l }
         \toprule
         Types of change resistance           &  Described in  \\
@@ -1333,7 +1356,8 @@ for the transformation. Table \ref{table:challenges_lackofinvestment} presents
 investments and resourcing arrangements that were witheld, and which caused
 problems in transformation.
 
-\begin{table}[b]
+\begin{table}[h]
+    \centering
     \begin{tabular}{ l l }
         \toprule
         Factors of investment and resourcing  &  Described in \\
@@ -1429,18 +1453,18 @@ model are summarized in table \ref{table:challenges_difficulty}.
 % agile methods were applied badly to the organization.
 
 \begin{table}
-    \begin{tabular}{ p{0.61\textwidth} p{0.31\textwidth} }
+    \centering
+    \begin{tabular}{ >{\raggedright\arraybackslash}p{0.51\textwidth}
+                     >{\raggedright\arraybackslash}p{0.41\textwidth} }
         \toprule
         Type of difficulty in implementation  &  Described in \\
         \midrule
         Misunderstanding agile development concepts  &
-        P6, P26, P37, P38, P42, \newline
-        P44, P45, P48, P49      \\
+                P6, P26, P37, P38, P42, P44, P45, P48, P49      \\
         Literature does not provide enough guidance  &
-        P5, P6, P10, P13, P21, \newline
-        P27, P30, P45, P49     \\
+                P5, P6, P10, P13, P21, P27, P30, P45, P49     \\
         Agile practices are customized badly   &
-        P9, P29, P44, P46  \\
+                P9, P29, P44, P46  \\
         \bottomrule
     \end{tabular}
     \caption{Summary of viewpoints why agile implementation is difficult}
@@ -1549,17 +1573,17 @@ creating a model to coordinate work between many teams. Table
 \ref{table:challenges_coordinatingteams} presents challenges that arose when
 agile was implemented in environments where many teams need to collaborate.
 
-\begin{table}
-    \begin{tabular}{ p{0.61\textwidth} p{0.31\textwidth} }
+\begin{table}[h]
+    \centering
+    \begin{tabular}{ >{\raggedright\arraybackslash}p{0.61\textwidth}
+                     >{\raggedright\arraybackslash}p{0.31\textwidth} }
         \toprule
-        Problems in an environment with many teams  &  Described in \\
+        Problems in environments with many teams  &  Described in \\
         \midrule
-        Interfacing between teams is difficult  & 
-        P9, P10, P13, P17, \newline
-        P24, P26 \\
+        Interfacing between teams is difficult     &  P9, P10, P13, P17, P24, P26 \\
         A model with autonomous teams is not good  &  P7, P13, P29, P51  \\
         Distributed setting causes additional problems  &  P29, P45, P48  \\
-        Technical integration and consistency  &  P5, P24, P26, P27, P50  \\
+        Technical integration and consistency      &  P5, P24, P26, P27, P50  \\
         \bottomrule
     \end{tabular}
     \caption{Summary of challenges in a setting with many agile teams}

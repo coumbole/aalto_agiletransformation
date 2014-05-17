@@ -25,8 +25,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.1129538"
-     inkscape:cx="224.25321"
-     inkscape:cy="183.77094"
+     inkscape:cx="218.29077"
+     inkscape:cy="158.83593"
      inkscape:document-units="cm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -45,10 +45,10 @@
      fit-margin-right="1"
      fit-margin-bottom="1"
      fit-margin-top="1"
-     inkscape:window-width="1440"
-     inkscape:window-height="881"
-     inkscape:window-x="-4"
-     inkscape:window-y="124"
+     inkscape:window-width="1918"
+     inkscape:window-height="1154"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:object-paths="false"
      inkscape:object-nodes="true">
@@ -144,38 +144,38 @@
        id="rect3015-4"
        width="177.16536"
        height="63.779526"
-       x="32.741096"
+       x="274.06226"
        y="60.234924"
        ry="5.3149605" />
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:CMU Sans Serif;-inkscape-font-specification:CMU Sans Serif"
-       x="121.13772"
+       x="362.45886"
        y="74.242912"
        id="text2997"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan2999"
-         x="121.13772"
+         x="362.45886"
          y="74.242912">Large organization issues</tspan></text>
     <rect
        style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.7080611;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect3015-0"
        width="226.77165"
        height="63.779526"
-       x="224.07603"
+       x="33.117378"
        y="60.234924"
        ry="5.3151155" />
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:CMU Sans Serif;-inkscape-font-specification:CMU Sans Serif"
-       x="337.5733"
+       x="146.61465"
        y="74.433739"
        id="text3001"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3003"
-         x="337.5733"
+         x="146.61465"
          y="74.433739">Coordinating work between many teams</tspan></text>
     <rect
        style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.71918511;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
@@ -225,31 +225,31 @@
          id="tspan3013">and quality assurance</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.70866144;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 39.849676,81.430504 162.992104,0"
+       d="m 281.17084,81.430504 162.99211,0"
        id="path3924"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:CMU Sans Serif;-inkscape-font-specification:CMU Sans Serif"
-       x="39.84967"
+       x="281.17084"
        y="95.502739"
        id="text3926"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan3928"
-         x="39.84967"
+         x="281.17084"
          y="95.502739">Role of management in agile</tspan><tspan
          sodipodi:role="line"
-         x="39.84967"
+         x="281.17084"
          y="105.50274"
          id="tspan3936">Using agile and waterfall side by side</tspan><tspan
          sodipodi:role="line"
-         x="39.84967"
+         x="281.17084"
          y="115.50274"
          id="tspan3946">Dispersed agile models</tspan><tspan
          sodipodi:role="line"
-         x="39.84967"
+         x="281.17084"
          y="125.50274"
          id="tspan3944" /></text>
     <path
@@ -353,7 +353,7 @@
            style="font-family:CMU Sans Serif;-inkscape-font-specification:CMU Sans Serif" /></flowRegion><flowPara
          id="flowPara4909" /></flowRoot>    <path
        style="fill:none;stroke:#000000;stroke-width:0.70866144;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 231.16628,81.498404 212.59842,0"
+       d="m 40.207625,81.498404 212.598415,0"
        id="path3924-1-7"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -395,24 +395,24 @@
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:CMU Sans Serif;-inkscape-font-specification:CMU Sans Serif"
-       x="231.16629"
+       x="40.207634"
        y="95.671638"
        id="text3926-4-4-9"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
-         x="231.16629"
+         x="40.207634"
          y="95.671638"
          id="tspan4851-3-5">Agile works best with independent teams</tspan><tspan
          sodipodi:role="line"
-         x="231.16629"
+         x="40.207634"
          y="105.67164"
          id="tspan5022">Coordination in a distributed setting</tspan><tspan
          sodipodi:role="line"
-         x="231.16629"
+         x="40.207634"
          y="115.67164"
          id="tspan6125">Coordinating architecture and integration</tspan><tspan
          sodipodi:role="line"
-         x="231.16629"
+         x="40.207634"
          y="125.67164"
          id="tspan3944-3-8-0" /></text>
     <text
