@@ -976,89 +976,58 @@ a transformation process towards agile software development. Most primary
 studies mentioned reasons for starting the transformation, and only 7 cases of
 42 did not mention any reasons. In the cases giving no specific reason to change
 it was simply mentioned that management had decided to change the organization.
-The identified reasons for organizations to change are presented in table
-\ref{table:reasonstochange}.
-
+The reported reasons for starting an organizational change towards agile are
+summarized in figure \ref{fig:reasonstochange_summary}.
 
 % Some cases reported that the organization had been successful in waterfall
 % delivery for a long time before the agile transformation.
 
 
+The most prominent reason to start the transformation was that business demanded
+shorter lead times and faster delivery. Other top reasons to start change were
+dysfunction in management, overhead in the current process, problems in
+scheduling, and demand to improve quality.
+
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics{graphics/reasonstochange_summary.pdf}
+    \caption{Reasons why organizations started an agile transformation}
+    \label{fig:reasonstochange_summary}
+  \end{center}
+\end{figure}
+
+\subsubsection{Business demands speed and flexibility}
+
+Most cases reported that a major reason to change was that business demanded
+improvement. Most companies wanted to improve their competitiveness, or even
+feared that they are losing competition. The way to respond was to improve
+delivery speed and responsiveness to change. Table
+\ref{table:reasonstochange_business} presents business related reasons to
+introduce an agile model.
+
 \begin{table}
     \centering
-    \begin{tabular}{ p{1.2cm} p{1.2cm} l }
-        \toprule
-        \multicolumn{3}{l}{Reasons to change}  \\
+    \begin{tabular}{ >{\raggedright\arraybackslash}p{0.51\textwidth}
+                     >{\raggedright\arraybackslash}p{0.41\textwidth} }
+        Business reasons for starting a change   &  Described in  \\
         \midrule
-        
-        \multicolumn{3}{l}{External issues: Need to respond to changes in business}  \\
-        
-        &  \multicolumn{2}{l}{Demand for more frequent deliveries} \\
-        &  &  Time To Market must lessen  \\
-        &  &  Long cycle times are seen as problematic  \\
-        
-        &  \multicolumn{2}{l}{Something must be done in order to remain competitive} \\
-        &  &  Change is required to stay in business  \\
-        
-        &  \multicolumn{2}{l}{Customers demand improvement} \\
-        
-        &  \multicolumn{2}{l}{Demand for flexibility or responsiveness} \\
-        &  &  Demand to accomodate changes efficiently  \\
-        &  &  Better responsiveness to customer requests  \\
-        
-        
-        \multicolumn{3}{l}{\rule{0pt}{4ex} Internal issues: Problems in managing software development}  \\
-        
-        &  \multicolumn{2}{l}{General problems with management of software development} \\
-        &  &  Management dysfunction  \\
-        &  &  Problems with motivation and morale  \\
-        &  &  Problems coordinating a growing organization  \\
-        
-        &  \multicolumn{2}{l}{Problems with overhead and excess in process}  \\
-        &  &  Excess, slowness and costs caused by process  \\
-        &  &  The current process is being ignored  \\
-        
-        &  \multicolumn{2}{l}{Problems with planning or keeping schedules}  \\
-
-        &  \multicolumn{2}{l}{Too long cycle time before feedback}  \\
-        
-        &  \multicolumn{2}{l}{Demand to improve product quality}  \\
-        
-        
-        \multicolumn{3}{l}{\rule{0pt}{4ex} Communication and collaboration issues}  \\
-        
-        &  \multicolumn{2}{l}{Communication and collaboration dificulties}  \\
-        &  &  Problems in communication across and within projects  \\
-        &  &  Teams work in silos or isolation  \\
-        
-        &  \multicolumn{2}{l}{Requirements engineering issues}  \\
-        &  &  Requirements are not understood  \\
-        &  &  Unawareness of what is important  \\
-        
-        &  \multicolumn{2}{l}{Demand of better customer collaboration}  \\
-        
+        Time to market must be reduced    &  P17, P18, P32, P38, P39, P47  \\
+        Delivery is considered slow       &  P2, P8, P25, P36, P46, P49  \\
+        Something must be done to remain competitive  &
+                P9, P10, P11, P18, P19, P32, P38, P42, P49  \\
+        Business partners demand faster delivery  &  P5, P23, P39, P40, P46  \\
+        Need to accomodate change during projects  &
+                P4, P8, P18, P25, P26, P33, P36, P39, P42, P49, P51, P52  \\
         \bottomrule
     \end{tabular}
-    \caption{Summarizing why large organizations initiate an agile transformation (RQ1).
-             The table presents a hierarchial view of reasons for the organization to change.}
-    \label{table:reasonstochange}
+    \caption{Business related reasons for starting an agile transformation}
+    \label{table:reasonstochange_business}
 \end{table}
 
-The reasons to change were are grouped in three top-level categories: external
-issues, internal issues, and communication issues. External issues are related
-to the business area which the organization is operating in. Internal issues are
-related to the way the organization is managed and software is being developed.
-Communication and collaboration issues are related to internal and external
-collaboration. Change was motivated by known problems in these categories, such
-as known process dysfunctions or communication problems. There was also internal
-and external demand for improvement, for instance in speed of delivery and
-quality.
-
-\subsubsection{External issues}
-
-The most prominent reason for introducing agile methods was the demand to
+The most frequently mentioned reason for introducing agile methods was the demand to
 deliver software faster and more frequently. A common statement was that it was
-necessary to reduce the Time To Market (TTM) [P17, P18, P32, P39, P47]. As
+necessary to reduce the time to market (TTM) [P17, P18, P32, P39, P47]. As
 stated in one study: ``The market was moving faster than the development group
 was able to deliver'' [P38]. Long cycle time, i.e. time from start of project to
 delivery, was seen as a problem in itself [P25, P36]. Some studies indicated
@@ -1068,46 +1037,64 @@ considered as slow [P36, P46, P49].
 
 Commercial competition and market situation was seen as a trigger for
 transformation. Especially speed of delivery was seen as a means to respond to
-the competition [P9, P38]. As Greening describes: ``The average release duration
-peaked at 41 and 35 months, an alarming state that could enable competitors to
-gain market share.'' [P19]. In many cases the transformation was seen as
-essential for the company to remain competitive [P10, P11, P18, P42, P49]. For
-instance, British Telecom realized that ``From a strategic view, there is little
-alternative than to change the old ways of working'' [P32].
+the competition [P9, P38]. As Greening [P19] describes: ``The average release
+duration peaked at 41 and 35 months, an alarming state that could enable
+competitors to gain market share.''. In many cases the transformation was seen
+as essential for the company to remain competitive [P10, P11, P18, P42, P49].
+For instance, British Telecom realized that ``From a strategic view, there is
+little alternative than to change the old ways of working'' [P32].
 
 Demands for change and improvement were also expressed by internal and external
 customers. Again, the requests of the customers reflected the need of faster
 development and release cycles [P5, P39]. As described in one study: ``Speed of
-delivery is of the essence – customers are no longer prepared to wait for 18
+delivery is of the essence -- customers are no longer prepared to wait for 18
 months or more for solutions to be delivered'' [P23]. In some cases business
 partners expressed mistrust in the original way of conducting development [P40,
 P46].
 
-Yet another frequent external factor driving for improvement was the need to
-accomodate change during development. Organizations saw agile as a opportunity
-to improve responsiveness to change in general [P25, P26, P42].
+Yet another factor pushing for improvement was the need to accomodate change
+during development. Organizations saw agile as an opportunity to improve
+responsiveness to change in general [P25, P26, P42].
 Some organizations faced difficulties when changes to plans were needed. For
 instance, the organizational struture made adapting to changes difficult [52],
 and making changes created management overhead [P51]. Other organizations saw an
-business advantage if priorities could be changed as required [P8, P39].
+business advantage in enabling priorities to be changed as required [P8, P39].
+Domain knowledge will deepen during projects and environments will inevitably
+change, and therefore the requirements should not stay fixed [P4].
 Customers and business representatives were in many cases attributed as the
 sources of change requests, and the responsiveness to customer requests needed
 to be improved [P18, P33, P36, P49].
 
-\subsubsection{Internal issues}
+\subsubsection{Management issues}
 
-The internal issues relate to how software development is managed in the
-organization. In many organizations the project management practice was in a
-state of dysfunction, and it needed to be corrected. Management problems were
-for instance constantly recurring crisis events [P30], managers ignoring
-prioritization of tasks [P38], and reluctance towards focusing on delivering
-business value [P49]. Some cases stated that projects simply failed [P21]. Some
-organizations wanted to improve generic project management practice, such as
-risk management [P8], management of offshoring [P38], and improving the quality
-of life of team members [P44]. Several organizations were growing and
-experienced that the old development method did not scale up [P16, P30, P50, P51].
-There was also a desire to improve team motivation and commitment, and
-collaboration between management and developers [P39].
+The way software development was managed was typically seen as problematic. The
+problems related to project management, people management, and managing
+schedules. Management related problems that the transformation was hoped to
+correct are listed in table \ref{table:reasonstochange_management}.
+
+\begin{table}[b]
+    \centering
+    \begin{tabular}{ >{\raggedright\arraybackslash}p{0.51\textwidth}
+                     >{\raggedright\arraybackslash}p{0.41\textwidth} }
+        Management problems           &  Described in  \\
+        \midrule
+        Software development is managed badly   &  P8, P21, P30, P38, P44, P49  \\
+        Command and control style management    &  P9, P25, P30, P40, P44  \\
+        Scheduling and estimation is difficult  &  P16, P19, P21, P30, P33, P40, P41, P51  \\
+        \bottomrule
+    \end{tabular}
+    \caption{Management problems stated as reasons for organizational change}
+    \label{table:reasonstochange_management}
+\end{table}
+
+In many organizations the project management practice was in a state of
+dysfunction, and it needed to be corrected. Project management problems included
+constantly recurring crisis events [P30], managers ignoring prioritization of
+tasks [P38], and reluctance towards focusing on delivering business value [P49].
+Some cases stated that projects simply failed [P21]. Some organizations wanted
+to improve generic project management practice, such as risk management [P8],
+management of offshoring [P38], and generally improving the quality of life of
+team members [P44].
 
 Command and control style management where ``a few people, usually those
 farthest from the action, made the decisions without directly involving the
@@ -1118,21 +1105,48 @@ needed stretch far to finish projects on time. Low morale and motivation were
 identified as problems that needed to be fixed, and agile was seen as a solution
 [P25, P30, P40].
 
-A common problem that was acknowledged in organizations was overhead in process,
-which showed as bureucracy and needless costs. Examples on overhead in process
-were unproductive meetings [P38], sign-offs and gates [P9], excessive focus on
-conformance to process [P40], and change management overhead [P51]. Creating
-excessive documentation instead of business value was seen as a problem in some
-cases [P24, P35].
-From business representatives point of view the processes were unreasonably
-costly, while at the same time insufficiently capable of delivering business
-value [P36, P46, P49]. In one case business realized that customers did not
-request the heavy CMMI based process [P24].
+Yet another problem in managing development was problems with schedules.
+Some cases described schedules as unpredictable and estimation being difficult
+[P16, P30, P40, P51]. In other cases it was reported that release deadlines were
+often missed [P19, P21, P33, P41].
+
+\subsubsection{Process problems}
+
+The old way of working was acknowledged to have problems which needed to be
+corrected. A summary of weaknesses in the original process is presented in table
+\ref{table:reasonstochange_process}.
+
+\begin{table}[b]
+    \centering
+    \begin{tabular}{ >{\raggedright\arraybackslash}p{0.51\textwidth}
+                     >{\raggedright\arraybackslash}p{0.41\textwidth} }
+        Problems in the old process           &  Described in  \\
+        \midrule
+        Excess and overhead in process     &  P9, P24, P35, P36, P38, P40, P46, P49, P51  \\
+        The process is being ignored       &  P6, P9, P46, P49  \\
+        Late integration, testing, and feedback  &  P5, P25, P33, P40, P50  \\
+        New practices can not be integrated in the old process  &  P10, P26  \\
+        The old process does not scale up  &  P16, P30, P50, P51  \\
+        \bottomrule
+    \end{tabular}
+    \caption{Problems because of which the old process should be changed}
+    \label{table:reasonstochange_process}
+\end{table}
+
+A most typical known problem was overhead in process, which showed as bureucracy and
+needless costs. Examples on overhead in process were unproductive meetings
+[P38], sign-offs and gates [P9], excessive focus on conformance to process
+[P40], and change management overhead [P51]. Creating excessive documentation
+instead of business value was seen as a problem in some cases [P24, P35]. From
+business representatives point of view the processes were unreasonably costly,
+while at the same time insufficiently capable of delivering business value [P36,
+P46, P49]. In one case business realized that customers did not see any benefit
+in the heavy CMMI based process [P24].
+
 A heavy process resulted often in ignoring the process, only paying ``lip
 service'' to the process, or applying its steps retroactively [P6, P9, P49].
-Seffernick described how applying the waterfall process had teams ``still
-developing the same old way but slower because of the additional process''
-[P46].
+Seffernick [P46] describes how applying the waterfall process had teams ``still
+developing the same old way but slower because of the additional process''.
 
 A slow process with long cycle times leading to late feedback was a problem in
 the old model. A large investment was required before results were visible [P5],
@@ -1141,21 +1155,40 @@ problem was late integration which caused extra work [P25]. As organizations
 grew and products became more complex test cycles began to lengthen, which
 hindered flexibility and reduced speed [P33, P50].
 
-Yet another problem in managing development was problems with schedules.
-Some cases described schedules as unpredictable and estimation being difficult
-[P16, P30, P40, P51]. In other cases it was reported that release deadlines were
-often missed [P19, P21, P33, P41].
+A few organizations were experiencing rise of agile methods at grass roots
+level, but the agile teams could not integrate efficiently with other parts of
+a waterfall organization. Tensions arose when teams using different development
+approaches attempted to work together on products [P10]. On a team level agile
+had enabled some flexibility, but that flexibility could not be leveraged on the
+scale of the entire organization [P26].
+This kind of experiences drove the organization to deploy agile on a full scale.
 
-Finally, the original process model was seen as a cause for quality problems.
-Several studies mentioned a demand for better quality, and quality improvement
-was set as a goal for the agile transformation [P25, P31, P41, P42]. Improvement
-in external quality and customer satisfaction were also anticipated from agile
-development [P2, P4]. Problems with technical debt were attributed to the
-original process. Some cases reported on prioritizing new feature development
-over bugfixes or fixing only the easiest issues [P30, P38].
+Still one problem was that some growing organizations experienced that the old
+development method did not scale up [P16, P30, P50, P51].
 
 
-\subsubsection{Communication and collaboration issues}
+\subsubsection{Other reasons to change}
+
+There were still a number of problems that were given as reasons to change.
+In addition to the above mentioned problems, organizations were striving for
+better collaboration and quality. Table \ref{table:reasonstochange_other} lists
+other issues that drove organizations to change.
+
+\begin{table}[b]
+    \centering
+    \begin{tabular}{ >{\raggedright\arraybackslash}p{0.61\textwidth}
+                     >{\raggedright\arraybackslash}p{0.31\textwidth} }
+        Reasons to change           &  Described in  \\
+        \midrule
+        Teams can not collaborate properly   &  P21, P38  \\
+        Silos and internal boundaries in organization   &  P27, P40, P46  \\
+        Lack of customer collaboration       &  P4, P26, P40  \\
+        Demand for better quality            &  P2, P4, P25, P31, P30, P38, P41, P42  \\
+        \bottomrule
+    \end{tabular}
+    \caption{Other reasons why organizations wanted to change the way of working}
+    \label{table:reasonstochange_other}
+\end{table}
 
 Many organizations experienced problems in communication and collaboration
 between projects, teams, and even members of a single team [P38, P21].
@@ -1167,29 +1200,31 @@ over the wall'' mentality [P46]. Distance between teams was also created by
 document driven communication, and was causing misunderstanding of requirements
 [P24].
 
-Other communication issues were related to requirements handling and difficulty
-to focus on the most important aspects of a delivery.
-Examples on problems with requirements was too much focus on the documenting
-aspect instead of providing understanding [P24, P49], and ignoring the fact that
-requirements and understanding are evolving during a project [P4].
-In some cases the organization of work and management was such that it hindered
-focusing the development [P7], and prioritization of what to work on was not
-done efficiently [P38, P39].
-
 Too little customer and user collaboration led to problems in some
 organizations. For instance, too late user involvment led to change requests
 late in the project [P40]. There was a wish to collaborate more frequently and
 in less formal ways [P4, P26].
 
+% There was also a desire to improve team motivation and commitment, and
+% collaboration between management and developers [P39].
 
-A few organizations were experiencing rise of agile methods at grass roots
-level, but the agile teams could not collaborate efficiently with other parts of
-a waterfall organization. Tensions arose when teams using different development
-approaches attempted to work together on products [P10]. On a team level agile
-had enabled some flexibility, but that flexibility could not be leveraged on the
-scale of the entire organization [P26]. This kind of experiences drove the
-organization to deploy agile on a full scale.
+% Examples of problems with requirements was too much focus on the documenting
+% aspect instead of providing understanding [P24, P49], and ignoring the fact that
+% requirements and understanding are evolving during a project [P4].
+% 
+% In some cases the organization of work and management was such that it caused
+% lack of focus the development [P7], and prioritization of what to work on was
+% not done efficiently [P38, P39].
 
+Lastly, the original model was seen as a cause for quality problems.
+Several studies mentioned a demand for better quality, and quality improvement
+was set as a goal for the agile transformation [P25, P31, P41, P42]. New feature
+development was being prioritized over bugfixes, and technical debt was
+developing [P30, P38]. Improvement in external quality and customer satisfaction
+were anticipated from agile development [P2, P4].
+
+
+\clearpage
 
 \subsection{Transformation process}
 
@@ -1230,13 +1265,13 @@ level, despite the surrounding organization that was working with a waterfall
 software engineering model'' [P26].
 
 In a few cases the organization initailly lacked strict process. For instance
-Long describes the initial state in the following way: ``Project scope was in
-constant flux. Well-meaning market and product owners routinely inserted new
-requirements during product development.'' [P30].
+Long [P30] describes the initial state in the following way: ``Project scope was
+in constant flux. Well-meaning market and product owners routinely inserted new
+requirements during product development.''.
 
 Some authors describe the developement being originally organized in silos. For
-instance Ranganath describes that ``Teams operated in silos. Collaboration,
-shared purpose and ownership for outcomes were hard to find'' [P40].
+instance, Ranganath [P40] describes that ``Teams operated in silos.
+Collaboration, shared purpose and ownership for outcomes were hard to find''.
 
 
 \subsubsection{Modes of transformation}
