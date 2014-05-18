@@ -264,16 +264,60 @@ to record evidence in as much detail as possible.
 \label{sec:inclusioncriteria}
 
 Based on the research questions and intended focus of the research, we defined
-three facets to guide inclusion/exclusion decisions: agile software engineering,
-focus on transformation, and large scale. The first facet covers primary studies
-focusing on software engineering organizations applying or striving to apply
-agile methods. The second facet states that included studies must provide
-insights relevant to organizational transformation, and specifically to the
-research questions. The third facet underlines the particular contribution we
-aim to provide with this research, namely the exclusive focus on large
-organizations. These three facets were used for inclusion and exclusion in each
-study selection step, including search string design, filtering by abstracts,
-and full text filtering.
+four facets to guide inclusion/exclusion decisions: agile software engineering,
+focus on transformation, large scale, and empiricality. The first facet covers
+primary studies focusing on software engineering organizations applying or
+striving to apply agile methods. The second facet states that included studies
+must provide insights relevant to organizational transformation, and
+specifically to the research questions. The third facet underlines the
+particular contribution we aim to provide with this research, namely the
+exclusive focus on large organizations. The fourth facet limits inclusion to
+studies presenting real world cases. These four facets were used for inclusion
+and exclusion in each study selection step, including search string design,
+filtering by abstracts, and full text filtering.
+
+Table \ref{table:facets} lists the facets and gives examples on matching topics
+and not relevant topics. For a study to be included it needed to be relevant
+in all facets. Even if a study discussed some of the irrelevant topics it could
+be included as long as it had some content matcing all the facets.
+
+\begin{table}
+    \centering
+    \begin{tabular}{ >{\raggedright\arraybackslash}p{0.20\textwidth}
+                     >{\raggedright\arraybackslash}p{0.34\textwidth}
+                     >{\raggedright\arraybackslash}p{0.33\textwidth} }
+        \toprule
+        Facet  &  Relevant topics  &  Not relevant topics  \\
+        \midrule
+        Agile software development  & 
+                The organization develops software;
+                The development method introduced is agile  & 
+                
+                Agile manufacturing;
+                Scrum in management boards  \\
+                
+        Organizational transformation  &
+                Presenting insights in the process of transformation  &
+                
+                Comparison of before and after;
+                How agile is being used in large scale   \\
+                
+        Large scale    &
+                At least 50 development personel or 6 teams uses agile &
+                
+                Scaling up from small;
+                A single agile team in a large setting \\
+                
+        Empiricality   &
+                Case studies, experience reports  &
+                
+                Textbooks, student experiments, theory papers  \\
+        \bottomrule
+    \end{tabular}
+    \caption{Facets of inclusion criteria with examples of relevant and
+             not relevant topics}
+    \label{table:facets}
+\end{table}
 
 Examples on topics excluded by the first facet are agile manufacturing, and
 applying Scrum practices in management boards, as these do not relate to
@@ -297,9 +341,8 @@ Transformation and ``scaling up'' are very closely related and in some cases
 they are one and the same. For instance, if transformation begins with a pilot
 and spreads gradually through the organization, the process can very well be
 seen as a ``scaling up'' journey. However, we excluded cases where a initially
-small organization was scaled up \cite{Maranzato2012}, and discussions with a
-process centered viewpoint without describing organizational change
-\cite{Lyon2008}.
+small organization was scaled up \cite{Maranzato2012}, and discussions focusing
+on processes or tools without describing organizational change \cite{Lyon2008}.
 % Also [Greening 2010] on process centered viewpoint without transformation
 
 The facet of \emph{large scale} was interpreted as presented in section
@@ -327,12 +370,12 @@ Also piloting cases that resulted only in single teams using agile were excluded
 % Also [Jensen 2003] with only a single team
 % Possibly [Mc Cormic 2005] on single team piloting
 
-In addition to the criteria listed above we excluded studies that were not
-empirical. We excluded textbooks, studies merely presenting theories, and other
-studies that did not include any case organization. We also excluded studies of
-benefits or limitations of agile in general. Lastly, we excluded student
-experiments as it is implausible to simulate the dynamics of a large
-organization in an experiment.
+According to the facet of \emph{empiricality} we excluded studies that did not
+discuss a distinguishable real world case. We excluded textbooks, studies merely
+presenting theories, and other studies that did not include any case
+organization. We also excluded studies of benefits or limitations of agile in
+general. Lastly, we excluded student experiments as it is implausible to
+simulate the dynamics of a large organization in an experiment.
 
 
 \subsubsection{Preliminary searches}
@@ -402,8 +445,9 @@ deveolpment} and \emph{organizational transformation}, as presented in section
 \ref{sec:inclusioncriteria}. Preliminary searches had showed that picking
 keywords with good precision was difficult. Therefore we decided to exclude the
 facet \emph{large scale} from the keyword search, with the consequence of
-increasing the manual filtering effort in the subsequent steps.
-Having a substantial part of the matches in non-relevant areas such as agile
+increasing the manual filtering effort in the subsequent steps. Also the facet
+or \emph{empiricality} could not be represented by keywords. Having a
+substantial part of the matches in non-relevant areas such as agile
 manufacturing, we included only articles including the term ``software'' or
 articles published in relevant conferences. Instead of engineering the search
 terms any further, which proved to result in excluding some relevant articles,
@@ -470,15 +514,14 @@ including 3 additional papers as primary sources.
 %
 % k = 0.4063
 
-Full text filtering was performed by evaluating each article against the three
+Full text filtering was performed by evaluating each article against the four
 facets of the inclusion criteria. Filtering was done in two steps. In the first
-step Dikert extracted data relevant to the three facets of the inclusion
-criteria. Based on the extracted data 76 papers could be immediately deemed as
-included or excluded. The remaining 94 papers were evaluated against the
-inclusion criteria by both Dikert and Paasivaara, and a decision was made after
-discussing each paper separately. In difficult cases Lassenius was consulted to
-reach a decision. As a result of the full text filtering 47 papers were selected
-to be included.
+step Dikert extracted data relevant to the four facets. Based on the extracted
+data 76 papers could be immediately deemed as included or excluded. The
+remaining 94 papers were evaluated against the inclusion criteria by both Dikert
+and Paasivaara, and a decision was made after discussing each paper separately.
+In difficult cases Lassenius was consulted to reach a decision. As a result of
+the full text filtering 47 papers were selected to be included.
 
 In the full text filtering step the references of all papers were also examined
 for relevance, including 2 referenced papers as primary sources. Most case study
