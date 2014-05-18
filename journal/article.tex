@@ -383,12 +383,12 @@ simulate the dynamics of a large organization in an experiment.
 Before proceeding with the database search a number of preliminary searches were
 performed. The purpose of the preliminary searches was to create a benchmark of
 potentially relevant papers that should be matched by the actual database
-search. We started by examining top ranked hits by trivial keywords that the
-more complex final search string might miss. Initial searches were made using
-keywords that were as general as possible, including ``agile transformation''
-and ``large scale agile''. Secondly, a trial keyword search was done in the
-selected databases (listed in table \ref{table:databases}) using the following
-search string:
+search, and to evaluate different search strings. We started by examining top
+ranked hits by trivial keywords that the more complex final search string might
+miss. Initial searches were made using keywords that were as general as
+possible, including ``agile transformation'' and ``large scale agile''.
+Secondly, a trial keyword search was done in the selected databases (listed in
+table \ref{table:databases}) using the following search string:
 
 \begin{verbatim}
 ((agil* OR scrum OR xp OR lean) AND
@@ -397,7 +397,7 @@ search string:
 \end{verbatim}
 
 From these preliminary searches we compiled a list of 117 possibly relevant
-papers that should be matched by the actual database search.
+papers that the actual database search would be benchmarked against.
 
 \subsubsection{Study selection}
 
@@ -410,7 +410,7 @@ selection process starting from the database search is outlined in figure
 with some results from the preliminary search and relevant references from all
 examined papers.
 
-\begin{figure}[b]
+\begin{figure}
   \begin{center}
     \includegraphics[width=1\textwidth]{graphics/research_process.pdf}
     \caption{Database search as study selection process}
@@ -440,14 +440,16 @@ strings.
     \label{table:databases}
 \end{table}
 
-We constructed a search string based on the facets \emph{agile software
-deveolpment} and \emph{organizational transformation}, as presented in section
-\ref{sec:inclusioncriteria}. Preliminary searches had showed that picking
-keywords with good precision was difficult. Therefore we decided to exclude the
-facet \emph{large scale} from the keyword search, with the consequence of
-increasing the manual filtering effort in the subsequent steps. Also the facet
-or \emph{empiricality} could not be represented by keywords. Having a
-substantial part of the matches in non-relevant areas such as agile
+We proceeded with constructing a search string based on the facets presented in
+section \ref{sec:inclusioncriteria}. However, preliminary searches had showed
+that picking keywords with good precision was difficult. Especially the facet
+\emph{large scale} was difficult to represent with precise words. Also the facet
+of \emph{empiricality} could not sensibly be represented by keywords. We decided
+to include only the factets \emph{agile software deveolpment} and
+\emph{organizational transformation} in the keyword search, with the consequence
+of increasing the manual filtering effort in the subsequent steps.
+
+Having a substantial part of the matches in non-relevant areas such as agile
 manufacturing, we included only articles including the term ``software'' or
 articles published in relevant conferences. Instead of engineering the search
 terms any further, which proved to result in excluding some relevant articles,
@@ -523,10 +525,10 @@ and Paasivaara, and a decision was made after discussing each paper separately.
 In difficult cases Lassenius was consulted to reach a decision. As a result of
 the full text filtering 47 papers were selected to be included.
 
-In the full text filtering step the references of all papers were also examined
-for relevance, including 2 referenced papers as primary sources. Most case study
-papers used references very scarcely, mostly referencing well known descriptions
-of agile methods.
+After the full text filtering step the references of all papers were also
+examined for relevance. Most case study papers used references very scarcely,
+mostly referencing well known descriptions of agile methods. We included 2
+referenced papers in full text analysis.
 
 Finally, counting 47 papers from the full text filtering step, 3 papers from
 preliminary searches, and 2 papers from references, 52 papers were selected
@@ -647,10 +649,10 @@ Multisite / GSD & Mentioning of a multisite organization. \\
 \end{table}
 
 To give direction for code induction seven different code families were
-established, as presented in Table \ref{table:codefamilies}. A description
-defining scope and examples for codes were defined for each family. The example
-codes would not necessarily be used as actual codes, and would not represent the
-entire or final scope of the families.
+established on beforehand, as presented in Table \ref{table:codefamilies}. A
+description defining scope and examples for codes were defined for each family.
+The example codes would not necessarily be used as actual codes, and would not
+represent the entire or final scope of the families.
 
 \begin{table}[t]
     \centering
@@ -703,8 +705,10 @@ or the contextual codes becomes a quotation. If the quotation corresponds
 closely to a concept that has already been coded the existing code is used.
 Otherwise a new code is created, and the code is assigned to one of the
 predefined code families. The labels of existing codes may need to be adjusted
-when new quotations are assigned. Many codes may be assigned to one quotation
-and quotations of different codes may be overlapping.
+when new quotations are assigned. A clarifying description is written for every
+code, so that the precise meaning of the codes can be reviewed. Many codes may
+be assigned to one quotation and quotations of different codes may be
+overlapping.
 
 The length of the text passage that make up a quotation may vary. For the
 contextual codes the quoted passage should be of minimal length. For other
@@ -714,15 +718,15 @@ paragraph, or even several paragraphs. As an example of context of the
 quotation, if a transformation challenge is described by a quotation it would be
 good if also the source or resolution of the challenge could be included in the
 quoted text passage. Having enough context should broaden the understanding
-of the coded concept when looking at the quotation in isolation..
+of the coded concept when looking at the quotation in isolation.
 
 % -- Considering that mentioning the inclusion of a factor as a success, then
 %    would the absence of the same factor be a challenge?
 
-The total accumulated codes and quotations of the integrated deductive and
-inductive coding process are presented in Table \ref{table:codecount}. The total
-number of quotations is less than the sum of quotations in the categories
-because a single quotation may have multiple codes.
+The total number of codes and quotations created in the coding process is
+presented in Table \ref{table:codecount}. The total number of quotations is less
+than the sum of quotations in the categories because a single quotation may have
+multiple codes.
 
 \begin{table}[h]
     \centering
@@ -745,6 +749,7 @@ because a single quotation may have multiple codes.
     \label{table:codecount}
 \end{table}
 
+\clearpage
 
 \subsubsection{Validation of coding}
 
@@ -770,23 +775,22 @@ were organized. Through discussion we made decisions on whether differently
 labeled codes could be organized under the same theme or not. Table
 \ref{table:codingexperiment} presents the total number of themes the researchers
 found in each document, and how many of the themes were matching. We concluded
-that on average two of three themes found by one researcher are similarly found
-by the other researcher, but one of three themes is not found by the other
+that on average two of three themes found by one researcher were similarly found
+by the other researcher, but one of three themes was not found by the other
 researcher.
 
 The metric of quotation overlap measures how well the quotations for similar
 codes match between two independent researchers. The intent is to measure how
-codes that are deemed similar by their names match in the actual quoted text. On
-a scale of 0 to 3 we evaluated the quoted text of codes in each theme that
-matched for both researchers, as described in the previous paragraph. A score of
-3 was given for matching codes whose quotation content was virtually the same
-for both researchers. A score of 2 was given if the quotations were mostly the
-same, but other researcher had included one text passage that the other had
-missed. A score of 1 was given if roughly half of the quotations were the same.
-If the quotations had less similarity than this a score of 0 was given. One code
-provided typically 1 to 3 quotations per document. The quotation overlap score
-was counted including only codes that had matching themes. We concluded that the
-average quotation overlap score was 2.2.
+well codes that are deemed similar by their names match in the actual quoted
+text. We assigned a quotation overlap score for each code in themes that both
+researchers had found. A score of 3 was given for matching codes whose quotation
+content was virtually the same for both researchers. A score of 2 was given if
+the quotations were mostly the same, but other researcher had included one text
+passage that the other had missed. A score of 1 was given if roughly half of the
+quotation was the same. If the quotations had less similarity than this a score
+of 0 was given. One code provided typically 1 to 3 quotations per document. The
+quotation overlap score was counted including only codes that had matching
+themes. We concluded that the average quotation overlap score was 2.2.
 
 \begin{table}
     \centering
