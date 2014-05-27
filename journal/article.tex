@@ -193,6 +193,9 @@ pp. 64 - 69, 2002.
 * What are the agile principles? What is being talked about when ``agile
   principles'' is referred to?
 
+* Principle of build often? Principle of nightly builds or CI? Is this from XP?
+  Is this an agile principle?
+
 % ---------------------------------------------------------------------
 \section{Research method}
 \label{sec:method}
@@ -1408,6 +1411,8 @@ common types of investments.
         Agile project management tools  &
                 P10, P11, P14, P16, P17, P26, P33,
                 P41, P43, P44, P45, P48, P50 \\
+        Continuous builds and testing  &
+                P5, P11, P16, P17, P25, P27, P34, P39, P42, P50 \\
         Proprietary agile material or documentation   & 
                 P1, P2, P8, P14, P16, P23, P26, P29, P32, P45  \\
         Refurbishing work areas and other spaces   &
@@ -1441,6 +1446,35 @@ Several organizations created their own tools for managing agile development
 SAP, Primavera, and Salesforce, customized their product to support the agile
 model being implemented [P16, P44, P45]. The development of the tools themselves
 also served as a showcase of agile delivery [P10, P45].
+
+% Investing in continuous builds
+
+Continuous builds and testing was reported to play an important role in scaling
+the agile model up to large scale [P17, P34]. Many organizations were
+experiencing problems when a daily build system was not in place. The main
+problem was that progress was slowed down because of lacks in the build and
+automated testing systems [P5, P27, P39, P50].
+Other reasons for implementing build automation was the need for having stable
+nightly builds [P5], builds were often broken when integration was attempted
+[P27], and there were problems with timeliness in test execution [P11]. One case
+reported that the entire infrastructure needed to be revamped to attain benefits
+from the accelerated work pace of Scrum teams [P50].
+
+When a general problem of frequent broken builds existed it was easy to acuire a
+buy in for creating an organization-wide standard for automating builds and
+tests [P11]. On the other hand, many cases emphasized that building the
+continuous integration environment required a significant investment [P17, P34,
+P42]. In order to have the focus and resources for creating a proper integration
+environment a dedicated team was Some organizations appointed a dedicated team
+to ensure the focus and resources for creating a proper integration environment
+were available [P5, P16, P17].
+
+Having daily builds was considered a significant advantage in the agile
+implementation [P5, P16]. Having the continuous integration environment in place
+cases reported that development time was reduced [P39], the build times were
+significantly improved [P5, P42], teams could know on a daily basis whether
+their code could be integrated [P17]. It was also reported that the
+communication and trust between testing and development was improved [P42].
 
 % Organization specific agile material
 
@@ -2385,6 +2419,11 @@ advancing the transformation process.
 * Some success factors are compiled from ``what we learned'' or ``advice for
   others'' lists. We considered whether the advice was something the
   organization had tried in practice.
+
+* For instance, implementing continuous integration and automated builds was not
+  explicitly stated as a factor contributing to the success of the
+  transformation, although it is unquestionable that such systems are critical
+  for maintaining quality and enabling frequent releases.
 
 \subsubsection{Training and coaching}
 
