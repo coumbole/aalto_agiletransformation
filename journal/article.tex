@@ -1974,7 +1974,7 @@ direct success factors.
 \begin{figure}[!b]
   \begin{center}
     \includegraphics{graphics/challenges_summary.pdf}
-    \caption{Overview of challenges in agile transformation}
+    \caption{Overview of challenges in agile transformations}
     \label{fig:challenges_summary}
   \end{center}
 \end{figure}
@@ -2853,78 +2853,253 @@ factors were reported to facilitate the transformation process. We present
 factors that the primary studies particularly highlighted as being important in
 advancing the transformation process.
 
+\begin{figure}[!b]
+  \begin{center}
+    \includegraphics[width=1\textwidth]{graphics/success_summary.pdf}
+    \caption{Overview of success factors in agile transformations}
+    \label{fig:success_summary}
+  \end{center}
+\end{figure}
 
-* What is our standpoint on recommendations that experience reports give, but
-  which were not necessarily tried in the organization?
+Figure \ref{fig:success_summary} summarizes success factors evident in the
+primary studies. The success factors are organized into ten categories within
+three themes, which are elaborated in this section. The first theme relates to
+management and leadership in the transformation. The second theme presents
+success factors that relate to finding a suitable agile model for the
+organization. The last theme includes success factors that are realized on the
+level of development teams.
 
-* Some success factors are just calculated decisions that were made because
-  the organization saw them as the best way to proceed. The question whether
-  the decision really were critical for success is not proven. 
+The discovered success factors did not exhibit strong differences in
+significance in respect to each other. Three categories of success factors can
+be considered of higher importance: management support, training and coaching,
+and choosing the agile model carefully. The remaining success factors should be
+considered having even significance.
 
-* Some success factors are compiled from ``what we learned'' or ``advice for
-  others'' lists. We considered whether the advice was something the
-  organization had tried in practice.
+% * What is our standpoint on recommendations that experience reports give, but
+%   which were not necessarily tried in the organization?
+% 
+% * Some success factors are just calculated decisions that were made because
+%   the organization saw them as the best way to proceed. The question whether
+%   the decision really were critical for success is not proven. 
+% 
+% * Some success factors are compiled from ``what we learned'' or ``advice for
+%   others'' lists. We considered whether the advice was something the
+%   organization had tried in practice.
+% 
+% * For instance, implementing continuous integration and automated builds was not
+%   explicitly stated as a factor contributing to the success of the
+%   transformation, although it is unquestionable that such systems are critical
+%   for maintaining quality and enabling frequent releases.
 
-* For instance, implementing continuous integration and automated builds was not
-  explicitly stated as a factor contributing to the success of the
-  transformation, although it is unquestionable that such systems are critical
-  for maintaining quality and enabling frequent releases.
 
-\subsubsection{Training and coaching}
+\subsubsection{Management support}
 
-Agile methods come as new ways of working to many in the organization. In order
-to get a good start in the transformation the ideas of the new methods need to
-be explained thoroughly. Training sessions are good starting points, but teams
-should be accompanied by coaching for a longer time to ensure that the new
-practices are learned and applied correctly in practice. Table
-\ref{table:success_training} lists references that highlight training and
-coaching as success factors.
+The most prominent and clear success factor was having support from management.
+When the leadership of the organization is committed and supportive change is
+much more likely to happen. Table \ref{table:success_management} lists
+success factors related to management support.
 
-\begin{table}
+\begin{table}[h]
+    \centering
+    \begin{tabular}{ >{\raggedright\arraybackslash}p{0.41\textwidth}
+                     >{\raggedright\arraybackslash}p{0.51\textwidth} }
+        \toprule
+        Success factors  &  Described in \\
+        \midrule
+        Have management support  &
+                P8, P11, P16, P18, P27, P31, P33, P36,
+                P43, P44, P46, P47, P49  \\
+        Visible management support encourages employees  &
+                P9, P11, P24, P40  \\
+        Educate management on agile methods  &
+                P6, P8, P9, P11, P16, P29, P35, P46, P47  \\
+        \bottomrule
+    \end{tabular}
+    \caption{Success factors relating to management support for agile}
+    \label{table:success_management}
+\end{table}
+
+% Management support in general
+
+Numerous cases made it clear that management support is an absolute necessity
+[P8, P18, P27, P31, P33, P36, P43, P47, P49].
+This was reflected in statements such as ``Adopting agile, or implementing any
+significant change, requires an executive’s sincere support.'' [P44],
+``Executive commitment was crucial to implementing massive change.'' [P16], and
+``Having upper management engaged, supportive and visible is critical for
+wholesale organization involvement with Scrum.'' [P11].
+
+Managers were seen to be in a key role in making the change stick, as they had
+the authority and power to remove impediments [P18]. Seffernick [P46] describes
+how a number of people attempted to explain away the applicability of agile
+methods, but the objections were overruled by the director's commitment to make
+agile work. Management support was similarly needed when tight release schedules
+had to be flexed in order to give room for the adoption process [P16, P27].
+Favorable management decisions were also critical when additional resources were
+allocated to training and coaching [P47].
+
+Visible involvement of management was also reported to motivate and encourage
+employees to adopt the new model [P40]. For instance, the CTO organized training
+sessions personally [P24], and the engineering VP frequently visited sprint
+demos [P11]. When the corporate level support for the agile initiative was
+showing teams adopted agile methods even spontaneously [P9].
+
+% Educate management
+
+In order to gain support for agile several cases highlighted the need to educate
+management [P8, P47].
+Without education managers might make harmful interventions in the process, or
+just stick to the old model [P16, P35, P46].
+Managers not understanding the principles of agile were feeling left out with
+the introduction of self organizing teams, which some times resulted in
+backlashes [P6]. Providing proper training was reported to correct the
+situation, and even create strong agile supporters in management [P6, P9].
+Training also cleared misconceptions that management had [P29], and helped
+create a consistent implementation of the agile model across the organization
+[P11].
+
+There were a few suggestions on how to involve management better. Foremost, a
+successful experience will likely rise the interest of management [P36].
+Mencke [P33] suggests giving executives tasks related to the agile process,
+so that they have better visibility of the new way of working. 
+
+
+\subsubsection{Commitment to change}
+
+To make a large organization change the commitment to change must be made clear.
+People should be made to understand that there is no return to the old model.
+If and when the changes uncover problems they must not be allowed to set back
+the transformation. Table \ref{table:success_commitment} lists sources which
+present commitment to change as a success factor.
+
+\begin{table}[h]
     \centering
     \begin{tabular}{ >{\raggedright\arraybackslash}p{0.51\textwidth}
                      >{\raggedright\arraybackslash}p{0.41\textwidth} }
         \toprule
         Success factors  &  Described in \\
         \midrule
-        Providing training on agile methods  &
-                P3, P6, P11, P14, P16, P30, P37, P46 \\
-        Coaching teams as they learn by doing  &
-                P3, P6, P8, P9 P16, P17, P18, P29,
-                P30, P33, P42, P44, P47, P48  \\
+        Make it understood that the change is non-negotiable  &
+                P11, P22, P48, P49  \\
+        Commitment to change  &
+                P8, P10, P43  \\
         \bottomrule
     \end{tabular}
-    \caption{Training and coaching presented as success factors}
-    \label{table:success_training}
+    \caption{Commitment to change as a success factor}
+    \label{table:success_commitment}
 \end{table}
 
-Training was seen as a strong factor helping the organization to transform.
-Several studies stated that training improved the chance of succeeding in the
-transformation [P3, P16, P30]. It was even highlighted that the change would have
-failed without transformation [P14]. As Benefield [P6] claimed: ``we saw again
-and again how training could make the difference between success and failure for
-a team''. Training also helped people to become more positively inclined towards
-the new model [P16, P37], and at best training made people enthusiastic to change
-[P3, P46]. A few cases reported that there was some disinclination to change,
-and training would have helped to overcome [P11, P14].
+% Make it understood that there is no return to the old model
 
-Agile methods avoid prescribing exact ways of working but rather emphasize a
-mindset of adapting to the situation. It is difficult to explain by theory how
-such a mindset should be applied, and the agile practices are best learned by
-doing. Coaching teams while they apply the agile methods in practice was seen as
-an important factor in change [P3, P16, P17, P30, P47]. A few cases stated even
-that coaching was essential for success in transformation [P8, P18, P29, P33].
-Also, without coaching teams can do damage to the agile transformation if
-techniques are applied improperly [P9].
+Articulating urgency at start will help getting the change under way [P49].
+Feedback of changes should certainly be listened to, but in the end it must be
+made clear that the old model can not be returned to [P22].
+For a case where the organization was changed all at once it was reported that
+the magnitude of change helped created the impression that the change was non
+negotiable [P11]. Firstly, as it was evident that a large change was to happen
+people felt encouragement and permission to move on from the old way, and
+secondly, the urgency eliminated wasteful discussions on whether Scrum was a
+good model or not [P11].
+When the organization culture is ingrown he change vision must constantly be
+reminded of, and each step towards the new model consider a victory [P48].
 
-There were a number of statements of the benefits of coaching. The coach
-position allowed to watch for and correct problems when they arose [P16, P42].
-Coaches also helped to draw attention away from focus on tools and towards
-understanding the principles of agile [P42, P48].
-There were also benefits in using both internal and external coaches.
-External coaches were able to have an objective view of the organization [P16,
-P44], but internal coaches were more accessible and knew the specifics of the
-organization [P3, P6].
+% Make change necessary
+
+Transformation can be facilitated by creating mechanisms that force change.
+Spayd [P49] describes that senior management pushed hard on a mandate to have
+deliveries every 90 days. The mandate made change necessary, and while the
+strong pressure did not promote agile practices in every case, the drive for
+change was perceived good in general [P49].
+
+% Commitment (?)
+
+A large change will inevitably require strong commitment, but problems in the
+transformation can put the commitment to test. The agile model is introduced
+because of problems in the old model, and therefore there will be organizational
+issues uncovered during the transformation [P10]. People must not be demoralized
+when facing challenges, and the determination to change must be maintained [P8,
+P10]. It is not the agile model that has flaws, but it is merely exposing
+problems in the organization [P10].
+
+Ryan and Scudiere [P43] describe that management commitment was showing as
+strong focus on certain agile practices that had been chosen as non negotiable,
+and constant assessment that the practices work. The expectations were clearly
+communicated to the teams, and constant assessment made it clear that change is
+desired [P43].
+A strong commitment from management will assure teams that the change is the
+right thing [P11].
+
+% * Create a sense of urgency
+% * Find a common cause to motivate the change
+% [P11]
+% Find a rallying point.  You might not have a recession as a spur to receptivity,
+% but a common, critical cause to motivate change will make it easier to explain
+% how Scrum can contribute to the success  of that cause.
+
+
+\subsubsection{Leadership and alignment}
+
+The importance of leadership in change was described in many sources. Individual
+persons as well as task forces and communities acted as change leaders. A factor
+related to leadership was creating organizational alignment.
+Table \ref{table:success_changeleaders} summarizes factors related to leadership
+in change which benefit the transformation.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{ >{\raggedright\arraybackslash}p{0.51\textwidth}
+                     >{\raggedright\arraybackslash}p{0.41\textwidth} }
+        \toprule
+        Success factors  &  Described in \\
+        \midrule
+        Have change leaders  &
+                P3, P4, P11, P16, P18, P31, P33, P42  \\
+        Have an agile community  &
+                P3, P12, P41, P42, P47  \\
+        Align the organization  &
+                P8, P18, P31, P42, P43, P46  \\
+        \bottomrule
+    \end{tabular}
+    \caption{Success factors relating to leadership in change}
+    \label{table:success_changeleaders}
+\end{table}
+
+% Change leaders
+
+Organizing a large number of people requires some management and leadership.
+Similarly, transforming the way of working of a large group requires coordination
+and leadership [P31, P42]. In addition to the leadership provided by coaches,
+specific change leaders were also mentioned. Cases indicated the importance of
+having spokespersons for the change [P3, P4, P31]. Cowan [P11] describes how one
+person was strongly driving the transformation, and made an indisputable
+contribution for transforming the organization. Also Maples [P31] describes how
+the change and agile adoption was guided by one ``counselor'' [P31]. Other cases
+described that the change was lead by a competent roll-out team, which had
+representatives from all parts of the organization [P16, P33]. Finally, the
+responsibility of line and project managers to act as change leaders was
+highlighted [P18].
+
+% Have an agile community
+
+The formation and influence of agile communities was reported to have a
+significant impact on transformation.
+The emergence of an agile community was reported as a success factor in the
+transformation [P3]. A community was also seen as indispensable as it has power
+to overcome impediments that would be too large for individuals to affect [P47].
+The agile communities achieved to raise awareness of agile methods in the
+organization [P41, P42, P47], and spawned eager followers who spread the word
+even further [P12].
+
+% Align the organization
+
+A factor in achieving change was creating alignment towards the common goal of
+introducing new development methods. It was seen as an important factor that all
+levels in the organization speak the same language and accept the change [P18,
+P31]. Alignment was built by promoting success stories and gathering lists of
+problems to tackle [P42, P46]. In one case complete alignment between teams and
+within management was considered as necessary to use the agile model in a large
+context [P43]. Another case highlighted creating and applying a structured
+roll-out process to uniformly introduce agile to a large number of teams [P8].
 
 
 \subsubsection{Use of piloting}
@@ -2934,7 +3109,7 @@ on a general level. Beyond being a common practice, the use of pilot programs
 was also attributed as a success factor. Table \ref{table:success_pilots} lists
 sources discussing piloting as a success factor.
 
-\begin{table}
+\begin{table}[h]
     \centering
     \begin{tabular}{ >{\raggedright\arraybackslash}p{0.51\textwidth}
                      >{\raggedright\arraybackslash}p{0.41\textwidth} }
@@ -2990,20 +3165,20 @@ keeping practices simple. Table \ref{table:success_choosemodel} lists viewpoints
 relating to the choice of the agile model which were reported to provide
 benefits.
 
-\begin{table}
+\begin{table}[h]
     \centering
     \begin{tabular}{ >{\raggedright\arraybackslash}p{0.51\textwidth}
                      >{\raggedright\arraybackslash}p{0.41\textwidth} }
         \toprule
         Success factors  &  Described in \\
         \midrule
-        Customizing the agile model  &
+        Customize the agile model to the needs of the organization  &
                 P8, P10, P11, P29, P31, P40, P41, P43, P45, P49, P51  \\
         Conformity to a single agile model  &
                 P8, P11, P12, P16, P32, P43  \\
         Mapping to the old model eases adaptation  &
                 P14, P29, P44, P46, P48  \\
-        Keeping the new model simple  &
+        Keep the new model simple  &
                 P5, P10, P16, P40  \\
         \bottomrule
     \end{tabular}
@@ -3097,10 +3272,10 @@ Table \ref{table:success_requirements} lists references that discuss careful
 implementation of the product owner role and requirements management as success
 factors.
 
-\begin{table}
+\begin{table}[h]
     \centering
-    \begin{tabular}{ >{\raggedright\arraybackslash}p{0.51\textwidth}
-                     >{\raggedright\arraybackslash}p{0.41\textwidth} }
+    \begin{tabular}{ >{\raggedright\arraybackslash}p{0.46\textwidth}
+                     >{\raggedright\arraybackslash}p{0.46\textwidth} }
         \toprule
         Success factors  &  Described in \\
         \midrule
@@ -3148,168 +3323,90 @@ development and requirements management was bridged by having a dedicated
 Requirements Architect to help with requirements breakdown.
 
 
-\subsubsection{Management support}
+\subsubsection{Training and coaching}
 
-The most prominent and clear success factor was having support from management.
-When the leadership of the organization is committed and supportive change is
-much more likely to happen. Table \ref{table:success_management} lists
-success factors related to management support.
+Agile methods come as new ways of working to many. In order to get a good start
+in the transformation the ideas of the new methods need to be explained
+thoroughly. Training sessions are good starting points, but teams should be
+accompanied by coaching for a longer time to ensure that the new practices are
+learned and applied correctly in practice. Table \ref{table:success_training}
+lists references that highlight training and coaching as success factors.
 
-\begin{table}
+\begin{table}[h]
+    \centering
+    \begin{tabular}{ >{\raggedright\arraybackslash}p{0.46\textwidth}
+                     >{\raggedright\arraybackslash}p{0.46\textwidth} }
+        \toprule
+        Success factors  &  Described in \\
+        \midrule
+        Providing training on agile methods  &
+                P3, P6, P11, P14, P16, P30, P37, P46 \\
+        Coaching teams as they learn by doing  &
+                P3, P6, P8, P9 P16, P17, P18, P29,
+                P30, P33, P42, P44, P47, P48  \\
+        \bottomrule
+    \end{tabular}
+    \caption{Training and coaching presented as success factors}
+    \label{table:success_training}
+\end{table}
+
+Training was seen as a strong factor helping the organization to transform.
+Several studies stated that training improved the chance of succeeding in the
+transformation [P3, P16, P30]. It was even highlighted that the change would have
+failed without transformation [P14]. As Benefield [P6] claimed: ``we saw again
+and again how training could make the difference between success and failure for
+a team''. Training also helped people to become more positively inclined towards
+the new model [P16, P37], and at best training made people enthusiastic to change
+[P3, P46]. A few cases reported that there was some disinclination to change,
+and training would have helped to overcome [P11, P14].
+
+Agile methods avoid prescribing exact ways of working but rather emphasize a
+mindset of adapting to the situation. It is difficult to explain by theory how
+such a mindset should be applied, and the agile practices are best learned by
+doing. Coaching teams while they apply the agile methods in practice was seen as
+an important factor in change [P3, P16, P17, P30, P47]. A few cases stated even
+that coaching was essential for success in transformation [P8, P18, P29, P33].
+Also, without coaching teams can do damage to the agile transformation if
+techniques are applied improperly [P9].
+
+There were a number of statements of the benefits of coaching. The coach
+position allowed to watch for and correct problems when they arose [P16, P42].
+Coaches also helped to draw attention away from focus on tools and towards
+understanding the principles of agile [P42, P48].
+There were also benefits in using both internal and external coaches.
+External coaches were able to have an objective view of the organization [P16,
+P44], but internal coaches were more accessible and knew the specifics of the
+organization [P3, P6].
+
+
+\subsubsection{Communication and transparency in the change}
+
+Communication and transparency was an important success factor brought up in the
+promary studies. The ongoing change should be communicated intensively to
+everyone. Transparency and inclusiveness were success factors related to
+communication.
+Table \ref{table:success_communication} presents success factors relating to
+communicating the change.
+
+\begin{table}[h]
     \centering
     \begin{tabular}{ >{\raggedright\arraybackslash}p{0.51\textwidth}
                      >{\raggedright\arraybackslash}p{0.41\textwidth} }
         \toprule
         Success factors  &  Described in \\
         \midrule
-        Have management support  &
-                P8, P11, P16, P18, P27, P31, P33, P36,
-                P43, P44, P46, P47, P49  \\
-        Visible management support encourages employees  &
-                P9, P11, P24, P40  \\
-        Educate management on agile methods  &
-                P6, P8, P9, P11, P16, P29, P35, P46, P47  \\
+        Communicate the change intensively  &
+                P16, P22, P33, P40, P41, P43, P48  \\
+        Enable transparency in the change  &
+                P6, P11, P16, P42, P43  \\
+        Engage people broadly in the organization  &
+                P4, P6, P16, P22, P31 \\
         \bottomrule
     \end{tabular}
-    \caption{Success factors relating to management support for agile}
-    \label{table:success_management}
+    \caption{Succes factors relating to communicating the change}
+    \label{table:success_communication}
 \end{table}
 
-% Management support in general
-
-Numerous cases made it clear that management support is an absolute necessity
-[P8, P18, P27, P31, P33, P36, P43, P47, P49].
-This was reflected in statements such as ``Adopting agile, or implementing any
-significant change, requires an executive’s sincere support.'' [P44],
-``Executive commitment was crucial to implementing massive change.'' [P16], and
-``Having upper management engaged, supportive and visible is critical for
-wholesale organization involvement with Scrum.'' [P11].
-
-Managers were seen to be in a key role in making the change stick, as they had
-the authority and power to remove impediments [P18]. Seffernick [P46] describes
-how a number of people attempted to explain away the applicability of agile
-methods, but the objections were overruled by the director's commitment to make
-agile work. Management support was similarly needed when tight release schedules
-had to be flexed in order to give room for the adoption process [P16, P27].
-Favorable management decisions were also critical when additional resources were
-allocated to training and coaching [P47].
-
-Visible involvement of management was also reported to motivate and encourage
-employees to adopt the new model [P40]. For instance, the CTO organized training
-sessions personally [P24], and the engineering VP frequently visited sprint
-demos [P11]. When the corporate level support for the agile initiative was
-showing teams adopted agile methods even spontaneously [P9].
-
-% Educate management
-
-In order to gain support for agile several cases highlighted the need to educate
-management [P8, P47].
-Without education managers might make harmful interventions in the process, or
-just stick to the old model [P16, P35, P46].
-Managers not understanding the principles of agile were feeling left out with
-the introduction of self organizing teams, which some times resulted in
-backlashes [P6]. Providing proper training was reported to correct the
-situation, and even create strong agile supporters in management [P6, P9].
-Training also cleared misconceptions that management had [P29], and helped
-create a consistent implementation of the agile model across the organization
-[P11].
-
-There were a few suggestions on how to involve management better. Foremost, a
-successful experience will likely rise the interest of management [P36].
-Mencke [P33] suggests giving executives tasks related to the agile process,
-so that they have better visibility of the new way of working. 
-
-
-\subsubsection{Urgency and commitment to change}
-
-
-% Make it understood that there is no return to the old model
-
-To make a large organization change the direction of the change needs to be
-communicated clearly. Articulating urgency at start will help getting the change
-under way [P49]. Feedback of changes should certainly be listened to, but in the
-end it must be made clear that the old model can not be returned to [P22].
-For a case where the organization was changed all at once it was reported that
-the magnitude of change helped created the impression that the change was non
-negotiable [P11]. Firstly, as it was evident that a large change was to happen
-people felt encouragement and permission to move on from the old way, and
-secondly, the urgency eliminated wasteful discussions on whether Scrum was a good
-model or not [P11].
-When the organization culture is ingrown he change vision must constantly be
-reminded of, and each step towards the new model consider a victory [P48].
-
-% Commitment (?)
-
-A large change will inevitably require strong commitment. The agile model is
-introduced because of problems in the old model, and therefore there will be
-organizational issues uncovered during the transformation [P10]. People must not
-be demoralized when facing challenges, and the determination to change must be
-maintained [P8, P10]. It is not the agile model that has flaws, but it is
-merely exposing problems in the organization [P10].
-Ryan and Scudiere [P43] describe that management commitment was showing as
-strong focus on certain agile practices that had been chosen as non negotiable,
-and constant assessment that the practices work. The expectations were clearly
-communicated to the teams, and constant assessment made it clear that change is
-desired [P43].
-A strong commitment from management will assure teams that the change is the
-right thing [P11].
-
-% Make change necessary
-
-Spayd [P49] describes that senior management pushed hard on a mandate to have
-deliveries every 90 days. The mandate made change necessary, and while the
-strong pressure did not promote agile practices in every case the drive for
-change was perceived good in general [P49].
-
-% * Create a sense of urgency
-% * Find a common cause to motivate the change
-% [P11]
-% Find a rallying point.  You might not have a recession as a spur to receptivity,
-% but a common, critical cause to motivate change will make it easier to explain
-% how Scrum can contribute to the success  of that cause.
-
-
-\subsubsection{Have a change leading coalition}
-
-% Change leaders
-
-Organizing a large number of people requires some management and leadership.
-Similarly, transforming the way of working of a large group requires coordination
-and leadership [P42, P31]. In addition to the leadership provided by coaches,
-specific change leaders were also mentioned. Cases indicated the importance of
-having spokespersons for the change [P3, P4, P31]. Cowan [P11] describes how one
-person was strongly driving the transformation, and made an indisputable
-contribution for transforming the organization. Also Maples [P31] describes how
-the change and agile adoption was guided by one ``counselor'' [P31]. Other cases
-described that the change was lead by a competent roll-out team, which had
-representatives from all parts of the organization [P16, P33]. Finally, the
-responsibility of line and project managers to act as change leaders was
-highlighted [P18].
-
-% Have an agile community
-
-The formation and influence of agile communities was reported to have a
-significant impact on transformation.
-The emergence of an agile community was reported as a success factor in the
-transformation [P3]. A community was also seen as indispensable as it has power
-to overcome impediments that would be too large for individuals to affect [P47].
-The agile communities achieved to raise awareness of agile methods in the
-organization [P42, P41, P47], and spawned eager followers who spread the word
-even further [P12].
-
-% Align the organization
-
-A factor in achieving change was creating alignment towards the common goal of
-introducing a new development method. It was seen as an important factor that
-all levels in the organization speak the same language and accept the change
-[P18, P31]. Alignment was built by promoting success stories and gathering lists
-of problems to tackle [P42, P46]. In one case complete alignment between teams
-and within management was considered as necessary to use the agile model in a
-large context [P43]. Another case highlighted creating and applying a structured
-roll-out process to uniformly introduce a large number of teams to agile [P8].
-
-
-\subsubsection{Communication and transparency in the change}
 
 Intensive communication was emphasized in a number of studies. It is important
 to reach a maximum number of people throughout the organization, as without
@@ -3322,6 +3419,16 @@ sure.'' Workshops, coaching sessions, online discussions, and newsletters are
 examples on different communication formats used [P41]. Another approach in
 communicating the change was that managers explained and encouraged change in an
 extensive series of one-to-one discussions [P22].
+
+Also communicating the goals of the transformation was highlighted in a some
+studies.
+Having a clear message of expectations helped to remove confusion and make
+people understand the purpose of the transformation [P43, P48]. The motivation
+to change can be increased by having a simple proposal on how to reach the
+desired outcomes [P40].
+McDowell and Dourambeis [P32] describe how the organization launched a series of
+communications events especially designed to emphasize the reasons behind the
+agile practices.
 
 Enabling transparency during the transformation was another communication
 related theme that was brought up, and even highlighted as a critical factor for
@@ -3346,44 +3453,47 @@ aligned and everyone was moving in the same direction [P42, P43].
 % fluent communication between managers, POs, and teams [P42].
 
 
-Communicating the goals of the transformation was highlighted in a some studies.
-Having a clear message of expectations helped to remove confusion and make
-people understand the purpose of the transformation [P43, P48]. The motivation
-to change can be increased by having a simple proposal on how to reach the
-desired outcomes [P40].
-
-% Emphasize principles over mechanics
-
-%         Emphasizing principles over mechanics  &
-%                 P1, P16, P32, P42, P46, P48  \\
-
-In a number of studies it was described that during transformation the
-principles of agile should be emphasized over practices and simple mechanics
-[P46, P48]. When people understand the agile values they will also understand
-why the change is being done and feel motivated [P1, P16, P42].
-The people centric nature of agile development should be communicated correctly.
-McDowell and Dourambeis [P32] describe how the organization launched a series of
-communications events especially designed to emphasize the reasons behind the
-agile practices.
-
-% ??
-Especially inexperienced coaches and Scrum masters made mistakes in focusing too
-much on the implementation of practices [P23, P30].
-
-
 % Engage people broadly
 
-Many cases highlighted how people were engaged broadly in the organization.
+Many cases highlighted the importance of engaging people broadly in the
+organization.
 One of the lessons learned presented was that it is important to involve all
 stakeholders to gain acceptance in the transformation [P4, P31]. The transition
 team made an effort to engage people by both inviting to give feedback online
-and holding an extensive number of feedback meetings [P6, P22, P16]
-Being inclusive towards everyone was seen as one of the key success factors in
-the transformation [P16]. Inclusiveness will encourage people to participate and
-use the new model visibly [P16].
+and holding an extensive number of feedback meetings [P6, P16, P22] Being
+inclusive towards everyone was seen as one of the key success factors in the
+transformation [P16]. Inclusiveness will encourage people to participate and use
+the new model visibly [P16].
 
 
-\subsubsection{Enable autonomy}
+\subsubsection{Enable autonomy for development teams}
+
+A key principle in agile is to allow development teams decide for themselves how
+they execute their tasks. To make te agile model work well teams need to
+self-organize, and be allowed to make decisions on the pace of development.
+When teams can perform their tasks autonomically the transformation towards
+agile will progress.
+Table \ref{table:success_autonomy} lists success factors relating to autonomy of
+development teams.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{ >{\raggedright\arraybackslash}p{0.51\textwidth}
+                     >{\raggedright\arraybackslash}p{0.41\textwidth} }
+        \toprule
+        Success factors  &  Described in \\
+        \midrule
+        Allow teams to self-organize  &
+                P5, P16, P18, P41  \\
+        Empower teams to decide over speed and quality  &
+                P27, P30, P34, P45  \\
+        No top-down mandate  &
+                P3, P6, P41  \\
+        \bottomrule
+    \end{tabular}
+    \caption{Success factors relating to enabling autonomy for development teams}
+    \label{table:success_autonomy}
+\end{table}
 
 % Empowering teams
 
@@ -3406,7 +3516,7 @@ P34].
 Roche and Vasquez-McCall [P41] describe how prescribing the agile methods to use
 lead only so-far in the transformation. The effectiveness of teaching and
 communicating the transformation started to decline. To enable the
-transformation to still proceed, the an organization-wide challenge was created
+transformation to proceed further, an organization-wide challenge was created
 where teams would independently develop and showcase the best agile practices.
 As a result the ownership of the methods was transferred to teams, and the new
 model gained a secure foothold. [P41]
@@ -3422,26 +3532,38 @@ would be beneficial [P3].
 The absence of mandate granted genuine support for the model on the grass roots
 level, which was a necessity for the process to work [P6].
 It was also thought that proceeding with a top-down mandate would have made
-teams use a uniform process [P41]. This would have been sub-optimal, as it was
-important that the practices were tailored for each team and project [P41].
-
-% Previous culture is like agile
-
-A few organizations had already some structures in place that were similar to
-agile, which made the transformation easier.
-For instance, a previous organizational model based on small and autonomous
-teams strongly aided the adoption [P3].
-Another case described the original on-demand delivery model a natural fit for
-agile, and the transformation was presented as a return to core values instead
-of a remodeling [P16].
-% The agile culture must also be maintained in each step of the transformation
-% [P31] 
+teams conform to a single process [P41]. This would have been sub-optimal, as it
+was important that each individual team and project tailored their practices
+[P41].
 
 
-\subsubsection{People factors}
+\subsubsection{Choosing the right people}
 
 The transformation did not entirely rely on choices in technology and
 management, but also different people factors were given as basis of success.
+The choice of people to initially involve in the transformation was reported to
+make a difference. Interest or previous experience of agile methods were
+valuable characteristics to look for.
+Table \ref{table:success_people} lists factors choosing people that can benefit
+the transformation.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{ ll }
+        \toprule
+        Success factors  &  Described in \\
+        \midrule
+        Start with people who are receptive for agile methods  &
+                P6, P29, P34  \\
+        Use people with previous agile experience  &
+                P6, P10, P37  \\
+        Have change leaders without baggage of the past  &
+                P11, P16  \\
+        \bottomrule
+    \end{tabular}
+    \caption{Success factors relating to choosing the right people}
+    \label{table:success_people}
+\end{table}
 
 Choosing people with a disposition towards agile methods was seen as a
 requirement for the change to take the right track. Teams are staffed usually
@@ -3476,16 +3598,6 @@ being external to the organization [P16].
 % Old employees were also willing to try something new, because the organization
 % had gone through a time of uncertainty and restructuring [P11].
 
-% Have social events
-
-Social events were reported to benefit the transformation. A few cases even
-described a the transformation being driven by a series of events where people
-received information and had the possibility to participate in shaping the new
-model of working [P32, P41]. Various social activities were presented as
-valuable tools for improving bonding within teams [P11, P27, P40]. The importance of
-creating personal bonding was also highlighted for change leading entities such
-as management and coaching teams [P11, P23].
-
 
 % S: Have social events (get-togethers, etc.)
 % 
@@ -3517,6 +3629,13 @@ as management and coaching teams [P11, P23].
 % [P41]
 
 
+\subsubsection{Other success factors}
+
+A few succes factors which did not fit in the above categories stood out. These
+success factors are creating a positive experience in the beginning, arranging
+socaial events, emphasizing principles over mechanics, and the previous
+organizational culture being like agile.
+
 % Having a positive experience
 
 It is clear that any positive results will facilitate an organizational
@@ -3540,6 +3659,35 @@ created interest in others, and enthusiasm to try the new model will spread
 [P39, P46]. Some companies were using agile and waterfall methods side by side.
 This setting made it comparison possible, bringing up the benefits of the agile
 model [P19, P36].
+
+% Have social events
+
+Social events were reported to benefit the transformation. A few cases even
+described a the transformation being driven by a series of events where people
+received information and had the possibility to participate in shaping the new
+model of working [P32, P41]. Various social activities were presented as
+valuable tools for improving bonding within teams [P11, P27, P40]. The importance of
+creating personal bonding was also highlighted for change leading entities such
+as management and coaching teams [P11, P23].
+
+% Emphasize principles over mechanics
+
+In a number of studies it was described that the principles of agile should be
+emphasized over practices and simple mechanics [P46, P48]. When people
+understand the agile values they will also understand why the change is being
+done and feel motivated [P1, P16, P42].
+Some cases described that inexperienced coaches and Scrum masters made mistakes
+in focusing too much on the implementation of practices [P23, P30].
+
+% Previous culture is like agile
+
+A few organizations had already some structures in place that were similar to
+agile, which made the transformation easier.
+For instance, a previous organizational model based on small and autonomous
+teams strongly aided the adoption [P3].
+Another case described the original on-demand delivery model a natural fit for
+agile, and the transformation was presented as a return to core values instead
+of a remodeling [P16].
 
 
 \clearpage
