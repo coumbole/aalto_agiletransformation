@@ -213,6 +213,15 @@ The goal of the research was to aggregate evidence on how large organizations
 transform into an agile way of working. The research was conducted as a
 systematic literature review based on empirical studies.
 
+The research process is presented starting from the research questions. After
+that we present the definition of large scale which this research builds upon.
+The bulk of this section concentrates on presenting the steps of the research
+process, starting from the definition of inclusion criteria, continuing with
+describing how the primary studies were selected, and finally presenting the
+method for synthesizing the primary studies. The section concludes with a
+discussion on limitations of the method.
+
+
 \subsection{Research questions}
 
 The following research questions were set to guide the research process.
@@ -238,9 +247,13 @@ RQ4: What factors facilitate adopting of agile methods?
 \subsection{Definition of large scale}
 \label{sec:largescale}
 
-A key question in the study was the definition of \emph{large scale}. Large
+A key question in this study was the definition of \emph{large scale}. Large
 scale requires additional coordination and makes communication difficult
-compared to software development in small teams.
+compared to software development in small teams. One of the motivations for this
+research was to identify phenomena that appear particularly in large-scale
+transformations, and which may not be present in small organizations.
+
+In this section we first present the definition of large scale.
 
 --> Needs to have complexity in software design?? --> What is complexity in software?
     Is ``complexity'' an issue in agile?
@@ -269,12 +282,12 @@ compared to software development in small teams.
 \subsection{Research process}
 
 The research was conducted as an application of Kitchenham's
-\cite{Kitchenham2007} guidelines for systematic literature review. The selection
-of primary studies was done as a keyword based database search and manual
-filtering of included studies. The filtering process was executed independently
-by two researchers (Dikert, Paasivaara). The selected primary studies were coded
-for data extraction and analysis. The entire process was audited and mentored by
-a third researcher (Lassenius).
+\cite{Kitchenham2007} guidelines for systematic literature review. Selection of
+primary studies was done as a keyword based database search and manual filtering
+of included studies. The filtering process was executed independently by two
+researchers (Dikert, Paasivaara). The selected primary studies were coded for
+qualitative data extraction and analysis. The entire process was audited and
+mentored by a third researcher (Lassenius).
 
 We deviated from Kitchenham's guideline on the part of data extraction. Instead
 of using data extraction forms we analyzed the primary studies by coding. This
@@ -404,9 +417,9 @@ simulate the dynamics of a large organization in an experiment.
 
 \subsubsection{Preliminary searches}
 
-Before proceeding with the database search a number of preliminary searches were
-performed. The purpose of the preliminary searches was to create a benchmark of
-potentially relevant papers that should be matched by the actual database
+Before proceeding with identifying the primary studies a number of preliminary
+searches were performed. The purpose of the preliminary searches was to create a
+benchmark of potentially relevant papers that should be matched by the actual
 search, and to evaluate different search strings. We started by examining top
 ranked hits by trivial keywords that the more complex final search string might
 miss. Initial searches were made using keywords that were as general as
@@ -423,30 +436,16 @@ table \ref{table:databases}) using the following search string:
 From these preliminary searches we compiled a list of 117 possibly relevant
 papers that the actual database search would be benchmarked against.
 
-\subsubsection{Study selection}
 
-The selection of studies was primarily based on a database search. The initial
-step in the database search was constructing a search string which yielded a
-reasonably large result set. The search result was then refined in two steps, by
-first filtering out abstracts and finally full text filtering. The study
-selection process starting from the database search is outlined in figure
-\ref{fig:selectionprocess}. The result of the database search was still amended
-with some results from the preliminary search and relevant references from all
-examined papers.
+\subsubsection{Identification of primary studies}
 
-\begin{figure}
-  \begin{center}
-    \includegraphics[width=1\textwidth]{graphics/research_process.pdf}
-    \caption{Database search as study selection process}
-    \label{fig:selectionprocess}
-  \end{center}
-\end{figure}
-
-A keyword search in online databases was chosen as the primary means to find
-potential primary studies. The databases included in the search are listed in
-Table \ref{table:databases}. All databases supported use of complex Boolean
-logic in searches, which allowed us flexibility in constructing the search
-strings.
+The gathering of potential primary studies was based on a search in online
+databases. The databases searched are listed in Table \ref{table:databases}. All
+databases supported use of complex Boolean logic in searches, which allowed us
+flexibility in constructing the search strings. The main task in the database
+search was to construct a search string which yielded a reasonably large result
+set. The set of matched primary studies was later ammended with a small number
+of studies found in references of the matched papers.
 
 \begin{table}
     \centering
@@ -503,19 +502,41 @@ listed in Table \ref{table:searchterms}.
     \label{table:searchterms}
 \end{table}
 
-The database keyword search matched 1874 unique papers. The abstracts of these
-papers were categorized independently by both Dikert and Paasivaara into three
-categories: include, exclude, and uncertain. The result was combined by marking
-abstracts both researchers agreed on for inclusion or exclusion respectively.
-The inclusion of disagreed or uncertain abstracts was resolved through
+The database keyword search matched 1875 unique papers. The results of the
+search were gathered for the selection step using reference management software.
+
+
+\subsubsection{Study selection}
+
+The set of potential primary studies identified by the database search was
+refined in two steps, by first filtering out abstracts and finally full text
+filtering. The study selection process starting from the database search is
+outlined in figure \ref{fig:selectionprocess_full}. The result of the database
+search was amended with some results from the preliminary search and relevant
+references from all examined papers.
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=1\textwidth]{graphics/research_process_full.pdf}
+    \caption{Full study selection process}
+    \label{fig:selectionprocess_full}
+  \end{center}
+\end{figure}
+
+
+TODO:
+* Duplicates removed?
+* Ei voi ymmärtää miten preliminary search filtteröitiin
+
+
+The database keyword search had matched 1875 unique papers. The abstracts of
+these papers were categorized independently by both Dikert and Paasivaara into
+three categories: include, exclude, and uncertain. There were 1578 exclusions
+and 62 inclusions that both researchers agreed on. The inclusion decisions
+for the 235 abstracts with disagreement or uncertainty were resolved through
 discussion. At this stage papers were excluded only if both researchers deemed
 it clearly irrelevant, including any uncertain cases for full text filtering. As
 a result 170 papers were selected for full text filtering.
-
-We also evaluated the keyword search against the benchmark created in the
-preliminary search step, concluding that 75 of the 117 preliminarily selected
-papers matched. The missed 32 preliminary papers were examined, resulting in
-including 3 additional papers as primary sources.
 
 % Inter-rater statistics
 %
@@ -549,92 +570,88 @@ and Paasivaara, and a decision was made after discussing each paper separately.
 In difficult cases Lassenius was consulted to reach a decision. As a result of
 the full text filtering 47 papers were selected to be included.
 
-After the full text filtering step the references of all papers were also
-examined for relevance. Most case study papers used references very scarcely,
-mostly referencing well known descriptions of agile methods. We included 2
-referenced papers in full text analysis.
+We evaluated the result of the database keyword search against the benchmark
+created in the preliminary search step. We concluded that 75 of the 117
+preliminarily selected papers were matched by the database keyword search.
+The missed 32 preliminary papers were examined, resulting in including 3
+additional papers as primary sources.
+
+In parallell with the full text filtering step the references of all papers were
+also examined for relevance. Most papers used references very scarcely, typicaly
+referencing well known descriptions of agile methods. We included 2 referenced
+papers in full text analysis.
 
 Finally, counting 47 papers from the full text filtering step, 3 papers from
 preliminary searches, and 2 papers from references, 52 papers were selected
-as primary studies. The full selection process is illustrated in figure
-\ref{fig:selectionprocess_full}.
-
-\begin{figure}
-  \begin{center}
-    \includegraphics[width=1\textwidth]{graphics/research_process_full.pdf}
-    \caption{Full study selection process}
-    \label{fig:selectionprocess_full}
-  \end{center}
-\end{figure}
+as primary studies.
 
 
-TODO:
-* Duplicates removed?
-* Ei voi ymmärtää miten preliminary search filtteröitiin
-
+\subsubsection{Handling of duplicate reports on a single case}
 
 In several cases there were more than one primary study presenting the
-transformation of the same organization. Even if the transformation of a single
-organization was described in many studies all sources that passed the inclusion
-criteria were included. Studies presenting the same organization were treated
-as one unit so that we could gain as much insight from each organization as
-possible. There were also a few papers that presented multiple case studies, and
-in those cases we treated each studied organization individually. As a result 42
-unique organizations were identified in the primary studies. We use the term
-\emph{study} to refer to the primary study publications, and the term
-\emph{case} to refer to an individual case organization that may be described in
-several different studies.
+transformation of the same organization. Duplicate descriptions of the same
+organization focused typically on different aspects. For example, one paper
+would highlight the viewpoint of developers \cite{Fry2007}, and another would
+consider the transformation from user experience designers' point of view
+\cite{Federoff2009}.
 
-% -----------------------
+Even if the transformation of a single organization was described in many
+studies, all sources that passed the inclusion criteria were included. Studies
+presenting the same organization were treated as one unit so that we could gain
+as much insight on each organization as possible. Conversely, there were also a
+few papers that presented multiple case studies, and in those cases we treated
+each studied organization individually.
 
-% - pitää olla systemaattinen
-% - pitää olla toistettava
-% ==> Perustuu enimmäkseen siihen että on 2 tutkijaa toistamassa
-% 
-% Jos koko on epäselvä:
-% --> Tutkijat päättävät keskustelun ja kvalitatiivisen harkinnan perusteella
-% --> Tähän tarvitaan esimerkit, milloin on otettu mukaan, milloin on karsittu
-%     pois
+As a result 42 unique organizations were identified in the primary studies. We
+use the term \emph{study} to refer to the primary study publications, and the
+term \emph{case} to refer to an individual case organization that may be
+described in several different studies.
 
 
 \subsubsection{Study quality assessment}
 
 The primary research for this literature review consists almost exclusively of
-industry experience reports. This may be seen as a factor lessening the
-evidence.
---> Why did we do this anyway?
---> Case studies with research method studying organizational transformations in
-    software industry are very scarce.
---> Large organizational changes are hard to measure experimentally (controlled
-    experiments?). Also due to this any student research was excluded.
+industry experience reports. There were only 6 case studies with a research
+method, and observations on transformation were presented only as a minor part
+in these studies. Based on this finding we concluded that case studies
+presenting viewpoints on organizational transformations are very scarce in
+software industry. We deemed that the results would be distorted heavily and
+many valuable studies would be left out if a strict quality assessment would be
+part of the inclusion criteria. As a result we decided to include all experience
+reports, regardless of the perceived objectivity.
 
-The reason for deviating study assessment
---> Original research consisted almost solely of experience reports
---> The fact that experience reports have a subjective standpoint makes it
-    unreliable to make quantitative conclusions based on the data
---> We also decided to include separate studies describing the same organization.
-    This was useful as it deepened the understanding of each case, and several
-    large organizations have produced more than one description of their agile
-    transformation.
+The absence of research methods and subjective viewpoints of experience reports
+can be seen as a factor lessening the evidence. Because of this we were
+refrained from making quantitative interpretations of the data, but based the
+results around describing qualitative observations. Regardless of the bias of
+the primary studies, we think that the concepts that emerged from the source
+material should not be questioned on a fundamental level. The overall existence
+of organizational phenomena should not be questioned based on possible author
+bias in experience reports.
 
-The fact that the study is based on a quantitative basis
---> Experience reports have a subjective bias
---> The data synthesis must not rely on quantitative measures. This means that
-    we also considered topics raised by only a marginal number of reports.
---> It may still be interesting to make some quantitative observations such as
-    a particular problem being reported in the majority of reports.
+% --> Large organizational changes are hard to measure experimentally (controlled
+%     experiments?). Also due to this any student research was excluded.
 
-It was quite common that a single transformation case was described by many
-papers. For example, one paper would highlight the viewpoint of developers
-\cite{Fry2007}, and another would consider the transformation from user
-experience designers' point of view \cite{Federoff2009}. Instead of using the
-most complete paper as suggested by Kitchenham \cite{Kitchenham2007}, we
-combined the results presented in each paper and considered the case as a single
-unit. By doing this we avoided bias caused by duplicate publications, and were
-enabled to have a more detailed view of the case organization.
+% --> It may still be interesting to make some quantitative observations such as
+%     a particular problem being reported in the majority of reports.
+
+% * The primary studies did not make distinction between method, results, and
+%   discussion
+% 
+% * The studies neither did any implications for generalizability, but rather
+%   presented narratives or experiences. Some cases presented lists of
+% %   recommendations.
+
+As presented in the previous section, we allowed several descriptions of the
+same case to be included. Instead of using the most complete paper as suggested
+by Kitchenham \cite{Kitchenham2007}, we combined the results presented in each
+paper and considered the case as a single unit. Keeping in mind the potential
+bias caused by duplicate publications, including all papers enabled us to have a
+more detailed view of the case organization.
 
 
 \subsubsection{Coding of primary documents}
+\label{sec:coding}
 
 The primary documents were coded using the Atlas TI qualitative data analysis software.
 An integrated deductive and inductive approach was chosen for coding the primary
@@ -848,6 +865,32 @@ agree with the meaning of the quotation. Further interpretation of the
 quotations and codes will still remain a subjective matter.
 
 
+\subsubsection{Synthesis of primary studies based on coding}
+
+The synthesis of findings was created based on the result of coding presented in
+section \ref{sec:coding}. An initial organization of codes into categories was
+made based on the labels of the codes. Each codes was linked to a single
+research question, so the categorization of codes was made separately within
+the topic of each research question. The categories of codes were labeled
+appropriately to give a high level description of the linked codes. Some codes
+having minor importance and few quotations were left out.
+
+After assigning each code to a unique category, the content of the categories
+was studied. Each category was studied by reading through each quotation of each
+code included. Typically the quotations were displayed and examined in their
+original context, considering also surrounding paragraphs of the quotation.
+Notes were made on each quotation presenting noteworthy observations. Based on
+the notes, an accurate description emerged for each code.
+
+As an accurate description had been created for each code, the initially defined
+categories could be refined. Some codes were recategorized, and the definitions
+of a few categories were revisited, until a final ordering was reached. The
+results are presented according to the final categorization.
+
+% * If a code had more quotations there were more observations made (longer
+%   result text)
+
+
 \subsection{Limitations of research method}
 
 -- A keyword search can not identify the facet of \emph{large scale}, and also
@@ -867,6 +910,13 @@ quotations and codes will still remain a subjective matter.
 
 -- We avoid numbers in results, such as frequency of a phenomena, except in the
    meta-analysis section.
+
+
+Bias  --  systematic error
+
+Internal quality  --  validity
+
+External quality  --  generalizability
 
 
 % ---------------------------------------------------------------------
