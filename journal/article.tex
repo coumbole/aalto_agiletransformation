@@ -218,8 +218,8 @@ that we present the definition of large scale which this research builds upon.
 The bulk of this section concentrates on presenting the steps of the research
 process, starting from the definition of inclusion criteria, continuing with
 describing how the primary studies were selected, and finally presenting the
-method for synthesizing the primary studies. The section concludes with a
-discussion on limitations of the method.
+method for analyzing and synthesizing the primary studies. The section concludes
+with a discussion on limitations of the method.
 
 
 \subsection{Research questions}
@@ -283,11 +283,22 @@ In this section we first present the definition of large scale.
 
 The research was conducted as an application of Kitchenham's
 \cite{Kitchenham2007} guidelines for systematic literature review. Selection of
-primary studies was done as a keyword based database search and manual filtering
-of included studies. The filtering process was executed independently by two
-researchers (Dikert, Paasivaara). The selected primary studies were coded for
-qualitative data extraction and analysis. The entire process was audited and
-mentored by a third researcher (Lassenius).
+primary studies was done using first a keyword based database search to identify
+potentially relevant sources, and then manually filtering the search result. The
+filtering process was executed independently by two researchers (Dikert,
+Paasivaara). The selected primary studies were coded for qualitative data
+extraction by one researcher (Dikert). The results of the study were finally
+elicitated by aggregating and analyzing the coding of the primary documents.
+Figure \ref{fig:researchprocess} presents an outline of the research process.
+The entire process was audited and mentored by a third researcher (Lassenius).
+
+\begin{figure}[b]
+  \begin{center}
+    \includegraphics{graphics/research_process.pdf}
+    \caption{Outline of the research process}
+    \label{fig:researchprocess}
+  \end{center}
+\end{figure}
 
 We deviated from Kitchenham's guideline on the part of data extraction. Instead
 of using data extraction forms we analyzed the primary studies by coding. This
@@ -518,16 +529,10 @@ references from all examined papers.
 \begin{figure}
   \begin{center}
     \includegraphics[width=1\textwidth]{graphics/research_process_full.pdf}
-    \caption{Full study selection process}
+    \caption{The study selection process}
     \label{fig:selectionprocess_full}
   \end{center}
 \end{figure}
-
-
-TODO:
-* Duplicates removed?
-* Ei voi ymmärtää miten preliminary search filtteröitiin
-
 
 The database keyword search had matched 1875 unique papers. The abstracts of
 these papers were categorized independently by both Dikert and Paasivaara into
@@ -650,10 +655,10 @@ bias caused by duplicate publications, including all papers enabled us to have a
 more detailed view of the case organization.
 
 
-\subsubsection{Coding of primary documents}
+\subsubsection{Coding of primary studies}
 \label{sec:coding}
 
-The primary documents were coded using the Atlas TI qualitative data analysis software.
+The primary studies were coded using the Atlas TI qualitative data analysis software.
 An integrated deductive and inductive approach was chosen for coding the primary
 studies \cite{Cruzes2011a}. The coding was designed to have a contextual part
 and a findings part as also suggested by Cruzes and Dybå \cite{Cruzes2011a}. A
@@ -775,7 +780,7 @@ presented in Table \ref{table:codecount}. The total number of quotations is less
 than the sum of quotations in the categories because a single quotation may have
 multiple codes.
 
-\begin{table}[h]
+\begin{table}[t]
     \centering
     \begin{tabular}{ l r r }
         \toprule
@@ -796,7 +801,6 @@ multiple codes.
     \label{table:codecount}
 \end{table}
 
-\clearpage
 
 \subsubsection{Validation of coding}
 
@@ -805,7 +809,7 @@ source material. As recommended by Kitchenham \cite{Kitchenham2007} we conducted
 an experiment with the goal to assess the consistency of coding that two
 independent researchers may achieve.
 In the experiment Dikert and Paasivaara coded independently a sample of five
-primary documents. The sample was hand picked as a representative subset of the
+primary studies. The sample was hand picked as a representative subset of the
 source material. The coding was done relying solely on the guidelines presented
 in the previous chapter, and the researchers were careful not to discuss the
 choice of codes or interpretations relating to codes before the experiment was
@@ -891,32 +895,58 @@ results are presented according to the final categorization.
 %   result text)
 
 
-\subsection{Limitations of research method}
+\subsection{Threats to validity and limitations}
 
--- A keyword search can not identify the facet of \emph{large scale}, and also
-   \emph{transformation} is difficult to capture with keywords. Because of this
-   we assume that it is likely that a some studies have been missed by the
-   keyword search. As an improvement we would suggest combining the entire
-   archive of \emph{Agile Conference} and \emph{Agile Processes in Software
-   Engineering and Extreme Programming} to the results of the keyword search.
-   These two conferences provided more than two thirds of the primary sources.
+To assess the validity of this research internal validity and external validity
+needs to be considered. In this section we present the identified threats to
+validity and the strategies used to mitigate them. We highlight two specific
+limitations in the research: weakness in keyword search, and the strength of
+evidence of primary sources.
 
--- Few of the primary studies presented a research method. Most of the studies
-   were experience reports where the author was a member of the organization
-   discussed. Because of this we must assume that the primary studies are
-   biased. Due to this risk of bias we chose not to make statistical
-   interpretations of the results. We only use relative measure when comparing
-   results.
+The threat to internal validity is subjective bias, which affects two parts of
+the research. First, the selection of the primary studies may have been
+distorted by interpreting the inclusion criteria falsely. This risk was
+mitigated at start by using three researchers in designing the inclusion
+criteria. When the inclusion criteria was subsequently applied the initial
+filtering was performed independently by two researchers, and unclear cases were
+resolved by case-by-case discussions between two or three researchers.
 
--- We avoid numbers in results, such as frequency of a phenomena, except in the
-   meta-analysis section.
+The second part of the research that may have been affected by subjective bias
+was the elicitation of results by coding and analysis. Our tools for mitigating
+this threat were limited, as the work stages in question are particularly
+laborous and for resource constraints the process could not be duplicated. We
+assessed the bias of the coding step using an experiment, and prevented
+subjective bias in analysis by making the results as tracable as possible. The
+coding experiment revealed that two researchers can find roughly 2 of 3 themes
+in an experience report identically. The traceability of results is achieved by
+supplying references to each claim presented in the results.
 
+This study had only a minor threat to external validity. The systematic
+literature review approach includes steps to identify all studies that may be
+relevant in the study area. As long as the systematic approach is adhered to
+threats against external validity are minimized. External validity was also
+confirmed by saturation of the primary studies. Saturation was evident, as when
+the majority of the primary studies had been coded almost all quotations for the
+remaining studies could be assigned to existing codes.
 
-Bias  --  systematic error
+A particular problem in this systematic literature review was the limitations of
+boolean keyword searches in online databases. A keyword search can not identify
+the facet of \emph{large scale}, and also \emph{transformation} is difficult to
+capture with keywords. Because of this we assume that it is likely that a some
+studies have been missed by the keyword search, potentially causing bias. To
+eliminate the potential bias we would suggest combining the entire archive of
+\emph{Agile Conference} and \emph{Agile Processes in Software Engineering and
+Extreme Programming} to the results of the keyword search. These two conferences
+provided more than two thirds of the primary sources.
 
-Internal quality  --  validity
-
-External quality  --  generalizability
+Another particular problem was that few of the primary studies presented a
+research method. Most of the studies were experience reports where the author
+was a member of the organization discussed. Because of this we must assume that
+the primary studies are biased to some extent. Due to this risk of bias we chose
+not to make quantitative interpretations in the results, and use only
+qualitative analysis. We conclude that in the current state of research it is
+necessary to include studies with varying strength of evidence in order to
+relevantly aggregate evidence on large scale transformations.
 
 
 % ---------------------------------------------------------------------
