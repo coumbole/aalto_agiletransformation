@@ -135,13 +135,13 @@ agile \sep transformation \sep large-scale \sep adopting agile
 
 -- Who will be interested of this?
 
--- What can be learned from this`?
+-- What can be learned from this?
 
 --> Motivation for research
 -- There are no systematic reviews for this
 -- A collection of experience reports can be used for creating a theoretical
    base.
---> There is interest in large scale [ref XP13 workshop]
+--> There is interest in large scale [ref XP13 workshop] \cite{Dingsoyr2013a}
 
 --> Freudenberg, S. and Sharp, H., "The Top 10 Burning Research Questions from
     Practitioners," IEEE Software, pp. 8-9, 2010.
@@ -162,28 +162,66 @@ compatible with programmed coordination, requires a strong emphasis on personal
 communication [Kraut, R. E. and Streeter, L. A., "Coordination in software
 development," Communications of the ACM, vol. 38, pp. 69-81, 1995]
 
-% ---------------------------------------------------------------------
-\section{Background}
-\label{sec:background}
-
-Lindvall, M., et al., "Agile Software Development in Large Organizations,"
-IEEE Computer, vol. 37, pp. 26-34, 2004.
-
-
 Boehm, B. and Turner, R., Balancing Agility and Discipline: A Guide for the
 Perplexed: Addison-Wesley, 2003.
 Boehm, B., "Get ready for agile methods, with care," IEEE Computer, vol. 35,
 pp. 64 - 69, 2002.
---> Any hints on size?? Maybe size leaning towards discipline?
+--> Size requires more discipline?
+
+% ---------------------------------------------------------------------
+\clearpage
+
+\section{Background}
+\label{sec:background}
 
 
-What is agile?
-[6] Conboy K., Fitzgerald B., “Toward a conceptual framework for agile methods:
-a study of agility in different disciplines,”
-Proc. ACM workshop on Interdisciplinary software engineering research (WISER), 2004, pp. 37-44.
+\subsection{Agile software development}
+
+Agile software development is a collection of methods developed as an alternative
+to so called traditional development methods. From the point of view of agile
+methods traditional methods strive to minimize change during the development
+process and attempt to fully define requirements before development. However,
+adaptability during the development life cycle and the ability to respond to
+conditions unforeseen at start are critical factors for the success of a
+software development project. Embracing change during development, people
+centricity are, and pursuing high quality from the start are fundamental themes
+in agile development.
+\cite{Highsmith2001,Cockburn2001}
+
+Agile methods have been both criticized and advocated, and research has shown
+that accommodating change may be a factor in both success and failure
+\cite{Boehm2002}. It has been shown that agile methods have improved
+satisfaction of both customers and developers, but on the other hand there is
+evidence that agile methods may not suite well for large undertakings
+\cite{Dyba2009}. As a solution \citet{Boehm2002} has suggested that each
+organization should find its own balance of agile and plan driven methods.
+
+Two of the most popular agile methods at the time being are Extreme Programming
+(XP) and Scrum \cite{Hamed2013}. Scrum is a method which focuses on the project
+management viewpoint of agile development \cite{Schwaber2002}. The Scrum method
+focuses on time-boxing, continuous tracking of project progress, and customer
+centricity. A prominent feature of Scrum is dividing work into sprints, which
+are time boxes of 1 to 4 weeks, aimed for producing a finished increment of
+working software \cite{Schwaber2002}. The XP development method is a collection
+of practices for enabling efficient incremental development \cite{Beck1999}.
+Some of the key practices of XP are continuous feedback on development, test
+driven development, close customer involvement, pair programming, and continuous
+integration (CI) \cite{Beck1999}.
+
+A methodology relating to and complementing agile development is lean software
+development. Similarly to Scrum and XP, lean software development aims to
+concentrate focus on activities that provide the most value to the customer.
+Core principles of lean software development are optimizing the whole, removal
+of waste, building quality in, and continuous learning. \cite{Poppendieck2012}
 
 
-\subsection{Large scale general references from primary studies}
+% What is agile?
+% [6] Conboy K., Fitzgerald B., “Toward a conceptual framework for agile methods:
+% a study of agility in different disciplines,”
+% Proc. ACM workshop on Interdisciplinary software engineering research (WISER), 2004, pp. 37-44.
+
+
+\subsection{Large scale agile development}
 
 Laanti 2008:
 [2] Kähkönen Tuomo, “Agile Methods for large organizations – building communities of practice”.
@@ -203,7 +241,46 @@ tion Framework (June 2007)
 Cockburn 2003:
 R. Crocker, Large-Scale Agile Software Development, Addison-Wesley, 2003.
 
-\subsection{Things that may need to be explained}
+
+\subsection{Adopting agile methods in large organizations}
+
+Introducing agile methods in large organizations is more difficult than it is in
+small organizations \cite{Dyba2008}. The difficulty is partly related to size
+bringing higher organizational inertia which slows down organizational change
+\cite{Livermore2008}. Agile development is not founded on the use of individual
+tools or practices, but rather on a holistic way of thinking. Adopting agile
+often requires change of the entire organizational culture \cite{Misra2010}.
+
+One significant difference between small and large scale adoptions is that large
+organizations have more dependencies between projects and teams. This increases
+the need for formal documentation and thus reduces agility \cite{Lindvall2004}.
+In addition to inter-team coordination development teams must interact with
+other organizational units, which are often non-agile in nature. For instance,
+HR may demand individuals to have strictly specified roles in projects
+\cite{Boehm2005}, or a change control board may inhibit the use of continuous
+integration or refactoring \cite{Lindvall2004}. All units affected by the agile
+transformation need to be informed and consulted, and the agile process must be
+adjusted according to their needs \cite{Lindvall2004, Cohn2003, Boehm2005}.
+
+Agile methods will also affect management and business related functions. A key
+challenge is that management must move away from life-cycle models and towards
+iterative and feature centric models \cite{Nerur2005}. The focus must be shifted
+from a large scale scope to shorter term project planning \cite{Misra2010}, as
+agile methods emphasize that planning is only meaningful for the near future
+\cite{Cohn2003}. However, the lack of planning can be a concern as business and
+customer relationships often build on long term roadmapping. Enabling operation
+with shorter term planning requires educating stakeholders and reviewing
+contracting practices \cite{Boehm2005}.
+
+
+% \subsection{Challenges in adopting agile methods}
+% 
+
+% \subsection{Success factors in adopting agile methods}
+% 
+
+
+\subsection{Summary of things that may need to be explained}
 
 * Scrum
 
