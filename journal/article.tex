@@ -1,0 +1,139 @@
+% ---------------------------------------------------------------------
+% -------------- PREAMBLE ---------------------------------------------
+% ---------------------------------------------------------------------
+
+%\documentclass[12pt,a4paper,english,oneside]{article}
+\documentclass[preprint,authoryear,12pt]{elsarticle}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{calc}
+\usepackage{natbib}
+\usepackage{url}
+%\usepackage{listings}
+\usepackage{hyphenat}
+
+\usepackage{supertabular,array}
+\usepackage{lipsum}
+\usepackage{booktabs}
+\usepackage{graphicx}
+
+
+% Strike through
+\usepackage[normalem]{ulem}
+
+% Punctuation for references
+\bibpunct{[}{]}{;}{n}{,}{,}
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+
+% Multiple bibliographies
+%\usepackage{multibib}
+%\newcites{gen}{References}
+%\usepackage{bibentry}
+
+
+% ---------------------------------------------------------------------
+% -------------- DOCUMENT ---------------------------------------------
+% ---------------------------------------------------------------------
+
+\journal{Information and Software Technology}
+
+\begin{document}
+
+% Extra definitions?
+\selectlanguage{english}
+
+\begin{frontmatter}
+
+%% use the tnoteref command within \title for footnotes;
+%% use the tnotetext command for the associated footnote;
+%% use the fnref command within \author or \address for footnotes;
+%% use the fntext command for the associated footnote;
+%% use the corref command within \author for corresponding author footnotes;
+%% use the cortext command for the associated footnote;
+%% use the ead command for the email address,
+%% and the form \ead[url] for the home page:
+%%
+%% \title{Title\tnoteref{label1}}
+%% \tnotetext[label1]{}
+%% \author{Name\corref{cor1}\fnref{label2}}
+%% \ead{email address}
+%% \ead[url]{home page}
+%% \fntext[label2]{}
+%% \cortext[cor1]{}
+%% \address{Address\fnref{label3}}
+%% \fntext[label3]{}
+
+%% use optional labels to link authors explicitly to addresses:
+%% \author[label1,label2]{<author name>}
+%% \address[label1]{<address>}
+%% \address[label2]{<address>}
+
+\title{Adopting agile software development in the large organizations:
+       A systematic literature review}
+
+\author{Kim Dikert}
+\ead{kim-karol.dikert@aalto.fi}
+
+\author{Maria Paasivaara}
+\ead{maria.paasivaara@aalto.fi}
+
+\author{Casper Lassenius}
+\ead{casper.lassenius@aalto.fi}
+
+\address{Aalto University, School of Science, Department of Computer Science and Engineering}
+
+
+% ---------------------------------------------------------------------
+% ------------------------- ABSTRACT ----------------------------------
+% ---------------------------------------------------------------------
+
+\begin{abstract}
+
+Agile methods have become an appealing alternative for companies striving to
+improve their performance, but the methods are originally designed for small and
+individual teams. This creates unique challenges when introducing agile to large
+organizations where development teams can not be autonomous. We conducted a
+systematic literature review including publications on 40 industry cases,
+describing the process of taking agile methods into use in large organizations.
+
+The primary motive for agile adoption is the need to improve performance. For a
+successful transformation the entire organization must be aligned and all
+organizational units must participate.
+Creating an agile community in the organization will help the change to stick.
+Typical problems are misunderstanding of the agile model, and difficulties
+coordinating multiple agile teams.
+
+
+
+\end{abstract}
+
+\begin{keyword}
+%% keywords here, in the form: keyword \sep keyword
+%% MSC codes here, in the form: \MSC code \sep code
+%% or \MSC[2008] code \sep code (2000 is the default)
+
+agile \sep transformation \sep large-scale \sep adopting agile
+
+\end{keyword}
+
+\end{frontmatter}
+
+
+% ---------------------------------------------------------------------
+% --------------------------- TEXT ------------------------------------
+% ---------------------------------------------------------------------
+
+
+\input{content.tex}
+
+
+
+
+\end{document}
+
+
