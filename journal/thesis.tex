@@ -2,6 +2,9 @@
 
 \documentclass[12pt,a4paper,oneside,pdftex]{report}
 
+\usepackage[a4paper,scale=1,bindingoffset=1cm,left=3.7cm,right=2.8cm,top=4.7cm,bottom=3.7cm,headsep=1.4cm]{geometry}
+
+
 % The input files (tex files) are encoded with the latin-1 encoding 
 % (ISO-8859-1 works). Change the latin1-option if you use UTF8 
 % (at some point LaTeX did not work with UTF8, but I'm not sure
@@ -99,7 +102,7 @@
 %                     first page of the first chapter
 %   twoinstructors  - changes the title of instructors to plural form
 %   twosupervisors  - changes the title of supervisors to plural form
-\usepackage[mydraft]{aalto-thesis}
+\usepackage{aalto-thesis}
 %\usepackage[mydraft,doublenumbering]{aalto-thesis}
 %\usepackage{aalto-thesis}
 
@@ -118,7 +121,7 @@
 
 \usepackage{pdfpages}
 
-\usepackage{txfonts}
+%\usepackage{txfonts}
 
 % Hyperref
 % ------------------------------------------------------------------
@@ -223,7 +226,7 @@ menetelmien käyttöönotto, suuret organisaatiot}
 % 1 is normal (no extra space), 1.3 is about one-half more space, and
 % 1.6 is about double line spacing.  
 % \linespread{1} % This is the default
-% \linespread{1.3}
+\linespread{1.02}
 
 % Bibliography style
 % acm style gives you a basic reference style. It works only with numbered
