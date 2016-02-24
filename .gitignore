@@ -4,3 +4,11 @@ article.pdf
 *.blg
 *.spl
 tmp
+*.log
+*.out
+*.toc
+*.aux
+*.lot
+.DS_Store
+*~*
+*.backup
