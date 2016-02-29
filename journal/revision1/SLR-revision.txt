@@ -1,0 +1,329 @@
+Reviewer #1: This paper presents a systematic literature review of publications about large-scale agile transformations. The authors have undertaken a systematic search for literature in specified databases using a set of keywords. They found 1875 papers, which they filtered by reading abstracts and full text to 52. From these papers they identify and present 35 challenges organised into 8 categories and 29 success factors organised into 11 categories. Details of the challenges and success factors are provided in tables and described in detail in the main sections of the paper. 
+
+This systematic review provides a novel and useful contribution to the field, by collecting and summarising findings from a wide range of publications. This work helps researchers to identify topics for further investigation, and provides a useful overview of the challenges and success factors that previous authors have identified. The systematic search is reported clearly, and the results are well presented. The paper needs clarification in some areas, in particular the discussion and conclusions sections need improving.
+
+I recommend the paper be accepted with minor revisions. In particular the discussion of 'large organizations' in the Introduction and Background sections needs revising. Also the Discussion section needs reworking. Details of suggested revisions are below:
+
+The layout and formatting are generally good. There was a visibility and formatting problem with Table 5. The bottom half of this table was missing, and only 4 of the 8 categories were visible. This table would be better formatted in the same way as Table 6 - and it may need to spread over 2 pages. 
+
+Highlights - the first two points are fine. It's not clear why you only mention 4 success factors and no challenges in the last point.
+
+Abstract, Introduction and Background - I recommend that you remove the mention of 'large organizations' from the abstract and introduction. You clearly assert that your study is about large-scale agile, and given that you define this as involving 50 people or at least 6 teams, it is possible for SME's to do large-scale agile, and it is certainly the case that many large organisations do not. It is therefore not obvious why you couch much of this introductory discussion in terms of large organizations. In Europe SMEs are defined as having up to 250 employees and in the US they may be up to 500. Your own results show that many of the organizations described in the literature you review are in the size range of SMEs, and therefore by definition not large organizations. I recommend that you distinguish between large-scale agile and large organizations in the introduction, and make the point that they are not necessarily the same. At the moment your introduction potentially
+obscure the diversity of organisations that do large scale agile.
+
+Background - last paragraph. Your use of the word 'organization' is confusing in this paragraph. Your definition appears to mean that you are only looking at 'software development organizations', whereas it is clear than many of the organizations being reported on in the papers you include in your study are not software development organizations, but businesses that do their own software development in-house.
+
+Method - Good, clear description of thethe methodology. Did you limit your search by date? 
+Table 1 - under Relevant topics for the Empirical facet, you don't mention interview studies or surveys. You should at least include 'interview studies' as you state later on that one of the papers described an interview study.
+3.2.7  sentence 1 replace 'coding both a contextual and a findings part' with coding both the contextual and the findings part'
+
+Results - on the whole these are well described. 
+4.1.3 Write out ADM in full
+4.1.3 A table or diagram of methods used would have been useful.
+Did you look at the affiliations of the authors of the included papers? I would expect with the industry reports that most of the authors were internal to the organisation - this would be useful data to summarise. 
+
+4.2 Transformation Challenges
+Some sections (eg Achieving Technical Consistency on p.18) are a bit long, and could be shortened. 
+In 4.2.1 you include mitigation strategies, which does not answer your RQ and you don't pick these up in most other sections. Since you have not done this systematically it would be best to remove them (see also end of 'High-level requirements management missing in agile' section; end of 'Challenges in adjusting product launch activities' section;
+You need to be careful with your use of the term 'bad' - what does it mean? First paragraph of p.14; p 16 'Agile customized badly'.
+
+4.3 Success factors
+In 4.3.2 the two success factors don't seem very different to me. 
+In this section you use the term 'model' instead of 'method'. This is a bit confusing. Revisit the use of the word model - i.e. 'Customize the agile model carefully' surely you mean method here - you talked about agile methods earlier on in section 4.1.3.
+
+Discussion - 5.1 is merely a repetition of your results. It's not a discussion at all, so it should be removed. I would expect you to go back to both of your research questions at the beginning of the discussion and pull out the main points. I would expect there to be a discussion of the research agenda at the end of a paper such as this, especially considering you mention several times that that you only found 6 papers that used a proper methodology. You could discuss these papers in more depth here in the context of a broader discussion about appropriate research methods for large-scale agile. How did these papers differ from the experience reports? What sort of results did they find? How may using stronger research methods improve generalizability and reliability of results? It is surprising that there was so little variation in research methods used - why is this? In other areas of agile there is far more research-method variation.  Your discussion about the pro-agile nature of many of the reports could be expanded, as well as the reluctance to write about failure - they are both related to the predominance of experience reports in the literature.
+
+Limitations - Given that you found about 10% of the papers by methods other than the systematic database search, you need to discuss this as a validity threat. & Check and respond & Maria \\
+
+Conclusions - You pick out five challenges categories and four success factors as more important in your conclusions. You need to explain why you've chosen these as most important. Your conclusions about future research should be based on what you say in the discussion.
+&
+Number of mentions. 
+& 
+Maria \\
+
+\addlinespace
+
+Reviewer #2: Journal of Systems and Software
+Challenges and Success Factors for Large-Scale Agile Transformations
+
+Review
+
+The authors have made a literature study on previously published papers on the challenges and success factors of large-scale agile transformations.
+
+This kind of research is widely needed. Large-scale agile transformations are happening, yet information on what are the biggest pitfalls and what are the success factors is needed.
+
+The search for research papers seem thorough, originating first with 1875 papers. 52 research papers were included in the study, out of which 35 challenges and 29 success factors were identified.
+
+Major revisions:
+
+It is interesting to ponder what makes adoption of agile in organizationally different to adopting agile on project level. Here, the researchers define "large-scale" as 50 to 100 people (page 4). Yet some agile adoptions clearly are bigger than this.
+
+Laanti, Salo and Abrahansson have 1000 answers in their research in an agile organization "Agile methods rapidly replacing traditional methods at Nokia: A survey of opinions on agile transformation"
+http://140.115.155.41/agilemethod/download/2010papers/2010%20Agile%20methods%20rapidly%20replacing%20traditional%20methods%20at%20Nokia/paper.pdf 
+
+IBMis talking about agility with thousands of developers 
+Ref. Ambler: IBM agility@scaleTM: Become as Agile as You Can Be
+ftp://129.35.224.15/software/au/201106/Agility_at_scale.pdf 
+
+and David F. Rico is referring agile at Google with 15 000 developers and Amazon with 30 000+ developers. John Deere agile transformation had 800 developers. http://davidfrico.com/rico14n.pdf 
+
+In Laanti's dissertation "AGILE METHODS IN LARGE-SCALE SOFTWARE DE VELOPMEN T ORGANIZA TIONS - APPLICABILITY AND MODEL FOR ADOPTION " the agile adoption was taken to several thousands of developers in Nokia http://herkules.oulu.fi/isbn9789526200347/isbn9789526200347.pdf 
+
+In verion One's 9th annual state of agile survey most of the respondents (53%) had more than 1 000 people in their software organization.
+
+The Point is - 50 to 100 developers is not "large-scale"
+
+Yes, not all 100 or 1000 developers may not work in the same agile project - but that is the point - in agile organization all that is done is done with agile. 
+
+Yet the study is well made, what is considered as large-scale should though be listed as limitation.
+& 
+This is not true, we have defined it well, see ... 
+& 
+Maria \\
+
+Here, the research is definitely lacking behind the practice. Even traditional industries, like banking and military are now going through large-scale agile transformations, see 
+http://www.banktech.com/channels/capital-one-delivers-85--of-software-through-agile/d/d-id/1296926? 
+Babuscio, J. (2009). How the FBI learned to catch bad guys one iteration at a time. Proceedings of the Agile 2009 Conference (Agile 2009), Chicago, Illinois, USA, 96-100.
+Fruhling, A., McDonald, P, & Dunbar, C. (2008). A case study: Introducing extreme programming in a U.S. government system development project. Proceedings of the 41st Annual Hawaii International Conference on System Sciences (HICSS 2008), Waikaloa, Big Island, Hawaii, USA, 464-473.
+https://www.scrum.org/About/All-Articles/articleType/ArticleView/articleId/738/DOD-has-made-it-illegal-to-do-waterfall 
+&
+Possibly in the introduction?
+&
+Casper
+\\
+
+
+The authors have not identified any other similar research. Yet Forrester has published on September 2012 a study on Agile Software Development And The Factors That Drive Success https://www.google.fi/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjTtMq3uLbJAhULiSwKHUneDgQQFggrMAA&url=http%3A%2F%2Fstatic.ziftsolutions.com%2Ffiles%2F8ada7f223c832a36013c8cfcc7165094.pdf&usg=AFQjCNF2XsswbCfTAKJREtPdaHKEvXZRGA&sig2=rLF_nzX16sXUSm9Iti3M_g 
+&
+Joo
+& 
+Casper \\
+
+Forrester surveyed 112 IT professionals about their Agile and traditional application development habits and practices, how they measure success, and what their success rates are. We split these 112 respondents into two groups — a "successful" group of 24 and a "control" group comprised of the remaining 88. How did we separate the two groups? To be "successful," 70% or more of the projects at a respondent's organization in the previous 12 months had to meet all three of the iron-triangle measures; on-time, full-scope, and within-budget. 
+&
+Joo
+& 
+Casper \\
+
+I would like to see the answers to at lest the following questions:
+*	Why Forrester research found different set of success factors? E.f. Forrester emphasizes the concept of Flow when managing agile projects, yet that is missing from this research paper.
+*	Yet there are similarities, like Management support, which both papers are emphasizing.
+&
+Joo
+& 
+Casper \\
+
+Version one 9th agile survey listed also success factors in agile transformations as:
+1.	consistent process and practices
+2.	executive support
+3.	implementation of common tool
+4.	agile consultants and trainers
+5.	internal agile support team
+
+Again, it would be interesting to know why they got different results to yours. Management support and choosing and customizing the agile model can be seen as the same, as well as training and coaching. Can "process consistency" be interpreted to be similar with "choosing and customizing the agile model"? To me it seems that Version one study is missing some important success factors. What might be the reason: how their study was based on pre-selected set of questions, or something else?
+&
+Joo
+& 
+Casper \\
+
+
+Also Tsun Chow and Dac-Buu Cao have studied success factors in agile adoption, "A survey study of critical success factors in agile software projects", Journal of Systems and Software, Volume 81, Issue 6, June 2008, Pages 961-971, Agile Product Line Engineering, doi: doi:10.1016/j.jss.2007.08.020. http://www.sciencedirect.com/science/article/pii/S0164121207002208 
+
+Please compare your research with Chow's and Cao's results. Unfortunately I do not have access to that paper.  
+&
+Joo
+& 
+Casper \\
+
+
+Reviewer #3: This paper presents a systematic literature review on challenges and success factors in large-scale Agile transformations. The authors search databases for relevant articles, and out of 1875 results with some additional papers added by a preliminary search and one level of snowballing, they filter out 52 papers describing 42 organisations. The papers are predominantly experience reports, most or all of which are written by people involved in the transformations, while six are case studies with a clearly defined research method.
+
+The paper addresses a very relevant problem in large organisations: how to transition to an Agile mode of operation. The paper does a reasonable job at summarising the challenges and success factors found, and presents many interesting observations from the papers included in the review.
+
+The paper suffers from some weaknesses that make it fall short of reaching truly novel and solid results. The weaknesses can be summarised in three categories: i) a lack of a proper theoretical foundation on organisational transformation, ii) weaknesses in how the result set is used, and iii) weaknesses in analysis.
+
+The paper skips the establishment of a reference discipline that would help guide the SLR towards the right concepts and forums. The paper could, for example, have made good use of existing literature on organisational management in order to refine the research problem, research questions, and categorisation scheme. The lack of this literature also means that interpretations and conclusions drawn are somewhat shallow because there is a lack of explanation grounded in previous research.
+&
+True, but difficult
+& Casper \\
+
+The result set of the paper is somewhat weak because most of it consists of experience reports. However, this is not a problem as such. Rather, the problem arises because the authors have tried to draw conclusions that go beyond what the source material would allow in terms of generalisability. The authors could have used the result set differently, e.g. by separating the experience reports and case studies and analysed them separately, with the experience reports contributing to an understanding of relevant problems in practice, and the case studies contributing to the actual SLR.
+&
+Will be looked at
+& 
+Kim \\
+
+The analysis is somewhat weak: the reason for undertaking the Agile transformation in the different cases is not addressed, nor are the contextual constraints. Differences in reasons, goals, and constraints likely mean that each challenge and success factor should come with additional information that helps the reader determine whether they apply in their own case. This information is largely missing in the paper.
+&
+Difficult and a lot of work. Contextual factors, goals etc. not well reported. Do we have 52 different contexts here?
+& 
+Kim
+\\
+
+
+The initial motivation in the introduction relies on a quite weak reference: [47] is a survey done by a company that sells products and services for Agile software development, and although interesting, is not a transparent source for the claims made about the reasons for why companies are adopting Agile software development.
+
+The article could well begin with the second paragraph, perhaps integrating the second sentence of the first paragraph.
+
+In 2.1., the authors claim that agile methods view traditional methods as being about minimising change and fully defining requirements before development. There are two problems with this statement: it is difficult to assess who is doing the "viewing", and there are many methods that originate from before the Agile era that are very iterative and/or incremental in nature, and that focus on managing change. It is probably true that people promoting Agile methods frame the discussion in the way the authors indicate - but now the paragraph slides from that observation (which would need a reference or two) to saying that adaptability and responding to change were not seen as critical success factors before Agile development, which is probably not true. See e.g. Boehm & Turner (2004), Balancing Agility and Discipline: A Guide for the Perplexed.
+
+In 3.1., you could contextualise the research questions by explaining why these two questions are the most important ones to address in your SLR and why they are the only ones addressed. Why, for example, did you not ask what application domains or types of software formed the context in reports on large-scale Agile transformations? Why did you not ask what solutions, if any, have been proposed, tried, or validated for the challenges (and if none, why)? Also, you should explain the relationship between the two research questions. Is your intention that they capture the two sides of introducing Agile in the large (i.e. failure and success) or do you mean that challenges are something else than the reverse of success factors?
+&
+Come up with good answers
+& 
+Kim \\
+
+
+Figure 2 and its description in 3.2.4. is good, but I found it somewhat hard to understand the dashed arrow from the 1875 papers to "Duplicates removed". The figure could show more clearly that the 117 papers were matched against the 1875 papers to find duplicates and these duplicates (75 papers) were removed from the set of 117 papers to produce a set of 32 papers. Perhaps first showing the duplicates and then indicating their removal would make the figure clearer.
+&
+Fix
+& 
+Casper \\
+
+
+In 3.2.4, why were the references of the 32 papers found in the preliminary search not examined for potential additional references? Or were they? If they were not, please explain why, and if they were, please note how many additional papers were found (perhaps none).
+& Arrow added to picture
+& Casper \\
+
+Based on 3.2.6, I would expect a discussion of the reasons behind and implications resulting from the relatively small number of proper case studies on large-scale Agile transformations. I think this is a finding as such. While perhaps being more of a mapping study question, I think the authors should consider how common such transformation actually are, how common it is that they are done in a transparent manner (for example, with the approval of company executives), and how common it is that they are assessed by an independent third party (such as a researcher rather than a consultant who is also consulting on the actual transformation). This may help put the findings in perspective: are they representative of a very small fraction of all large-scale Agile transformations, of a large portion of transparent and (relatively) well-conducted transformations, or something else?
+&
+Add text to discuss this to the discussion
+&
+Maria \\
+
+
+In 3.2.7, you first state that part of your coding was inductive, but then you say that you began by a set of a priori codes. This is probably reasonable, but you could also have started developing the codes completely out of the primary studies. This could have eliminated more of your personal biases. I think the approach you chose is fine, but would have like to see more information on how you established the a priori codes. Were they perhaps based on some other material that you have read previously? If so, perhaps the codes can be considered as inductively derived from those sources? Or perhaps you consider them as being derived somehow from the research questions - but how? Please be a bit more precise here.
+&
+Based on four original research questions. Practices, investing in change. 
+&
+Kim \\
+
+
+In 3.2.8, you write "Based on the notes, an accurate description emerged for each code". I understand what you mean, but the word "accurate" is perhaps not the best here, since the qualitative analysis process involves a large portion of judgement on the researchers' part. Perhaps a word such as "concise" would be better? (Also update for the following paragraph.)
+&
+Fixed - process guiding description
+& 
+Casper \\
+
+
+In 4.1.1, you state that one study was an interview article. What does this mean? Was it an experience report or a case study, or something else (some case studies use interviews as the primary data source)? It would be useful to summarise the numbers presented here (and repeated earlier many times) in a small number of tables and/or figures so that the reader can get an overview of your data set.
+& 
+Explain (P52 and P7). Maria thinks about making a table :)
+& Maria \\
+
+
+Related to 4.2 and Table 5, it would be useful to see the degree of support for the different challenges and categories: how many sources mentioned each challenge and thus supported each category? Table 5 provides this information but the reader has to count the number of sources. A more accessible representation with both absolute and relative numbers would be welcome in addition to Table 5, as this would give an indication of the prevalence of the challenges and categories.
+&
+Add numbers and disclaimers to the text. Mentions in number of cases. Table with mapping between papers and cases needed.
+& 
+Kim
+\\
+
+
+4.2.1 - 4.2.8: In these sections, you sometimes mix (attempted or proposed) solutions (or mitigation approaches) to the challenges. There are two problems with this. First, it would be more useful to collect the solutions in a separate section so they can be found more easily and understood separately from the list of challenges. Second, the chain of evidence becomes difficult to follow. Which solution is connected to which challenge? Which solution is actually attempted (and what was the outcome, if reported) and which are only proposals (and what, if anything is the proposal based on)?
+&
+&
+\\
+
+
+In 4.2.1, you have classified skepticism as a challenge or problem. Why? You have noted that most of your sources are experience reports, many written by people who were involved in the transformation. It must be assumed that there is a possibility that those authors have a vested interest in carrying out the transformation. It is then natural that their report would be biased against those who are skeptical towards the transformation. Skepticism does not seem to be the challenge; lack of information, lack of solid reasoning and evidence, and lack of a balanced view seem to be the real challenges.
+&
+&
+Kim \\
+
+In 4.2.1, "reverting to old model" is listed as a challenge. However, this sounds more like a consequence than a challenge as such. I would suggest renaming the category to reflect its contents better: highlight the general reason why the organisation reverts. Perhaps, "failing to cross over from old model" or something along those lines?
+&
+Reformulate. Desire to revert to the old model?
+&
+Casper
+\\
+
+Section 4.2.5 (and the corresponding category) is named "challenges specific to large-scale". However, it is unclear how the challenges in this category are specific to large scale compared to those in the other categories. How did you identify that these are specific to large scale? Are the other categories not relevant for large scale? If not, why? If they are, what is their relationship to large scale? I also could not see how the challenges in this category would be specific to large scale. For example, using old and new models side by side, management in waterfall mode, and interpretation of agile differs between teams are probably just as bad in a smaller organisation.
+&
+Kimi: others might be applicable also in smaller organizational settings; these are clearly the result of the scaling
+&
+\\
+
+In 4.2.6, you state that "In agile methods, requirements engineering is informal and closely tied to the development team". However, some Agile methods do have quite formal requirements engineering approaches and has a division between those eliciting and documenting requirements and those interpreting and implementing them. One example is DSDM. I would suggest that the category name and interpretation is overgeneralising from Scrum to all Agile methods.
+&
+Be more specific in the text
+&
+Casper \\
+
+4.3.1 - 4.3.11: the same applies as above regarding mixing solutions with challenges - although there solutions and success factors are mixed. This makes it difficult to distinguish between factors that were reported as having an effect (positive) based on observations and general suggestions that were not implemented or otherwise considered as having an effect.
+&
+
+&
+\\
+
+4.3.1 - 4.3.11: many of the success factors actually seem to have a lot of "negative" evidence: mentions of risks or failures that were avoided. It seems that the challenges/success factors division is not completely compatible with the way things are reported in the source material. You may want to consider what this means for your results, as you will now have different types of evidence going into the two research questions. If you would separate the types of evidence (e.g. observed success due to some reason, avoided failure due to some reason, etc.), then your results would be more accurate and detailed, more useful, and more convincing.
+
+In 4.3.4, under "keep it simple", you summarise P40 as saying "the focus should be on engaging the teams". What does this mean?
+
+In 4.3.8, under "create and communicate positive experiences in the beginning", you state that "it is clear that any positive results will facilitate an organizational transformation". Could you be a bit more specific? Do you mean that any results, as long as they are positive, will facilitate the transformation? Or that only positive results will facilitate it? Is the origin of this statement in your data set, is it your opinion, or do you base it on some other source?
+&
+&
+\\
+
+% Discussion
+
+In 5.1, you present a list of what you judge are the most important success factors. Why do you not list challenges or "failure factors"? Not all success factors have a simple reverse that is a failure factor.
+
+Some of the success factors in 5.1 are somewhat overly generalised. For example, the factor "choose and customize the agile model carefully" includes little information on what to customise and how.
+&
+Kimi: misunderstanding. The message is to customize the method to fit your organization, using care. What and how has to be determined on a case-by-case basis. 
+& 
+Casper \\
+
+The success factors in 5.1 are presented without adequate information on contextual factors and limitations. Some of them may be outright dangerous if used to drive personal agendas or other similar phenomena in organisations. For example, the advice under "engage change leaders" says that "sometimes an external person, like a new director, is needed". Certainly an external person can see things differently, but consider the implications of changing a director: a new person needs to be integrated in the organisation, the previous director needs to be shifted to other tasks or be let go, and so on. I think it is too much to suggest this based on a single experience report (or even a few reports) which may have been written by persons involved in a transformation.
+&
+Difficult to explicitly tie to context, must be used carefully
+& 
+Casper \\
+
+
+In 5.3, you say you have attempted to make the results as traceable as possible. You could still make the chain of evidence even better by not only reporting the references for each claim (which you could also do better, as some sentences in the results section look like they are your interpretations but it is not clear whether this is the case), but by also providing some aggregate information that allows the reader to assess, e.g. the support given by the data for each category of challenges as success factors (also see a comment above related to this - and you seem to have thought of this yourselves at the end of Section 5.3).
+
+I am very pleased that you have discussed the tendency to publish mostly positive results on Agile in Section 5.3.
+
+Generally, the limitations mentioned in 5.3 are in order. However, a limitations section is at best adding very important and interesting information that may be useful both to those interpreting the results, and those wishing to learn from the research method. I would suggest discussing the limitations in more depth. The paper should somehow contribute to knowledge about agile in large projects/organisations, especially about agile transformations in large organisations. Somehow the results should help address the difficulties of agile transformations in large organisations. Perhaps this paper is a preliminary step in that direction, which points out what has been reported so far. Still, you have decided to present guidelines for practitioners. How strongly supported are those guidelines? In what kinds of contexts do you consider them valid, and what are your reasons? Are there any alternative explanations for your findings that would result in a different set of
+guidelines? Are your guidelines meant to be used for actual transformations or are they a summary of what the authors of the source material believe?
+
+In Section 6, you say that "Future research should look into what the software engineering field can learn from existing theories on organizational change". Why did you not include literature on organizational change in the design of this study? This would have let you compare your findings with established research frameworks for organizational change. You could have discovered a different set of research questions that would have represented such endeavours better than the challenge/success factor dichotomy, and you could have created a better a priori categorisation scheme. Compared to the rather extensive literature on organisational change both in general literature on organisational management as well as for IT organisations in, e.g. the information systems literature, the theoretical foundation in this study is quite limited.
+
+Minor things
+
+There are some small grammar mistakes and typos in the paper, many of which could be easily fixed with a spell checker.
+
+On page 4, you use the pound sign for a quantity of money. Presumably, this means pounds sterling, but there are other currencies using the same symbol. It would perhaps be better to use the ISO 4217 currency code (e.g. GBP).
+
+On page 7, you write "In this paper, we report a systematic literature review [28] …" which, to me, reads like [28] is the literature review. You may want to add a short paragraph under 3 Research method, before 3.1, which defines what you mean by systematic literature review and refers to [28], and instead keep 3.1 only as research questions. (But see the comment on contextualising the RQs.)
+
+Table 4: In the last row, second column, there is a broken reference to another table.
+
+In Section 4, the text would read better if you had some metatext summarising the structure of the section and subsections so that the reader understands the organisation of the section (i.e. some text directly under 4 and 4.1).
+
+Table 5: the table is larger than the page and partly not visible.
+
+Page 23, paragraph 1: spelling error: "... should to be aligned …"
+
+Page 27, paragraph 1: what is a "discipline meeting" - or is this a spelling error?
+
+In Section 5, you say in the first sentence that "numerous publications have discussed the use of agile in large-scale organizations". However, your own numbers show that perhaps there are not so many after all. To me, numerous would imply at least some hundreds if the time span is, as you say, the past decade. Why not skip that sentence and replace it by one which concisely states your research aim? The topic is relevant for practitioners regardless of the number of publications in existence.
+
+Page 35, sentence starting "In the full-text filtering phase" is quite hard to read and, I suspect, contains some grammar mistake. Please consider splitting the sentence and making the message easier to understand.
+
+Page 35, sentence starting "Regarding the facet transformation" has some language problems.
+
+Abstract
+
+There is a repeated word: "We we included…"
+
+
+
+
+
+
+
+
+For further assistance, please visit our customer support site at http://help.elsevier.com/app/answers/list/p/7923. Here you can search for solutions on a range of topics, find answers to frequently asked questions and learn more about EES via interactive tutorials. You will also find our 24/7 support contact details should you need any further assistance from one of our customer support representatives.

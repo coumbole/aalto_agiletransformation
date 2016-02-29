@@ -1,0 +1,88 @@
+
+\begin{table}[tbp]
+    \caption{Success factors for large-scale agile transformations}
+    \label{table:success}
+    \centering\footnotesize
+ %   \begin{tabular}{ >{\raggedright\arraybackslash}p{0.47\linewidth}
+ %                    >{\raggedright\arraybackslash}p{0.47\linewidth} }
+
+        \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.47\linewidth}X}
+        \toprule
+
+        \textbf{Success factors}                   &  \textbf{Primary sources}             &  \textbf{Case organizations}    &  \textbf{# of cases} \\
+
+        \midrule
+        \textbf{Management support} \\
+        Ensure management support                  & P8, P11, P16, P18, P27, P31, P33, P36, P43, P44, P46, P47, P49
+                                                   & C7, C9, C11, C13, C21, C24, C27, C33, C34, C36, C37, C39                & 12 (29\%)  \\ \addlinespace
+        Make management support visible            & P9, P11, P24, P40                     & C5, C9, C18, C31                & 4  (12\%)  \\ \addlinespace
+        Educate management on agile                & P6, P8, P9, P11, P16, P29, P35, P46, P47
+                                                   & C5, C7, C9, C11, C22, C26, C36, C37                                     & 8  (19\%) \\
+
+        \midrule
+        \textbf{Commitment to change} \\
+        Communicate that change is non-negotiable  & P11, P22, P48, P49                    & C9, C16, C38, C39               & 4  (10\%) \\ \addlinespace
+        Show strong commitment                     & P8, P10, P11, P43                     & C7, C8, C9, C33                 & 4  (10\%) \\
+
+        \midrule
+        \textbf{Leadership} \\
+        Recognize the importance of change leaders & P3, P4, P11, P16, P18, P31, P33, P42  & C2, C3, C9, C11, C13, C16, C24  & 7  (17\%) \\ \addlinespace
+        Engage change leaders without baggage of the past  & P11, P16                      & C9, C11                         & 2  (5\%)  \\
+
+        \midrule
+        \multicolumn{2}{l}
+        {\textbf{Choosing and customizing the agile model}} \\
+        Customize the agile model carefully        & P8, P10, P11, P29, P31, P40, P41, P43, P45, P49, P51
+                                                   & C7, C8, C9, C22, C24, C31, C32, C33, C35, C39, C41                      & 11 (26\%) \\ \addlinespace
+        Conform to a single model                  & P8, P11, P12, P16, P32, P43           & C7, C9, C10, C11, C17, C33      & 6  (14\%) \\ \addlinespace
+        Map to old model to ease adaptation        & P3, P14, P16, P29, P44, P46, P48      & C2, C11, C12, C22, C34, C36, C38  & 7  (17\%) \\ \addlinespace
+        Keep it simple                             & P5, P10, P16, P40                     & C4, C8, C11, C30                & 4  (10\%)\\
+
+        \midrule
+        \textbf{Piloting} \\
+        Start with a pilot to gain acceptance      & P3, P9, P14, P17, P31, P36, P38, P39, P47
+                                                   & C2, C4, C5, C12, C24, C27, C28, C29, C37                                & 9  (21\%) \\ \addlinespace
+        Gather insights from a pilot               & P8, P22, P27, P40, P45                & C7, C16, C21, C31, C35          & 5  (12\%) \\
+
+        \midrule
+        \textbf{Training and coaching} \\
+        Provide training on agile methods          & P3, P6, P11, P14, P16, P30, P37, P46
+                                                   & C2, C5, C9, C11, C12, C23, C28, C36                                     & 8  (19\%) \\ \addlinespace
+        Coach teams as they learn by doing         & P3, P6, P8, P9, P16, P17, P18, P29, P30, P33, P42, P44, P47, P48
+                                                   & C2, C4, C5, C7, C11, C13, C16, C22, C23, C34, C37, C38                  & 12 (29\%) \\
+
+        \midrule
+        \textbf{Engaging people} \\
+        Start with agile supporters                &  P6, P29, P34                         & C5, C22, C25                    & 3  (7\%)  \\ \addlinespace
+        Include persons with previous agile experience  & P6, P10, P37                     & C5, C8, C28                     & 3  (7\%)  \\ \addlinespace
+        Engage everyone & %in the organization     & P4, P6, P16, P22, P31                 & C3, C5, C11, C16, C24           & 5  (12\%) \\ 
+
+        \midrule
+        \textbf{Communication and transparency} \\
+        Communicate the change intensively         & P16, P22, P33, P40, P41, P43, P48     & C11, C16, C31, C33, C38         & 5  (12\%) \\ \addlinespace
+        Make the change transparent                & P6, P11, P16, P42, P43                & C5, C9, C11, C16, C33           & 5  (12\%) \\ \addlinespace
+        Create and communicate positive experiences in the beginning  & P6, P32, P29, P40, P42, P46
+                                                   & C5, C16, C17, C22, C31, C36                                             & 6  (14\%) \\
+
+        \midrule
+        \textbf{Mindset and Alignment} \\
+        Concentrate on agile values                & P1, P16, P42, P46, P48                & C1, C11, C16, C36, C38          & 5  (12\%) \\ \addlinespace
+        Arrange social events                      & P11, P23, P27, P32, P40, P41          & C9, C17, C21, C31, C32          & 5  (12\%) \\ \addlinespace
+        Cherish agile communities                  & P3, P12, P41, P42, P47                & C2, C10, C16, C32, C37          & 5  (12\%) \\ \addlinespace
+        Align the organization                     & P8, P18, P31, P42, P43, P46           & C7, C13, C16, C24, C33, C36     & 6  (14\%) \\
+
+        \midrule
+        \textbf{Team autonomy} \\
+        Allow teams to self-organize               & P5, P16, P18, P27, P30, P34, P41, P45
+                                                   & C4, C11, C13, C21, C23, C25, C32, C35                                   & 8  (19\%) \\ \addlinespace
+        Allow grass roots level empowerment        & P3, P6, P41                           & C2, C5, C32                     & 3  (7\%)  \\
+
+        \midrule
+        \textbf{Requirements management} \\
+        Recognize the importance of the Product Owner role  & P12, P14, P16, P24, P30, P33, P39, P46
+                                                            & C10, C11, C12, C18, C23, C30, C36                              & 7 (17\%) \\ \addlinespace
+        Invest in learning to refine the requirements  & P5, P11, P17, P33, P48            & C4, C9, C11, C38                & 4 (10\%) \\
+
+        \bottomrule
+    \end{tabularx}
+\end{table}

@@ -1,0 +1,115 @@
+
+Notes, to be included in a suitable paragraph
+
+
+##################################################################
+The search was performed 24.07.2013. The search was limited to no earlier than 1980.
+Or: The search was not limited by dates.
+
+
+##################################################################
+3.2.4 Study selection:
+Fix: "75 of the 117 preliminary" —> "85 of the 117 preliminary"
+
+
+##################################################################
+- Discuss finding papers outside the systematic search as a validity threat
+We have added an explanation on this in 5.3 Limitations.
+
+Addition to text:
+
+The fact that we found relevant studies outside the keyword search demonstrates weakness in keyword searches. To manage this limitation we used as inclusive keywords as possible, still limiting the size of the result set to a manageable size. We evaluated the goodness of the keyword search by reviewing top hits of keywords obvious to the subject area, aiming to find easy to find primary sources that the actual search might have left out. In the end we found 3 relevant studies which the Boolean keyword search was unable to find.
+
+The limitation of keyword searches seems to be due to part poor and part incompatible keyword tagging of the sources. We believe that this is an inherent problem for systematic literature reviews in our field of study. A plausible solution would
+be to avoid Boolean searches, and to invent a new method for identifying primary studies. Another solution would be to simply broaden the keywords, which would principally reduce the database search into a labor intensive study-by-study manual search. A snowballing method, where the body of primary studies is accumulated by traversing through references, does neither seem appropriate because the identified primary sources are very scarce on relevant references.
+
+
+
+##################################################################
+Reviewer #3:
+"The result set of the paper is somewhat weak because most of it consists of experience reports. However, this is not a problem as such. Rather, the problem arises because the authors have tried to draw conclusions that go beyond what the source material would allow in terms of generalisability. The authors could have used the result set differently, e.g. by separating the experience reports and case studies and analysed them separately, with the experience reports contributing to an understanding of relevant problems in practice, and the case studies contributing to the actual SLR."
+
+Answer:
+
+We have now included a table which distinguishes the case studies and experience reports. The first thing to consider is that only 6 cases out of 42 are case studies, which simply points out that the body of studies is limited on our subject. Secondly, the actual research focus tended to be more on the current practice than the transformation process. Also, studies with the main focus overlapping with our research presented significantly less relevant insights than the average experience report. Because of this the case studies provided surprisingly little relevant material in comparison to the experience reports.
+
+It seems that the transformation process in itself is not a popular subject for studies. This may be a bit disappointing if the goal would be to apply strict hierarchy of evidence criteria. However, we believe that aggregating what practitioners say about the transformations is also highly valuable, although the implications of possible biases in the source material must be kept in mind. In simple terms, our study reveals with strong evidence which are the main concerns that are brought up when agile transformations are discussed in general.
+
+
+##################################################################
+Reviewer #3:
+"The analysis is somewhat weak: the reason for undertaking the Agile transformation in the different cases is not addressed, nor are the contextual constraints. Differences in reasons, goals, and constraints likely mean that each challenge and success factor should come with additional information that helps the reader determine whether they apply in their own case. This information is largely missing in the paper."
+
+Answer:
+
+We have added a table which lists the context of each primary study. This table summarizes the context of each organization.
+
+Our interpretation is that the challenges and success factors do not relate to contextual factors. The large organizations described in the source material seem to all have their own specific characteristics. Because of this there was no evident connection between the context and the particular challenges and success factors.
+
+
+##################################################################
+Reviewer #3:
+"In 3.1., you could contextualise the research questions by explaining why these two questions are the most important ones to address in your SLR and why they are the only ones addressed. Why, for example, did you not ask what application domains or types of software formed the context in reports on large-scale Agile transformations? Why did you not ask what solutions, if any, have been proposed, tried, or validated for the challenges (and if none, why)? Also, you should explain the relationship between the two research questions. Is your intention that they capture the two sides of introducing Agile in the large (i.e. failure and success) or do you mean that challenges are something else than the reverse of success factors?"
+
+Addition to "3.1 Research questions":
+
+While large scale agile transformations could provide many viewpoints to use as research questions, we chose these two questions because we believe they represent the viewpoints which are likely to provide actionable insights to practitioners as well as researchers. The research questions are not intended to present complements to each other, but rather two distinct viewpoints which can highlight different characteristics in the transformations.
+
+Addition to "4.1.2 Case organizations":
+
+Table \ref{table:businessareas} maps the business areas to cases.
+
+Business area                              & # of cases  & Case reference                              & Primary source reference
+Online services for consumers and business & 9           & C5, C8, C10, C11, C12, C14, C28, C29, C41   & P6, P9, P10, P12, P13, P15, P16, P28, P33, P14, P19, P37, P38, P39, P51 //
+Telecommunications                         & 7           & C1, C13, C16, C17, C19, C38, C39            & P1, P2, P18, P22, P23, P32, P25, P48, P49                               //
+Enterprise management                      & 5           & C3, C34, C35, C40, C42                      & P4, P44, P45, P50, P51                                                  //
+Banking                                    & 4           & C7, C27, C30, C36                           & P8, P36, P39, P46                                                       //
+Healthcare                                 & 3           & C21, C23, C25                               & P27, P30, P34                                                           //
+IT services                                & 2           & C4, C22                                     & P5, P17, P29                                                            //
+Government                                 & 1           & C15                                         & P20, P21                                                                //
+Information security                       & 1           & C33                                         & P43                                                                     //
+Not specified                              & 10          & C2, C6, C9, C18, C20, C24, C26, C31, C32, C37 &   P3, P7, P52, P11, P24, P26, P31, P35, P40, P41, P47                 //
+
+
+Answer:
+We have now explained the choice of research questions. We have also added a table summarizing the business areas of the case organizations. The types of software being developed was typically not presented clearly enough in the primary studies.
+
+We did not ask for solutions to the problems. The reason for this is twofold. Firstly, it is important to understand the problem before trying to provide a fix. Secondly, because each organization has its individual traits the solutions to problems may vary, whereas the problems may be similar.
+
+
+##################################################################
+Reviewer #3:
+"In 3.2.7, you first state that part of your coding was inductive, but then you say that you began by a set of a priori codes. This is probably reasonable, but you could also have started developing the codes completely out of the primary studies. This could have eliminated more of your personal biases. I think the approach you chose is fine, but would have like to see more information on how you established the a priori codes. Were they perhaps based on some other material that you have read previously? If so, perhaps the codes can be considered as inductively derived from those sources? Or perhaps you consider them as being derived somehow from the research questions - but how? Please be a bit more precise here."
+
+
+Answer:
+
+The things defined a priori were the contextual codes, and a few evident code families. Everything else was inductive. This has now been clarified in section 3.2.7.
+
+
+Edit in "3.2.7 Coding of primary studies":
+
+We coded the primary studies using an integrated deductive and inductive approach, coding both a contextual and a findings part \cite{Cruzes2011a}. We established an a priori list of codes for contextual information, which included the codes agile method used, business area, organization size, time of transformation, research process used, geographical location, definition of large-scale used in the paper, and multisite case. Codes related to the research questions were created by an inductive process to avoid having our previous assumptions affect the choice of codes.
+
+To guide inductive coding, we established five different code families a priori: reasons to change, transformation process, challenges, success factors, and contextual. In addition to these five evident families two additional families were established during the coding process: investing in change, and practices. A description defining the scope and containing examples of codes were defined for each family. The example codes would not necessarily be used as actual codes, and would not represent the entire or final scope of the families. Table~\ref{table:codefamilies} presents the codes families in the final state of the coding. Table~\ref{table:codefamilies} also shows the total number of codes and quotations created in the coding process. The total number of quotations is less than the sum of quotations in the categories because a single quotation may have multiple codes.
+
+
+##################################################################
+Reviewer #3:
+"Related to 4.2 and Table 5, it would be useful to see the degree of support for the different challenges and categories: how many sources mentioned each challenge and thus supported each category? Table 5 provides this information but the reader has to count the number of sources. A more accessible representation with both absolute and relative numbers would be welcome in addition to Table 5, as this would give an indication of the prevalence of the challenges and categories."
+
+
+Answer:
+We have now added cross references to case organizations to the challenges and success factor tables. We also added a column presenting the number of cases each factor was presented in and a percentage of the number per the total of 42 cases.
+
+With the number of cases mentioning a factor, and especially the percentage, we do not intend to suggest evidence on the actual frequency of the factors. These numbers merely present the frequency of mentioning in the source material. The number could be considered as how popular topics the factors are in discussion relating to transformations.
+
+
+Addition:
+Update the challenge and success tables.
+
+
+Addition to "3.2.8 Synthesis of primary studies based on coding":
+The tables presenting the categories of challenges and success factors reference the primary studies and case organizations. We have added a count of how many individual cases mentioned each factor. The purpose of these counts is to give the reader a sense of how often the factor was mentioned. We want to note that merely the frequency of mentioning does not make as generalizable evidence for the actual importance of the factors.
+
+

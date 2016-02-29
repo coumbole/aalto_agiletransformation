@@ -1,0 +1,71 @@
+
+
+Kohtaan 4.1:
+
+We identified 52 primary studies, discussing how 42 different large scale software organizations introduced agile methods. Table \ref{table:experiencereports} and Table \ref{table:casestudies} list the cases and primary sources. Some key contextual information on the organizations is included in the tables. We reference the primary studies with a capital P and a number, and the unique case organizations with a capital C and a number. Whereas none of the case studies had their research focus directly on the transformation process, they provided similar information as shallow experience reports to our study.
+
+% Table: Listing of experience reports, and mapping to case organizations
+\begin{table}
+
+Case & Cross reference & Company                & Business area                & SW org size & Initial state                               & Agile methods        & Transformation start  \\
+C02  & P03             & Amazon.com             &                              &             & Small autonomic teams                       & Scrum                & 2004                  \\
+C03  & P04             & BEKK consulting        & ﻿IT- and management consulting & 160        & Waterfall                                   & Unified Process      & 2003                  \\
+C04  & P05, P17        & BMC Software           & Distributed Systems Management business unit & 300 & Waterfall, traditional, dispersed   & Scrum                & 2004                  \\
+C05  & P06, P09        & Yahoo!                 & Online services              & 150 teams   & Waterfall (named PDP), gated, “city-states” & Scrum, Lean          & 2005                  \\
+C06  & P07, P52        & Nokia Siemens Networks &                              & 500         &                                             & Rapid Application Development, Scrum & 2007  \\
+C07  & P08             & ABC Bank               & Banking                      & 300         &                                             & Scrum, UP, XP. Own delivery method &         \\
+C08  & P10             & Yahoo! Music           & Media player for consumer    &             & Enforced top-down, heavy-weight, BDUF, waterfall & Scrum           & 2006                  \\
+C09  & P11             & Unisys Cloud Engineering &                            &             & Waterfall                                   & Scrum                & 2010                  \\
+C10  & P12             & BBC, iPlayer           & Media                        & 10 teams    & Independent processes, Heavy practices      & Scrum                &                       \\
+C11  & P13, P15, P16, P28, P33 & Salesforce.com & Online services, SaaS CRM software & 30 teams & Loose waterfall-based process            & Scrum, XP, Lean, ADM & 2006                  \\
+C12  & P14             & MyBoeingFleet.com      & Extranet website             &             & CMMI, Macroscope, gate-based                & Scrum                & 2007                  \\
+C13  & P18             & Ericsson Netherlands   & Telecommunications           & 300         &                                             & Scrum, XP, Lean      & 2007                  \\
+C14  & P19             & Citrix Online          & Conferencing and screen sharing software & 44 teams & RUP waterfall                      & Scrum                & 2007                  \\
+C15  & P20, P21        & Anonymous              & Government                   & 50          & Waterfall                                   & Scrum                & 2010                  \\
+C16  & P22             & Ericsson R&D Finland   & Telecommunications           & 400         & ﻿Traditional, functional, silo-based         & Scrum, Kanban, Lean  &                       \\
+C17  & P23, P32        & British Telecom        & Telecommunications           & 14000       & Old fashioned process-driven; Waterfall     & Mentioning of Scrum, XP & 2004               \\
+C18  & P24             & SoftwarePeople         &                              &             & CMMI level 3                                & Scrum                & 2006                  \\
+C20  & P26             & Nokia                  &                              & 150         & Waterfall, some Scrum on team level         & Scrum                & 2007                  \\
+C21  & P27             & Anonymous              & Healthcare                   & 300         & Waterfall                                   & Scrum, XP            & 2005                  \\
+C22  & P29             & Microsoft IT           & IT services                  & 9 teams     & Waterfall and PMI methodologies             & Scrum                & 2006                  \\
+C23  & P30             & Healthwise             & Healthcare, DSS system       & 200         & Expanding organization                      & Scrum, Lean          & 2004                  \\
+C24  & P31             & Borland                &                              & 300         &                                             & Scrum                & 2006                  \\
+C25  & P34             & Siemens Medical Solutions USA & Health services       & 300         &                                             & Scrum                &                       \\
+C27  & P36             & Anonymous              & Financial services           & 100         & Traditional, phase-based approach           & XP                   & 2001                  \\
+C28  & P37, P38        & Gale                   & Online services              & 6 teams     & Waterfall, overall unclear                  &                      & 2009                  \\
+C29  & P39 (T1)        & Anonymous              & Online services              & 50          & Waterfall                                   & Scrum                &                       \\
+C30  & P39 (T2)        & Anonymous              & Banking                      & 9 teams     &                                             & Scrum                &                       \\
+C31  & P40             & Quintiles Transnational Corp &                        &             & Homegrown waterfall, CMMI, silos            & Scrum                &                       \\
+C32  & P41             & Nyx                    &                              & 270         & Traditional waterfall-style (RUP)           & Scrum                & 2007                  \\
+C33  & P43             & VeriSign Enterprise Security & Information security   & 50          &                                             & Scrum                & 2006                  \\
+C34  & P44             & Primavera Systems      & Enterprise project portfolio management & 90 & Waterfall                                 & Scrum                & 2003                  \\
+C35  & P45             & SAP AG                 & Enterprise applications      & 18000       & Waterfall-like process                      & Scrum, Lean          & 2006                  \\
+C36  & P46             & KeyCorp                & Financial                    & 1500        & Waterfall, command-and-control              & Scrum                & 2005                  \\
+C37  & P47             & Capital One            &                              &             &                                             & Scrum                & 2004                  \\
+C38  & P48             & Cisco Voice Technology Group & Telecommunications (?) & 1500        & Waterfall                                   & Scrum                &                       \\
+C39  & P49             & Qwest Communications   & Telecommunications           & 5000        & Rigorous, collaborative in one unit, CMM    & XP                   & 2002                  \\
+C40  & P50             & Pegasystems            & Business process management  & 200         & Traditional project management              & Scrum                & 2009                  \\
+
+\end{table}
+
+
+% Table: Listing of case studies, and mapping to case organizations
+\begin{table}
+
+Case & Cross reference & Company                 & Business area       & SW org size & Initial state           & Agile methods         & Transformation start
+  & Focus of study / RQs                                                                         & Key results the study focuses on \\
+C01  & P01, P02        & Anonymous, HQ in the UK & Telecommunications  & 7500        &                         & XP                    & 2005                
+  & The effects of the agile transformation.                                                     & A table showing elements of interpretation and practice \\
+C16  & P42             & Ericsson R&D Finland    & Telecommunications  & 400         & Traditional, silo-based & Lean, Scrum           & 2009                
+  & How is Lean thinking implemented in software development companies                           & The current state of practice is reflected against a Lean framework \\
+C19  & P25             & Nokia Siemens Networks  & Telecommunications  & 150         & Plan-driven, waterfall  & Practices (XP), Scrum & 2010                
+  & Has visibility, reaction speed, quality, and motivation changed; comparing before and after  & Graphs on defect data at different stages during the transformation \\
+C26  & P35             & Anonymous               &                     & 50          & Waterfall               & XP                    &                     
+  & Good and bad aspects of communication, during an agile transformation                        & Brief narratives from a multitude of perspectives on how the transformation went \\
+C41  & P51 (C1)        & Anonymous               & Messaging services  & 100         &                         & Scrum                 & 2008                
+  & Study incremental method evolution. Analyze Scrum introduction paths.                        & Brief narrative through the steps preparation, introduction, and customization. \\
+C42  & P51 (C2)        & Anonymous               & Facility management & 300         & Prince2, Waterfall      & Scrum                 & 2004                
+  & Same as C41	                                                                              & Same as C41 \\
+
+\end{table}
+
