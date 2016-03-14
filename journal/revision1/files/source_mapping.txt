@@ -53,19 +53,47 @@ C40  & P50             & Pegasystems            & Business process management  &
 \begin{table}
 
 Case & Cross reference & Company                 & Business area       & SW org size & Initial state           & Agile methods         & Transformation start
-  & Focus of study / RQs                                                                         & Key results the study focuses on \\
+  & Focus of study / RQs
+  & Key results the study focuses on
+  & Subjective relevance (0-5) in terms of this SLR
+  & Source material
+  \\
 C01  & P01, P02        & Anonymous, HQ in the UK & Telecommunications  & 7500        &                         & XP                    & 2005                
-  & The effects of the agile transformation.                                                     & A table showing elements of interpretation and practice \\
+  & The effects of the agile transformation.
+  & A table showing elements of interpretation and practice
+  & Some relevance (3). The results are interesting and convincing, but the focus is not that much on the transformation process itself.
+  & Interviewed: delivery manager, user experience manager, technical architect, an outside contractor. Observed: 1 user stories meeting, 2 user interface design meetings, 2 delivery meetings. Interviewed also 3 agile coaches. Interviewed and observed (2 days) an additional four-person agile development team. Data consisted of interview summaries and transcriptions, meeting notes, observation notes, artefacts and images, wiki pages and documents.
+  \\
 C16  & P42             & Ericsson R&D Finland    & Telecommunications  & 400         & Traditional, silo-based & Lean, Scrum           & 2009                
-  & How is Lean thinking implemented in software development companies                           & The current state of practice is reflected against a Lean framework \\
+  & How is Lean thinking implemented in software development companies
+  & The current state of practice is reflected against a Lean framework
+  & The focus is mostly on the current state rather than the transformation process (2).
+  & 17 focus group sessions, material walkthrough workshop to explore process documents. 21 company representatives participated in the sessions.
+  \\
 C19  & P25             & Nokia Siemens Networks  & Telecommunications  & 150         & Plan-driven, waterfall  & Practices (XP), Scrum & 2010                
-  & Has visibility, reaction speed, quality, and motivation changed; comparing before and after  & Graphs on defect data at different stages during the transformation \\
+  & Has visibility, reaction speed, quality, and motivation changed; comparing before and after
+  & Graphs on defect data at different stages during the transformation
+  & The study does not really focus on the process of transformation (1).
+  & Defect data, survey responses, comments from feedback sessions after the surveys
+  \\
 C26  & P35             & Anonymous               &                     & 50          & Waterfall               & XP                    &                     
-  & Good and bad aspects of communication, during an agile transformation                        & Brief narratives from a multitude of perspectives on how the transformation went \\
+  & Good and bad aspects of communication, during an agile transformation
+  & Brief narratives from a multitude of perspectives on how the transformation went
+  & Some relevance, although very brief narratives (2). With a little imagination one can see grains of insight on the transformation process.
+  & A number of people were contacted: engineers, architects, project manager, product managers. A questionnaire was circulated. Also a number of open ended questions. Further clarifications via a Skype or email.
+  \\
 C41  & P51 (C1)        & Anonymous               & Messaging services  & 100         &                         & Scrum                 & 2008                
-  & Study incremental method evolution. Analyze Scrum introduction paths.                        & Brief narrative through the steps preparation, introduction, and customization. \\
+  & Study incremental method evolution. Analyze Scrum introduction paths.
+  & Brief narrative through the steps preparation, introduction, and customization.
+  & Quite relevant, but very brief one paragraph narrative (2).
+  & Partly on-site; partly internet research, telephone calls, e-mails. 3-5 stakeholders interviewed per case.
+  \\
 C42  & P51 (C2)        & Anonymous               & Facility management & 300         & Prince2, Waterfall      & Scrum                 & 2004                
-  & Same as C41	                                                                              & Same as C41 \\
+  & Same as C41
+  & Same as C41
+  & Same as C41
+  & Same as C41
+  \\
 
 \end{table}
 
