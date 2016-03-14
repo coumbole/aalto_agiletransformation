@@ -110,6 +110,19 @@ Update the challenge and success tables.
 
 
 Addition to "3.2.8 Synthesis of primary studies based on coding":
-The tables presenting the categories of challenges and success factors reference the primary studies and case organizations. We have added a count of how many individual cases mentioned each factor. The purpose of these counts is to give the reader a sense of how often the factor was mentioned. We want to note that merely the frequency of mentioning does not make as generalizable evidence for the actual importance of the factors.
+The tables presenting the categories of challenges and success factors reference the primary studies and case organizations. We have added a count of how many individual cases mentioned each factor, and a percentage of this count relative to the 42 individual cases. The purpose of these counts is to give the reader a sense of how often the factor was mentioned. We want to note that merely the frequency of mentioning does not make as generalizable evidence for the actual importance of the factors.
 
+
+##################################################################
+Reviewer #3:
+"In 4.2.1, you have classified skepticism as a challenge or problem. Why? You have noted that most of your sources are experience reports, many written by people who were involved in the transformation. It must be assumed that there is a possibility that those authors have a vested interest in carrying out the transformation. It is then natural that their report would be biased against those who are skeptical towards the transformation. Skepticism does not seem to be the challenge; lack of information, lack of solid reasoning and evidence, and lack of a balanced view seem to be the real challenges."
+
+
+Answer:
+We added a sentence explaining the relevance of finding mentioning of skepticism in the primary sources. Our goal is to only aggregate what is presented in the primary studies. As such, we can not make assumptions on what the consequences, if any, were related to the reservedness in the organization. Based on what the source material brings out for this part, the only valuable observation we can make is that a skeptical attitude is being mentioned. Lastly, whereas skepticism is not a challenge in itself, we think it is worth mentioning, and since we need to somehow categorize the findings the challenges department is a sensible fit.
+
+
+Addition "4.2.1 Change resistance / Skepticism towards new model.":
+
+With skepticism we refer to any kind of reservedness towards the new model. While it can not be considered as a problem on its own, it is still worth to acknowledge that reservedness is mentioned in many cases.
 
