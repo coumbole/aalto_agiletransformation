@@ -223,7 +223,23 @@ Kimi: others might be applicable also in smaller organizational settings; these 
 —> Tämä on vaan kategorian nimi. Joku ryhmittely oli pakko keksiä.
 
 
+Answer:
+With a closer inspection it turned out that the "challenges specific to large-scale" category could not entirely be reasoned in an objective manner. We re-evaluated the findings, and now we have created two new categories to substitute the "large-scale" category. We also checked that the new categories are non-overlapping with the other existing categories. As a comment, one could easily imagine a connection to "large-scale" in the new categories, but this updated categorization represents the source material in a more objective way.
 
+
+Change in text "4.2.5 challenges specific to large-scale":
+
+The "large-scale" section after "Coordination challenges in multi-team environments" should be split into the below sections. The paragraph texts do not seem to need to be changed at all. Also update the challenge table accordingly.
+
+4.2.5 Different models emerge in a multi-team environment
+Using old and new models side by side
+Interpretation of agile differs between teams
+
+4.2.6 Hierarchial management and organizational boundaries
+Middle managers’ new role in agile unclear
+Management in waterfall mode
+Keeping the old bureaucracy
+Internal silos kept
 
 
 ********************************************************************************************************************************************

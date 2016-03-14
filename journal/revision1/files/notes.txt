@@ -126,3 +126,25 @@ Addition "4.2.1 Change resistance / Skepticism towards new model.":
 
 With skepticism we refer to any kind of reservedness towards the new model. While it can not be considered as a problem on its own, it is still worth to acknowledge that reservedness is mentioned in many cases.
 
+
+##################################################################
+Reviewer #3:
+"Section 4.2.5 (and the corresponding category) is named "challenges specific to large-scale". However, it is unclear how the challenges in this category are specific to large scale compared to those in the other categories. How did you identify that these are specific to large scale? Are the other categories not relevant for large scale? If not, why? If they are, what is their relationship to large scale? I also could not see how the challenges in this category would be specific to large scale. For example, using old and new models side by side, management in waterfall mode, and interpretation of agile differs between teams are probably just as bad in a smaller organisation."
+
+
+Answer:
+With a closer inspection it turned out that the "challenges specific to large-scale" category could not entirely be reasoned in an objective manner. We re-evaluated the findings, and now we have created two new categories to substitute the "large-scale" category. We also checked that the new categories are non-overlapping with the other existing categories. As a comment, one could easily imagine a connection to "large-scale" in the new categories, but this updated categorization represents the source material in a more objective way.
+
+
+Change in text "4.2.5 challenges specific to large-scale":
+Considerations about the change: The "large-scale" section after "Coordination challenges in multi-team environments" should be split into the below sections. The paragraph texts do not seem to need to be changed at all. Also update the challenge table accordingly.
+
+4.2.5 Different models emerge in a multi-team environment
+Using old and new models side by side
+Interpretation of agile differs between teams
+
+4.2.6 Hierarchial management and organizational boundaries
+Middle managers’ new role in agile unclear
+Management in waterfall mode
+Keeping the old bureaucracy
+Internal silos kept
